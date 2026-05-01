@@ -6,8 +6,9 @@ Reads raw collected data and performs analysis:
 - IP to ASN/Provider mapping
 - SaaS service detection
 - Email provider identification
-- Tracker classification
-- Security posture assessment
+
+! While this script started out with a HTTP analysis component, we split the task of collection DNS / SSL / Web content
+! This script is mainly meant to analyse the DNS results
 
 This separation allows:
 1. Raw data to be archived for reproducibility
