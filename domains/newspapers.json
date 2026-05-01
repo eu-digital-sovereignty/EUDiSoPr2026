@@ -1,0 +1,2795 @@
+[
+  {
+    "domain": "derstandard.at",
+    "name": "Der Standard",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "derstandard.de",
+    "name": "Der Standard",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "diepresse.com",
+    "name": "Die Presse",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kurier.at",
+    "name": "Kurier",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "oe24.at",
+    "name": "Österreich",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "tt.com",
+    "name": "Tiroler Tageszeitung",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "wirtschaftsblatt.at",
+    "name": "WirtschaftsBlatt",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "demorgen.be",
+    "name": "De Morgen",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "gva.be",
+    "name": "Gazet van Antwerpen",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "hln.be",
+    "name": "Het Laatste Nieuws",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lalibre.be",
+    "name": "La Libre Belgique",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lavenir.net",
+    "name": "L'Avenir",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lecho.be",
+    "name": "L'Écho",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "metrotime.be",
+    "name": "Metro",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nieuwsblad.be",
+    "name": "Het Nieuwsblad",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "duma.bg",
+    "name": "Duma",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "newspaper"
+  },
+  {
+    "domain": "standartnews.com",
+    "name": "Standart",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "newspaper"
+  },
+  {
+    "domain": "toppresa.bg",
+    "name": "Q56071721",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "newspaper"
+  },
+  {
+    "domain": "haravgi.com.cy",
+    "name": "Haravgi",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "newspaper"
+  },
+  {
+    "domain": "politis.com.cy",
+    "name": "Politis",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sigmalive.com",
+    "name": "Sigma TV",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sigmatv.com",
+    "name": "Sigma TV",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "newspaper"
+  },
+  {
+    "domain": "blesk.cz",
+    "name": "Blesk",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lidovky.cz",
+    "name": "Lidové noviny",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mfdnes.cz",
+    "name": "Mladá fronta DNES",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "newspaper"
+  },
+  {
+    "domain": "pravo.novinky.cz",
+    "name": "Právo",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "newspaper"
+  },
+  {
+    "domain": "abendblatt.de",
+    "name": "Hamburger Abendblatt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "abendzeitung-muenchen.de",
+    "name": "Abendzeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "abo.nz.de",
+    "name": "Nürnberger Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "badische-zeitung.de",
+    "name": "Badische Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "berliner-kurier.de",
+    "name": "Berliner Kurier",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "berliner-zeitung.de",
+    "name": "Berliner Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "bild.de",
+    "name": "Bild",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "bnn.de",
+    "name": "Badische Neueste Nachrichten",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "bz-berlin.de",
+    "name": "B.Z.",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "derpatriot.de",
+    "name": "Q1196173",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "dnn.de",
+    "name": "Dresdner Neueste Nachrichten",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "echo-online.de",
+    "name": "Darmstädter Echo",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "faz.net",
+    "name": "Frankfurter Allgemeine Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "fr.de",
+    "name": "Frankfurter Rundschau",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "fraenkischertag.de",
+    "name": "Fränkischer Tag",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "freiepresse.de",
+    "name": "Freie Presse",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ftd.de",
+    "name": "Financial Times Deutschland",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "handelsblatt.com",
+    "name": "Handelsblatt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "harzkurier.de",
+    "name": "Harz Kurier",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "hildesheimer-allgemeine.de",
+    "name": "Hildesheimer Allgemeine Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "hna.de",
+    "name": "Hessische/Niedersächsische Allgemeine",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ivz-aktuell.de",
+    "name": "Ibbenbürener Volkszeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "jeversches-wochenblatt.de",
+    "name": "Jeversches Wochenblatt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "jungewelt.de",
+    "name": "Junge Welt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kn-online.de",
+    "name": "Kieler Nachrichten",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kreiszeitung.de",
+    "name": "Kreiszeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ksta.de",
+    "name": "Kölner Stadt-Anzeiger",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kurier.de",
+    "name": "Nordbayerischer Kurier",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lahrer-anzeiger.de",
+    "name": "Lahrer Anzeiger",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "landeszeitung.de",
+    "name": "Landeszeitung für die Lüneburger Heide",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ln-online.de",
+    "name": "Lübecker Nachrichten",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lvz.de",
+    "name": "Leipziger Volkszeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lz.de",
+    "name": "Lippische Landes-Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "maz-online.de",
+    "name": "Märkische Allgemeine",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "merkur.de",
+    "name": "Münchner Merkur",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mittelbayerische.de",
+    "name": "Mittelbayerische Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "morgenpost.de",
+    "name": "Berliner Morgenpost",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "muehlacker-tagblatt.de",
+    "name": "Mühlacker Tagblatt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nd-aktuell.de",
+    "name": "Neues Deutschland",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nn.de",
+    "name": "Nürnberger Nachrichten",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nordbayern.de",
+    "name": "Altmühl-Bote",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "noz.de",
+    "name": "Neue Osnabrücker Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nrz.de",
+    "name": "Neue Ruhr Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nw.de",
+    "name": "Neue Westfälische",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "op-marburg.de",
+    "name": "Oberhessische Presse",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ov-online.de",
+    "name": "Oldenburgische Volkszeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "paz-online.de",
+    "name": "Peiner Allgemeine Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "pinneberger-tageblatt.de",
+    "name": "Pinneberger Tageblatt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "pirmasenser-zeitung.de",
+    "name": "Pirmasenser Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "rheinpfalz.de",
+    "name": "Die Rheinpfalz",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ruhrnachrichten.de",
+    "name": "Ruhr Nachrichten",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "saarbruecker-zeitung.de",
+    "name": "Saarbrücker Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "saechsische.de",
+    "name": "Sächsische Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "schwaebische.de",
+    "name": "Schwäbische Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "schwerin-lokal.de",
+    "name": "Q122382407",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "solinger-tageblatt.de",
+    "name": "Solinger Tageblatt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "stuttgarter-nachrichten.de",
+    "name": "Stuttgarter Nachrichten",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "stuttgarter-zeitung.de",
+    "name": "Stuttgarter Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sueddeutsche.de",
+    "name": "Süddeutsche Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "tagblatt.de",
+    "name": "Schwäbisches Tagblatt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "tagesspiegel.de",
+    "name": "Tagesspiegel",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "taz.de",
+    "name": "Die Tageszeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "thueringer-allgemeine.de",
+    "name": "Thüringer Allgemeine",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "wa.de",
+    "name": "Q1525213",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "waz.de",
+    "name": "Westdeutsche Allgemeine Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "welt.de",
+    "name": "Die Welt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "wilhelmshavener-zeitung.de",
+    "name": "Wilhelmshavener Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "wz.de",
+    "name": "Westdeutsche Zeitung",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "berlingske.dk",
+    "name": "Berlingske",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "bornholmstidende.dk",
+    "name": "Bornholms Tidende",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "borsen.dk",
+    "name": "Dagbladet Børsen",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "folketidende.dk",
+    "name": "Lolland-Falsters Folketidende",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "fyens.dk",
+    "name": "Fyens Stiftstidende",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "herningfolkeblad.dk",
+    "name": "Herning Folkeblad",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "information.dk",
+    "name": "Dagbladet Information",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mja.dk",
+    "name": "Midtjyllands Avis",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nordjyske.dk",
+    "name": "Nordjyske Stiftstidende",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nordschleswiger.dk",
+    "name": "Der Nordschleswiger",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "politiken.dk",
+    "name": "Politiken",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "skivefolkeblad.dk",
+    "name": "Q12335683",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "stiften.dk",
+    "name": "Århus Stiftstidende",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "viborg-folkeblad.dk",
+    "name": "Viborg Stifts Folkeblad",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ap3.ee",
+    "name": "Äripäev",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "aripaev.ee",
+    "name": "Äripäev",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "epl.delfi.ee",
+    "name": "Eesti Päevaleht",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "abc.es",
+    "name": "ABC",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "albaceteabierto.es",
+    "name": "Albacete Abierto",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "andaluciainformacion.es",
+    "name": "Andalucía Información",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ara.cat",
+    "name": "Ara",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "arca.bnc.cat",
+    "name": "Diari de Barcelona",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "berria.eus",
+    "name": "Egunkaria",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "dbalears.cat",
+    "name": "DBalears",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "deia.com",
+    "name": "Deia",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "diarideterrassa.com",
+    "name": "Diari de Terrassa",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "diariodeavila.es",
+    "name": "Diario de Ávila",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "diariodecadiz.com",
+    "name": "Diario de Cádiz",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "diariodesevilla.es",
+    "name": "Diario de Sevilla",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "diariodevalderrueda.es",
+    "name": "Diario de Valderrueda",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "diariojaen.es",
+    "name": "Diario Jaén",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elconfidencial.com",
+    "name": "El Confidencial",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elcorreo.com",
+    "name": "El Correo",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elcorreoweb.es",
+    "name": "El Correo de Andalucía",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "eldia.es",
+    "name": "El Día",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "eldiariocantabria.es",
+    "name": "El Diario Cantabria",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elmundo.es",
+    "name": "El Mundo",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elnervion.com",
+    "name": "El Nervión",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elnortedecastilla.es",
+    "name": "El Norte de Castilla",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elpais.com",
+    "name": "El País",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elpunt.cat",
+    "name": "El Punt",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elpuntavui.cat",
+    "name": "Avui",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "estrelladigital.es",
+    "name": "Estrella Digital",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "hemerotecadigital.bne.es",
+    "name": "El Sol",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "infoavila.com",
+    "name": "Diario de Ávila",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "larazon.es",
+    "name": "La Razón",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lasprovincias.es",
+    "name": "Las Provincias",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "latribunadetoledo.es",
+    "name": "La Tribuna de Toledo",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lavalira.eu",
+    "name": "La Valira",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lavozdeasturias.es",
+    "name": "La Voz de Asturias",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lavozdegalicia.es",
+    "name": "La Voz de Galicia",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "leonoticias.com",
+    "name": "Leonoticias",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "levante-emv.com",
+    "name": "Levante-EMV",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mundiario.com",
+    "name": "Mundiario",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "naiz.eus",
+    "name": "Gara",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "niusdiario.es",
+    "name": "Q106371819",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "noticiasdealava.eus",
+    "name": "Noticias de Álava",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "noticiasdenavarra.com",
+    "name": "Diario de Noticias",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "que.es",
+    "name": "Qué!",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "segre.com",
+    "name": "Diari Segre",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sport.es",
+    "name": "Sport",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "newspaper"
+  },
+  {
+    "domain": "digi.kansalliskirjasto.fi",
+    "name": "Hufvudstadsbladet",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "forssanlehti.fi",
+    "name": "Forssan Lehti",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "hbl.fi",
+    "name": "Hufvudstadsbladet",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "iisalmensanomat.fi",
+    "name": "Iisalmen Sanomat",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ita-savo.fi",
+    "name": "Itä-Savo",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kyrkpressen.fi",
+    "name": "Q10551533",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "suupohjansanomat.fi",
+    "name": "Suupohjan Sanomat",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "20minutes.fr",
+    "name": "20 minutes",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "archives-deux-sevres-vienne.fr",
+    "name": "L'Avenir de la Vienne",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "archives-pierresvives.herault.fr",
+    "name": "Midi Libre",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "archivesautonomies.org",
+    "name": "Le Cri du peuple",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "argonnaute.parisnanterre.fr",
+    "name": "Excelsior",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "bienpublic.com",
+    "name": "Le Bien Public",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "bm-lille.fr",
+    "name": "L'Écho du Nord",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "catalogue-archives.nantes.fr",
+    "name": "La Presse",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "centrepresseaveyron.fr",
+    "name": "Centre Presse",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "corsematin.com",
+    "name": "Corse-Matin",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "dna.fr",
+    "name": "Dernières Nouvelles d'Alsace",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "elmoudjahid.net",
+    "name": "El Moudjahid",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "estrepublicain.fr",
+    "name": "L'Est Républicain",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "franceguyane.fr",
+    "name": "France-Guyane",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "humanite.fr",
+    "name": "L'Humanité",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "journal.la-croix.com",
+    "name": "La Croix",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kiosque.limedia.fr",
+    "name": "L'Est Républicain",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kiosque.petitbleu.fr",
+    "name": "Le Petit Bleu d'Agen",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "la-croix.com",
+    "name": "La Croix",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lamontagne.fr",
+    "name": "La Montagne",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "laprovence.com",
+    "name": "La Provence",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "larep.fr",
+    "name": "La République du Centre",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lavoixdunord.fr",
+    "name": "La Voix du Nord",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "leberry.fr",
+    "name": "Le Berry républicain",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ledauphine.com",
+    "name": "Le Dauphiné Libéré",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lefigaro.fr",
+    "name": "Le Figaro",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lemonde.fr",
+    "name": "Le Monde",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "leparisien.fr",
+    "name": "Le Parisien",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lepetitquotidien.fr",
+    "name": "Le Petit Quotidien",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "leprogres.fr",
+    "name": "Le Progrès",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "letelegramme.fr",
+    "name": "Le Télégramme",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "liberation.fr",
+    "name": "Libération",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lopinion.fr",
+    "name": "L'Opinion",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nicematin.com",
+    "name": "Nice-Matin",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nordeclair.fr",
+    "name": "Nord Éclair",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "overnia.bibliotheques-clermontmetropole.eu",
+    "name": "La Montagne",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "paris-turf.com",
+    "name": "Paris-Turf",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "patrimoine.mediatheques-grandpoitiers.fr",
+    "name": "L'Avenir de la Vienne",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "petitbleu.fr",
+    "name": "Le Petit Bleu d'Agen",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "present.fr",
+    "name": "Q1233816",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "republicain-lorrain.fr",
+    "name": "Le Républicain Lorrain",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "retronews.fr",
+    "name": "L'Œuvre",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "temoignages.re",
+    "name": "Témoignages",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "wiener.societe-histoire-lorraine.com",
+    "name": "L'Est Républicain",
+    "country": "France",
+    "country_code": "FR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "citypress.gr",
+    "name": "City Press",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "e-thessalia.gr",
+    "name": "Thessalia",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "enet.gr",
+    "name": "Eleftherotypia",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mesogios.gr",
+    "name": "Q12880902",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "naftemporiki.gr",
+    "name": "Naftemporiki",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "rizospastis.gr",
+    "name": "Rizospastis",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "tanea.gr",
+    "name": "Ta Nea",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "glasistre.hr",
+    "name": "Glas Istre",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "haw.nsk.hr",
+    "name": "Večernji list",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "novilist.hr",
+    "name": "Novi list",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "novine.novilist.hr",
+    "name": "Novi list",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "rijeka.hr",
+    "name": "Drenovski list",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sportske.jutarnji.hr",
+    "name": "Sportske novosti",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "vecernji.hr",
+    "name": "Večernji list",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "zadarskilist.hr",
+    "name": "Zadarski list",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "newspaper"
+  },
+  {
+    "domain": "adt.arcanum.com",
+    "name": "Világgazdaság",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "blikk.hu",
+    "name": "Blikk",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "delmagyar.hu",
+    "name": "Délmagyarország",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "delvilag.hu",
+    "name": "Délmagyarország",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lokal.hu",
+    "name": "Q56388530",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "magyarhirlap.hu",
+    "name": "Magyar Hírlap",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "magyarnemzet.hu",
+    "name": "Magyar Nemzet",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mainap.hu",
+    "name": "Mai Nap",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "napilap.vg.hu",
+    "name": "Világgazdaság",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nemzetisport.hu",
+    "name": "Nemzeti Sport",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nepszabadsag.hu",
+    "name": "Népszabadság",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nol.hu",
+    "name": "Népszabadság",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "pestihirlap.hu",
+    "name": "Pesti Hírlap",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "vaol.hu",
+    "name": "Vas Népe",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "vg.hu",
+    "name": "Világgazdaság",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "vilaggazdasag.hu",
+    "name": "Világgazdaság",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "independent.ie",
+    "name": "Irish Independent",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "irishexaminer.com",
+    "name": "Irish Examiner",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "irishtimes.com",
+    "name": "The Irish Times",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "thesun.ie",
+    "name": "The Irish Sun",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "affaritaliani.it",
+    "name": "Affaritaliani",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "avvenire.it",
+    "name": "Avvenire",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "corriere.it",
+    "name": "Corriere della Sera",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "corrieredelmezzogiorno.corriere.it",
+    "name": "Corriere del Mezzogiorno",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "corrieredelveneto.corriere.it",
+    "name": "Corriere del Veneto",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "corrierenazionale.it",
+    "name": "Q3694495",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "corriereromagna.it",
+    "name": "Corriere Romagna",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "digitaledition.gazzetta.it",
+    "name": "La Gazzetta dello Sport",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "edicola.giornaledibrescia.it",
+    "name": "Giornale di Brescia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "edicola.liberoquotidiano.it",
+    "name": "Libero",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "gazzetta.it",
+    "name": "La Gazzetta dello Sport",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "gds.it",
+    "name": "Giornale di Sicilia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "giornaledibrescia.it",
+    "name": "Giornale di Brescia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "global.ilmanifesto.it",
+    "name": "Il manifesto",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilcentro.it",
+    "name": "il Centro",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ildubbio.news",
+    "name": "Il Dubbio",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilfattoquotidiano.it",
+    "name": "Il Fatto Quotidiano",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilfoglio.it",
+    "name": "Il Foglio",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilgiornale.it",
+    "name": "Il Giornale",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilgiorno.it",
+    "name": "Il Giorno",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilmanifesto.it",
+    "name": "Il manifesto",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilmattino.it",
+    "name": "Il Mattino",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilmessaggero.it",
+    "name": "Il Messaggero",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilroma.net",
+    "name": "Il Roma",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilromanista.it",
+    "name": "Q3792919",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilsecoloxix.it",
+    "name": "Il Secolo XIX",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ilsole24ore.com",
+    "name": "Il Sole 24 Ore",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "iltempo.it",
+    "name": "Il Tempo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lacrocequotidiano.it",
+    "name": "Q24214496",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lagazzettadelmezzogiorno.it",
+    "name": "La Gazzetta del Mezzogiorno",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "laprovinciadivarese.it",
+    "name": "La Provincia di Varese",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lastampa.it",
+    "name": "La Stampa",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "laverita.info",
+    "name": "La Verità",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "leggo.it",
+    "name": "Leggo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lettera43.it",
+    "name": "Lettera43",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "liberoquotidiano.it",
+    "name": "Libero",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "linformazione.info",
+    "name": "Q115219728",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "messaggeroveneto.it",
+    "name": "Messaggero Veneto – Giornale del Friuli",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "metronews.it",
+    "name": "Metro",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nuovavenezia.gelocal.it",
+    "name": "La Nuova Venezia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "qds.it",
+    "name": "Quotidiano di Sicilia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "quotidiano.net",
+    "name": "Quotidiano Nazionale",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "quotidiano.repubblica.it",
+    "name": "La Repubblica",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "quotidianodelsud.it",
+    "name": "Il Quotidiano del Sud",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "repubblica.it",
+    "name": "La Repubblica",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sbircialanotizia.it",
+    "name": "Sbircia la Notizia Magazine",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "secoloditalia.it",
+    "name": "Secolo d'Italia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sfogliatore.quotidiano.net",
+    "name": "Il Giorno",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "tuttosport.com",
+    "name": "Tuttosport",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "unionesarda.it",
+    "name": "L'Unione Sarda",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "unita.it",
+    "name": "L'Unità",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kauno.diena.lt",
+    "name": "Kauno diena",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kaunodiena.lt",
+    "name": "Kauno diena",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "vz.lt",
+    "name": "Verslo žinios",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "contacto.lu",
+    "name": "Contacto",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "delano.lu",
+    "name": "Q13102305",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "express.lu",
+    "name": "Ardenner express",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "groupenicolas.lu",
+    "name": "Privat",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "land.lu",
+    "name": "d'Lëtzebuerger Land",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "tageblatt.lu",
+    "name": "Tageblatt",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "voix.lu",
+    "name": "La Voix du Luxembourg",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "wort.lu",
+    "name": "Luxemburger Wort",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "zlv.lu",
+    "name": "Zeitung vum Lëtzebuerger Vollek",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "newspaper"
+  },
+  {
+    "domain": "bb.lv",
+    "name": "Biznes & Baltiya",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "newspaper"
+  },
+  {
+    "domain": "chas-daily.com",
+    "name": "Chas",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "newspaper"
+  },
+  {
+    "domain": "dom.lndb.lv",
+    "name": "Latvijas Avīze",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "newspaper"
+  },
+  {
+    "domain": "la.lv",
+    "name": "Latvijas Avīze",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "newspaper"
+  },
+  {
+    "domain": "latvijasavize.lv",
+    "name": "Latvijas Avīze",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "newspaper"
+  },
+  {
+    "domain": "neonet.lv",
+    "name": "Biznes & Baltiya",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ad.nl",
+    "name": "Algemeen Dagblad",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "krant.parool.nl",
+    "name": "Het Parool",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "moscowtimes.ru",
+    "name": "The Moscow Times",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nrc.nl",
+    "name": "NRC Handelsblad",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nu.nl",
+    "name": "NU.nl",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "parool.nl",
+    "name": "Het Parool",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "telegraaf.nl",
+    "name": "De Telegraaf",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "themoscowtimes.com",
+    "name": "The Moscow Times",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "trouw.nl",
+    "name": "Trouw",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "volkskrant.nl",
+    "name": "De Volkskrant",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "gp24.pl",
+    "name": "Q9284195",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "pressmedia.com.pl",
+    "name": "Super Nowości",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "rp.pl",
+    "name": "Rzeczpospolita",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "supernowosci24.pl",
+    "name": "Super Nowości",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "newspaper"
+  },
+  {
+    "domain": "correiomanha.pt",
+    "name": "Correio da Manhã",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "dn.pt",
+    "name": "Diário de Notícias",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "jm-madeira.pt",
+    "name": "JM",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ojogo.pt",
+    "name": "O Jogo",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "publico.pt",
+    "name": "Público",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "newspaper"
+  },
+  {
+    "domain": "3szek.ro",
+    "name": "Háromszék",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "newspaper"
+  },
+  {
+    "domain": "e-nepujsag.ro",
+    "name": "Q1221361",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "newspaper"
+  },
+  {
+    "domain": "hargitanepe.ro",
+    "name": "Hargita Népe",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "newspaper"
+  },
+  {
+    "domain": "hhrf.org",
+    "name": "Q1221361",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kronika.ro",
+    "name": "Krónika",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "newspaper"
+  },
+  {
+    "domain": "libertatea.ro",
+    "name": "Libertatea",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "newspaper"
+  },
+  {
+    "domain": "aftonbladet.se",
+    "name": "Aftonbladet",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "avestatidning.com",
+    "name": "Q10423526",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "barometern.se",
+    "name": "Barometern",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "bblat.se",
+    "name": "Q10438532",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "blt.se",
+    "name": "Blekinge Läns Tidning",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "bohuslaningen.se",
+    "name": "Bohusläningen",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "cityskane.se",
+    "name": "Q10453556",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "dagbladet.se",
+    "name": "Q3011867",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "dalslanningen.se",
+    "name": "Q10466279",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "dn.se",
+    "name": "Dagens Nyheter",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ekuriren.se",
+    "name": "Eskilstuna-Kuriren",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "eposten.se",
+    "name": "Enköpings-Posten",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "etc.se",
+    "name": "Q10465888",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "expressen.se",
+    "name": "Göteborgs-Tidningen",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "falkopingstidning.se",
+    "name": "Falköpings Tidning",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "folkbladet.se",
+    "name": "Folkbladet",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "gd.se",
+    "name": "Gefle Dagblad",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "hbwebben.se",
+    "name": "Haparandabladet",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "helahalsingland.se",
+    "name": "Hela Hälsingland",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "hjotidning.se",
+    "name": "Hjo tidning",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kkuriren.se",
+    "name": "Katrineholms-Kuriren",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kungalvsposten.se",
+    "name": "Kungälvs-Posten",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "lt.se",
+    "name": "Q10571987",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ltz.se",
+    "name": "Länstidningen Östersund",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "magazin24.se",
+    "name": "Q10575229",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mariestadstidningen.se",
+    "name": "Q10577356",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mediearkivet.se",
+    "name": "Aftonbladet",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mitti.se",
+    "name": "Mitt i",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "mvt.se",
+    "name": "Q10589618",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "na.se",
+    "name": "Nerikes Allehanda",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nlt.se",
+    "name": "Q10604269",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nsk.se",
+    "name": "Norra Skåne",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nt.se",
+    "name": "Norrköpings Tidningar",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nwt.se",
+    "name": "Q10418977",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "nybrotidning.com",
+    "name": "Q10604366",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "olandsbladet.se",
+    "name": "Ölandsbladet",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "op.se",
+    "name": "Östersunds-Posten",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "pitea-tidningen.se",
+    "name": "Piteå-Tidningen",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "skaraborgslanstidning.se",
+    "name": "Q10669774",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "skd.se",
+    "name": "Skånska Dagbladet",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sla.se",
+    "name": "Skaraborgs Allehanda",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "smalanningen.se",
+    "name": "Smålänningen",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "smp.se",
+    "name": "Smålandsposten",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sn.se",
+    "name": "Södermanlands Nyheter",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sn24.se",
+    "name": "Q10683838",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "st.nu",
+    "name": "Sundsvalls Tidning",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "strengnastidning.se",
+    "name": "Q10681667",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "stromstadstidning.se",
+    "name": "Strömstads Tidning",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sydostran.se",
+    "name": "Sydöstran",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sydsvenskan.se",
+    "name": "Sydsvenskan",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "tidningenangermanland.se",
+    "name": "Q10697738",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "trelleborgsallehanda.se",
+    "name": "Trelleborgs Allehanda",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "varldenidag.se",
+    "name": "Världen idag",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "vastgotabladet.se",
+    "name": "Q10718126",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "vk.se",
+    "name": "Västerbottens-Kuriren",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ystadsallehanda.se",
+    "name": "Ystads Allehanda",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "newspaper"
+  },
+  {
+    "domain": "ekipa.svet24.si",
+    "name": "Ekipa",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "finance.si",
+    "name": "Finance",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "novice.svet24.si",
+    "name": "Svet24",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "svet24.si",
+    "name": "Svet24",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "newspaper"
+  },
+  {
+    "domain": "dennikn.sk",
+    "name": "Denník N",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "kosicednes.sk",
+    "name": "KOŠICE:DNES",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "postoj.sk",
+    "name": "Postoj",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "newspaper"
+  },
+  {
+    "domain": "sme.sk",
+    "name": "SME",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "newspaper"
+  }
+]

@@ -1,0 +1,4084 @@
+[
+  {
+    "domain": "europarl.europa.eu",
+    "full_path": "europarl.europa.eu",
+    "name": "European Parliament",
+    "abbreviation": "EP",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "main_institutions"
+  },
+  {
+    "domain": "consilium.europa.eu",
+    "full_path": "consilium.europa.eu",
+    "name": "Council of the European Union",
+    "abbreviation": "Council",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "main_institutions"
+  },
+  {
+    "domain": "commission.europa.eu",
+    "full_path": "commission.europa.eu",
+    "name": "European Commission",
+    "abbreviation": "EC",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "main_institutions"
+  },
+  {
+    "domain": "curia.europa.eu",
+    "full_path": "curia.europa.eu",
+    "name": "Court of Justice of the European Union",
+    "abbreviation": "CJEU",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "main_institutions"
+  },
+  {
+    "domain": "ecb.europa.eu",
+    "full_path": "ecb.europa.eu",
+    "name": "European Central Bank",
+    "abbreviation": "ECB",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "main_institutions"
+  },
+  {
+    "domain": "eca.europa.eu",
+    "full_path": "eca.europa.eu",
+    "name": "European Court of Auditors",
+    "abbreviation": "ECA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "main_institutions"
+  },
+  {
+    "domain": "eesc.europa.eu",
+    "full_path": "eesc.europa.eu",
+    "name": "European Economic and Social Committee",
+    "abbreviation": "EESC",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "advisory_bodies"
+  },
+  {
+    "domain": "cor.europa.eu",
+    "full_path": "cor.europa.eu",
+    "name": "European Committee of the Regions",
+    "abbreviation": "CoR",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "advisory_bodies"
+  },
+  {
+    "domain": "eeas.europa.eu",
+    "full_path": "eeas.europa.eu",
+    "name": "European External Action Service",
+    "abbreviation": "EEAS",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "other_bodies"
+  },
+  {
+    "domain": "ombudsman.europa.eu",
+    "full_path": "ombudsman.europa.eu",
+    "name": "European Ombudsman",
+    "abbreviation": "",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "other_bodies"
+  },
+  {
+    "domain": "edps.europa.eu",
+    "full_path": "edps.europa.eu",
+    "name": "European Data Protection Supervisor",
+    "abbreviation": "EDPS",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "other_bodies"
+  },
+  {
+    "domain": "edpb.europa.eu",
+    "full_path": "edpb.europa.eu",
+    "name": "European Data Protection Board",
+    "abbreviation": "EDPB",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "other_bodies"
+  },
+  {
+    "domain": "eib.org",
+    "full_path": "eib.org",
+    "name": "European Investment Bank",
+    "abbreviation": "EIB",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "other_bodies"
+  },
+  {
+    "domain": "osha.europa.eu",
+    "full_path": "osha.europa.eu",
+    "name": "European Agency for Safety and Health at Work",
+    "abbreviation": "EU-OSHA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "easa.europa.eu",
+    "full_path": "easa.europa.eu",
+    "name": "European Aviation Safety Agency",
+    "abbreviation": "EASA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "eba.europa.eu",
+    "full_path": "eba.europa.eu",
+    "name": "European Banking Authority",
+    "abbreviation": "EBA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "frontex.europa.eu",
+    "full_path": "frontex.europa.eu",
+    "name": "European Border and Coast Guard Agency",
+    "abbreviation": "Frontex",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "ecdc.europa.eu",
+    "full_path": "ecdc.europa.eu",
+    "name": "European Centre for Disease Prevention and Control",
+    "abbreviation": "ECDC",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "echa.europa.eu",
+    "full_path": "echa.europa.eu",
+    "name": "European Chemicals Agency",
+    "abbreviation": "ECHA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "eea.europa.eu",
+    "full_path": "eea.europa.eu",
+    "name": "European Environment Agency",
+    "abbreviation": "EEA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "efca.europa.eu",
+    "full_path": "efca.europa.eu",
+    "name": "European Fisheries Control Agency",
+    "abbreviation": "EFCA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "efsa.europa.eu",
+    "full_path": "efsa.europa.eu",
+    "name": "European Food Safety Authority",
+    "abbreviation": "EFSA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "eurofound.europa.eu",
+    "full_path": "eurofound.europa.eu",
+    "name": "Eurofound",
+    "abbreviation": "",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "eige.europa.eu",
+    "full_path": "eige.europa.eu",
+    "name": "European Institute for Gender Equality",
+    "abbreviation": "EIGE",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "eiopa.europa.eu",
+    "full_path": "eiopa.europa.eu",
+    "name": "European Insurance and Occupational Pensions Authority",
+    "abbreviation": "EIOPA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "ela.europa.eu",
+    "full_path": "ela.europa.eu",
+    "name": "European Labour Authority",
+    "abbreviation": "ELA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "emsa.europa.eu",
+    "full_path": "emsa.europa.eu",
+    "name": "European Maritime Safety Agency",
+    "abbreviation": "EMSA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "ema.europa.eu",
+    "full_path": "ema.europa.eu",
+    "name": "European Medicines Agency",
+    "abbreviation": "EMA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "emcdda.europa.eu",
+    "full_path": "emcdda.europa.eu",
+    "name": "European Monitoring Centre for Drugs and Drug Addiction",
+    "abbreviation": "EMCDDA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "enisa.europa.eu",
+    "full_path": "enisa.europa.eu",
+    "name": "European Union Agency for Cybersecurity",
+    "abbreviation": "ENISA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "eppo.europa.eu",
+    "full_path": "eppo.europa.eu",
+    "name": "European Public Prosecutor's Office",
+    "abbreviation": "EPPO",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "esma.europa.eu",
+    "full_path": "esma.europa.eu",
+    "name": "European Securities and Markets Authority",
+    "abbreviation": "ESMA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "etf.europa.eu",
+    "full_path": "etf.europa.eu",
+    "name": "European Training Foundation",
+    "abbreviation": "ETF",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "euaa.europa.eu",
+    "full_path": "euaa.europa.eu",
+    "name": "European Union Agency for Asylum",
+    "abbreviation": "EUAA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "eurojust.europa.eu",
+    "full_path": "eurojust.europa.eu",
+    "name": "Eurojust",
+    "abbreviation": "",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "fra.europa.eu",
+    "full_path": "fra.europa.eu",
+    "name": "European Union Agency for Fundamental Rights",
+    "abbreviation": "FRA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "europol.europa.eu",
+    "full_path": "europol.europa.eu",
+    "name": "Europol",
+    "abbreviation": "",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "cepol.europa.eu",
+    "full_path": "cepol.europa.eu",
+    "name": "European Union Agency for Law Enforcement Training",
+    "abbreviation": "CEPOL",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "era.europa.eu",
+    "full_path": "era.europa.eu",
+    "name": "European Union Agency for Railways",
+    "abbreviation": "ERA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "acer.europa.eu",
+    "full_path": "acer.europa.eu",
+    "name": "Agency for the Cooperation of Energy Regulators",
+    "abbreviation": "ACER",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "eulisa.europa.eu",
+    "full_path": "eulisa.europa.eu",
+    "name": "eu-LISA",
+    "abbreviation": "",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "euspa.europa.eu",
+    "full_path": "euspa.europa.eu",
+    "name": "European Union Agency for the Space Programme",
+    "abbreviation": "EUSPA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "euipo.europa.eu",
+    "full_path": "euipo.europa.eu",
+    "name": "European Union Intellectual Property Office",
+    "abbreviation": "EUIPO",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "berec.europa.eu",
+    "full_path": "berec.europa.eu",
+    "name": "Agency for Support for BEREC",
+    "abbreviation": "BEREC Office",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "cpvo.europa.eu",
+    "full_path": "cpvo.europa.eu",
+    "name": "Community Plant Variety Office",
+    "abbreviation": "CPVO",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "cdt.europa.eu",
+    "full_path": "cdt.europa.eu",
+    "name": "Translation Centre for the Bodies of the EU",
+    "abbreviation": "CdT",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "amla.europa.eu",
+    "full_path": "amla.europa.eu",
+    "name": "EU Authority for Anti-Money Laundering",
+    "abbreviation": "AMLA",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "decentralized_agencies"
+  },
+  {
+    "domain": "cert.europa.eu",
+    "full_path": "cert.europa.eu",
+    "name": "CERT-EU",
+    "abbreviation": "",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "interinstitutional_services"
+  },
+  {
+    "domain": "epso.europa.eu",
+    "full_path": "epso.europa.eu",
+    "name": "European Personnel Selection Office",
+    "abbreviation": "EPSO",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "interinstitutional_services"
+  },
+  {
+    "domain": "op.europa.eu",
+    "full_path": "op.europa.eu",
+    "name": "Publications Office of the EU",
+    "abbreviation": "OP",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "interinstitutional_services"
+  },
+  {
+    "domain": "europa.eu",
+    "full_path": "europa.eu",
+    "name": "Europa Portal",
+    "abbreviation": "",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "portals"
+  },
+  {
+    "domain": "eur-lex.europa.eu",
+    "full_path": "eur-lex.europa.eu",
+    "name": "EUR-Lex",
+    "abbreviation": "",
+    "country": "European Union",
+    "country_code": "EU",
+    "category": "portals"
+  },
+  {
+    "domain": "bundeskanzleramt.gv.at",
+    "full_path": "bundeskanzleramt.gv.at",
+    "name": "Federal Chancellery",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "executive"
+  },
+  {
+    "domain": "bundespraesident.at",
+    "full_path": "bundespraesident.at",
+    "name": "Federal President",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "executive"
+  },
+  {
+    "domain": "bmeia.gv.at",
+    "full_path": "bmeia.gv.at",
+    "name": "Federal Ministry for European and International Affairs",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmf.gv.at",
+    "full_path": "bmf.gv.at",
+    "name": "Federal Ministry of Finance",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmi.gv.at",
+    "full_path": "bmi.gv.at",
+    "name": "Federal Ministry of the Interior",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmj.gv.at",
+    "full_path": "bmj.gv.at",
+    "name": "Federal Ministry of Justice",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmlv.gv.at",
+    "full_path": "bmlv.gv.at",
+    "name": "Federal Ministry of Defence",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmbwf.gv.at",
+    "full_path": "bmbwf.gv.at",
+    "name": "Federal Ministry of Education",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmaw.gv.at",
+    "full_path": "bmaw.gv.at",
+    "name": "Federal Ministry of Labour and Economy",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "sozialministerium.at",
+    "full_path": "sozialministerium.at",
+    "name": "Federal Ministry of Social Affairs, Health, Care and Consumer Protection",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmk.gv.at",
+    "full_path": "bmk.gv.at",
+    "name": "Federal Ministry of Climate Action, Environment, Energy, Mobility, Innovation and Technology",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "bml.gv.at",
+    "full_path": "bml.gv.at",
+    "name": "Federal Ministry of Agriculture, Forestry, Regions and Water Management",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmkoes.gv.at",
+    "full_path": "bmkoes.gv.at",
+    "name": "Federal Ministry of Arts, Culture, Civil Service and Sport",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "ministries"
+  },
+  {
+    "domain": "parlament.gv.at",
+    "full_path": "parlament.gv.at",
+    "name": "Parliament",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "legislature"
+  },
+  {
+    "domain": "oesterreich.gv.at",
+    "full_path": "oesterreich.gv.at",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "portals"
+  },
+  {
+    "domain": "belgium.be",
+    "full_path": "belgium.be",
+    "name": "Federal Government",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "executive"
+  },
+  {
+    "domain": "premier.be",
+    "full_path": "premier.be",
+    "name": "Prime Minister's Office",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "executive"
+  },
+  {
+    "domain": "diplomatie.belgium.be",
+    "full_path": "diplomatie.belgium.be",
+    "name": "FPS Foreign Affairs",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries"
+  },
+  {
+    "domain": "finances.belgium.be",
+    "full_path": "finances.belgium.be",
+    "name": "FPS Finance",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries"
+  },
+  {
+    "domain": "ibz.be",
+    "full_path": "ibz.be",
+    "name": "FPS Interior",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries"
+  },
+  {
+    "domain": "justice.belgium.be",
+    "full_path": "justice.belgium.be",
+    "name": "FPS Justice",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries"
+  },
+  {
+    "domain": "emploi.belgique.be",
+    "full_path": "emploi.belgique.be",
+    "name": "FPS Employment, Labour and Social Dialogue",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries"
+  },
+  {
+    "domain": "socialsecurity.be",
+    "full_path": "socialsecurity.be",
+    "name": "FPS Social Security",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries"
+  },
+  {
+    "domain": "health.belgium.be",
+    "full_path": "health.belgium.be",
+    "name": "FPS Health",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries"
+  },
+  {
+    "domain": "economie.fgov.be",
+    "full_path": "economie.fgov.be",
+    "name": "FPS Economy",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries"
+  },
+  {
+    "domain": "mobilit.belgium.be",
+    "full_path": "mobilit.belgium.be",
+    "name": "FPS Mobility and Transport",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries"
+  },
+  {
+    "domain": "lachambre.be",
+    "full_path": "lachambre.be",
+    "name": "Federal Parliament",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "legislature"
+  },
+  {
+    "domain": "senate.be",
+    "full_path": "senate.be",
+    "name": "Senate",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "legislature"
+  },
+  {
+    "domain": "monarchie.be",
+    "full_path": "monarchie.be",
+    "name": "Royal Palace",
+    "abbreviation": "",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "monarchy"
+  },
+  {
+    "domain": "government.bg",
+    "full_path": "government.bg",
+    "name": "Council of Ministers",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "executive"
+  },
+  {
+    "domain": "president.bg",
+    "full_path": "president.bg",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "executive"
+  },
+  {
+    "domain": "mfa.bg",
+    "full_path": "mfa.bg",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "ministries"
+  },
+  {
+    "domain": "minfin.bg",
+    "full_path": "minfin.bg",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "ministries"
+  },
+  {
+    "domain": "mvr.bg",
+    "full_path": "mvr.bg",
+    "name": "Ministry of Interior",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "ministries"
+  },
+  {
+    "domain": "justice.government.bg",
+    "full_path": "justice.government.bg",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "ministries"
+  },
+  {
+    "domain": "mod.bg",
+    "full_path": "mod.bg",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "ministries"
+  },
+  {
+    "domain": "mon.bg",
+    "full_path": "mon.bg",
+    "name": "Ministry of Education and Science",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "ministries"
+  },
+  {
+    "domain": "mh.government.bg",
+    "full_path": "mh.government.bg",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "ministries"
+  },
+  {
+    "domain": "mlsp.government.bg",
+    "full_path": "mlsp.government.bg",
+    "name": "Ministry of Labour and Social Policy",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "ministries"
+  },
+  {
+    "domain": "parliament.bg",
+    "full_path": "parliament.bg",
+    "name": "National Assembly",
+    "abbreviation": "",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "legislature"
+  },
+  {
+    "domain": "vlada.gov.hr",
+    "full_path": "vlada.gov.hr",
+    "name": "Government",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "executive"
+  },
+  {
+    "domain": "predsjednik.hr",
+    "full_path": "predsjednik.hr",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "executive"
+  },
+  {
+    "domain": "mvep.gov.hr",
+    "full_path": "mvep.gov.hr",
+    "name": "Ministry of Foreign and European Affairs",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "ministries"
+  },
+  {
+    "domain": "mfin.gov.hr",
+    "full_path": "mfin.gov.hr",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "ministries"
+  },
+  {
+    "domain": "mup.gov.hr",
+    "full_path": "mup.gov.hr",
+    "name": "Ministry of the Interior",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "ministries"
+  },
+  {
+    "domain": "mpu.gov.hr",
+    "full_path": "mpu.gov.hr",
+    "name": "Ministry of Justice and Public Administration",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "ministries"
+  },
+  {
+    "domain": "morh.hr",
+    "full_path": "morh.hr",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "ministries"
+  },
+  {
+    "domain": "mzo.gov.hr",
+    "full_path": "mzo.gov.hr",
+    "name": "Ministry of Science and Education",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "ministries"
+  },
+  {
+    "domain": "zdravlje.gov.hr",
+    "full_path": "zdravlje.gov.hr",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "ministries"
+  },
+  {
+    "domain": "sabor.hr",
+    "full_path": "sabor.hr",
+    "name": "Croatian Parliament (Sabor)",
+    "abbreviation": "",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "legislature"
+  },
+  {
+    "domain": "presidency.gov.cy",
+    "full_path": "presidency.gov.cy",
+    "name": "President / Government",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "executive"
+  },
+  {
+    "domain": "gov.cy",
+    "full_path": "gov.cy",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "executive"
+  },
+  {
+    "domain": "mfa.gov.cy",
+    "full_path": "mfa.gov.cy",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "ministries"
+  },
+  {
+    "domain": "mof.gov.cy",
+    "full_path": "mof.gov.cy",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "ministries"
+  },
+  {
+    "domain": "moi.gov.cy",
+    "full_path": "moi.gov.cy",
+    "name": "Ministry of Interior",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "ministries"
+  },
+  {
+    "domain": "mjpo.gov.cy",
+    "full_path": "mjpo.gov.cy",
+    "name": "Ministry of Justice and Public Order",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "ministries"
+  },
+  {
+    "domain": "mod.gov.cy",
+    "full_path": "mod.gov.cy",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "ministries"
+  },
+  {
+    "domain": "moec.gov.cy",
+    "full_path": "moec.gov.cy",
+    "name": "Ministry of Education, Sport and Youth",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "ministries"
+  },
+  {
+    "domain": "moh.gov.cy",
+    "full_path": "moh.gov.cy",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "ministries"
+  },
+  {
+    "domain": "parliament.cy",
+    "full_path": "parliament.cy",
+    "name": "House of Representatives",
+    "abbreviation": "",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "legislature"
+  },
+  {
+    "domain": "vlada.cz",
+    "full_path": "vlada.cz",
+    "name": "Government",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "executive"
+  },
+  {
+    "domain": "hrad.cz",
+    "full_path": "hrad.cz",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "executive"
+  },
+  {
+    "domain": "mzv.cz",
+    "full_path": "mzv.cz",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "mfcr.cz",
+    "full_path": "mfcr.cz",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "mvcr.cz",
+    "full_path": "mvcr.cz",
+    "name": "Ministry of the Interior",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "justice.cz",
+    "full_path": "justice.cz",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "army.cz",
+    "full_path": "army.cz",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "msmt.cz",
+    "full_path": "msmt.cz",
+    "name": "Ministry of Education, Youth and Sports",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "mzcr.cz",
+    "full_path": "mzcr.cz",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "mpsv.cz",
+    "full_path": "mpsv.cz",
+    "name": "Ministry of Labour and Social Affairs",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "mpo.cz",
+    "full_path": "mpo.cz",
+    "name": "Ministry of Industry and Trade",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "mdcr.cz",
+    "full_path": "mdcr.cz",
+    "name": "Ministry of Transport",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "eagri.cz",
+    "full_path": "eagri.cz",
+    "name": "Ministry of Agriculture",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "mzp.cz",
+    "full_path": "mzp.cz",
+    "name": "Ministry of Environment",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "mmr.cz",
+    "full_path": "mmr.cz",
+    "name": "Ministry of Regional Development",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "mkcr.cz",
+    "full_path": "mkcr.cz",
+    "name": "Ministry of Culture",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "ministries"
+  },
+  {
+    "domain": "psp.cz",
+    "full_path": "psp.cz",
+    "name": "Chamber of Deputies",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "legislature"
+  },
+  {
+    "domain": "senat.cz",
+    "full_path": "senat.cz",
+    "name": "Senate",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "legislature"
+  },
+  {
+    "domain": "gov.cz",
+    "full_path": "gov.cz",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "portals"
+  },
+  {
+    "domain": "stm.dk",
+    "full_path": "stm.dk",
+    "name": "Prime Minister's Office",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "executive"
+  },
+  {
+    "domain": "um.dk",
+    "full_path": "um.dk",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "fm.dk",
+    "full_path": "fm.dk",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "justitsministeriet.dk",
+    "full_path": "justitsministeriet.dk",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "fmn.dk",
+    "full_path": "fmn.dk",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "im.dk",
+    "full_path": "im.dk",
+    "name": "Ministry of the Interior and Health",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "uvm.dk",
+    "full_path": "uvm.dk",
+    "name": "Ministry of Children and Education",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "bm.dk",
+    "full_path": "bm.dk",
+    "name": "Ministry of Employment",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "skm.dk",
+    "full_path": "skm.dk",
+    "name": "Ministry of Taxation",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "kefm.dk",
+    "full_path": "kefm.dk",
+    "name": "Ministry of Climate, Energy and Utilities",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "trm.dk",
+    "full_path": "trm.dk",
+    "name": "Ministry of Transport",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "ministries"
+  },
+  {
+    "domain": "ft.dk",
+    "full_path": "ft.dk",
+    "name": "Parliament (Folketing)",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "legislature"
+  },
+  {
+    "domain": "kongehuset.dk",
+    "full_path": "kongehuset.dk",
+    "name": "Royal House",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "monarchy"
+  },
+  {
+    "domain": "denmark.dk",
+    "full_path": "denmark.dk",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "portals"
+  },
+  {
+    "domain": "valitsus.ee",
+    "full_path": "valitsus.ee",
+    "name": "Government",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "executive"
+  },
+  {
+    "domain": "president.ee",
+    "full_path": "president.ee",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "executive"
+  },
+  {
+    "domain": "vm.ee",
+    "full_path": "vm.ee",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "fin.ee",
+    "full_path": "fin.ee",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "siseministeerium.ee",
+    "full_path": "siseministeerium.ee",
+    "name": "Ministry of the Interior",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "just.ee",
+    "full_path": "just.ee",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "kaitseministeerium.ee",
+    "full_path": "kaitseministeerium.ee",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "hm.ee",
+    "full_path": "hm.ee",
+    "name": "Ministry of Education and Research",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "sm.ee",
+    "full_path": "sm.ee",
+    "name": "Ministry of Social Affairs",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "mkm.ee",
+    "full_path": "mkm.ee",
+    "name": "Ministry of Economic Affairs and Communications",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "envir.ee",
+    "full_path": "envir.ee",
+    "name": "Ministry of Environment",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "agri.ee",
+    "full_path": "agri.ee",
+    "name": "Ministry of Regional Affairs and Agriculture",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "kul.ee",
+    "full_path": "kul.ee",
+    "name": "Ministry of Culture",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "ministries"
+  },
+  {
+    "domain": "riigikogu.ee",
+    "full_path": "riigikogu.ee",
+    "name": "Parliament (Riigikogu)",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "legislature"
+  },
+  {
+    "domain": "eesti.ee",
+    "full_path": "eesti.ee",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "portals"
+  },
+  {
+    "domain": "valtioneuvosto.fi",
+    "full_path": "valtioneuvosto.fi",
+    "name": "Government",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "executive"
+  },
+  {
+    "domain": "presidentti.fi",
+    "full_path": "presidentti.fi",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "executive"
+  },
+  {
+    "domain": "um.fi",
+    "full_path": "um.fi",
+    "name": "Ministry for Foreign Affairs",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "vm.fi",
+    "full_path": "vm.fi",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "intermin.fi",
+    "full_path": "intermin.fi",
+    "name": "Ministry of the Interior",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "oikeusministerio.fi",
+    "full_path": "oikeusministerio.fi",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "defmin.fi",
+    "full_path": "defmin.fi",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "minedu.fi",
+    "full_path": "minedu.fi",
+    "name": "Ministry of Education and Culture",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "stm.fi",
+    "full_path": "stm.fi",
+    "name": "Ministry of Social Affairs and Health",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "tem.fi",
+    "full_path": "tem.fi",
+    "name": "Ministry of Economic Affairs and Employment",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "mmm.fi",
+    "full_path": "mmm.fi",
+    "name": "Ministry of Agriculture and Forestry",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "lvm.fi",
+    "full_path": "lvm.fi",
+    "name": "Ministry of Transport and Communications",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "ym.fi",
+    "full_path": "ym.fi",
+    "name": "Ministry of the Environment",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "ministries"
+  },
+  {
+    "domain": "eduskunta.fi",
+    "full_path": "eduskunta.fi",
+    "name": "Parliament (Eduskunta)",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "legislature"
+  },
+  {
+    "domain": "suomi.fi",
+    "full_path": "suomi.fi",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "portals"
+  },
+  {
+    "domain": "elysee.fr",
+    "full_path": "elysee.fr",
+    "name": "Presidency",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "executive"
+  },
+  {
+    "domain": "gouvernement.fr",
+    "full_path": "gouvernement.fr",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "portals"
+  },
+  {
+    "domain": "diplomatie.gouv.fr",
+    "full_path": "diplomatie.gouv.fr",
+    "name": "Ministry for Europe and Foreign Affairs",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "economie.gouv.fr",
+    "full_path": "economie.gouv.fr",
+    "name": "Ministry of the Economy and Finance",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "interieur.gouv.fr",
+    "full_path": "interieur.gouv.fr",
+    "name": "Ministry of the Interior",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "justice.gouv.fr",
+    "full_path": "justice.gouv.fr",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "defense.gouv.fr",
+    "full_path": "defense.gouv.fr",
+    "name": "Ministry of the Armed Forces",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "education.gouv.fr",
+    "full_path": "education.gouv.fr",
+    "name": "Ministry of National Education",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "sante.gouv.fr",
+    "full_path": "sante.gouv.fr",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "travail.gouv.fr",
+    "full_path": "travail.gouv.fr",
+    "name": "Ministry of Labour",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "ecologie.gouv.fr",
+    "full_path": "ecologie.gouv.fr",
+    "name": "Ministry of Ecological Transition",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "agriculture.gouv.fr",
+    "full_path": "agriculture.gouv.fr",
+    "name": "Ministry of Agriculture",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "culture.gouv.fr",
+    "full_path": "culture.gouv.fr",
+    "name": "Ministry of Culture",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "enseignementsup-recherche.gouv.fr",
+    "full_path": "enseignementsup-recherche.gouv.fr",
+    "name": "Ministry of Higher Education and Research",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "ministries"
+  },
+  {
+    "domain": "assemblee-nationale.fr",
+    "full_path": "assemblee-nationale.fr",
+    "name": "National Assembly",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "legislature"
+  },
+  {
+    "domain": "senat.fr",
+    "full_path": "senat.fr",
+    "name": "Senate",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "legislature"
+  },
+  {
+    "domain": "service-public.fr",
+    "full_path": "service-public.fr",
+    "name": "Government Services Portal",
+    "abbreviation": "",
+    "country": "France",
+    "country_code": "FR",
+    "category": "portals"
+  },
+  {
+    "domain": "bundesregierung.de",
+    "full_path": "bundesregierung.de",
+    "name": "Federal Government",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "executive"
+  },
+  {
+    "domain": "bundespraesident.de",
+    "full_path": "bundespraesident.de",
+    "name": "Federal President",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "executive"
+  },
+  {
+    "domain": "bundeskanzler.de",
+    "full_path": "bundeskanzler.de",
+    "name": "Federal Chancellery",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "executive"
+  },
+  {
+    "domain": "auswaertiges-amt.de",
+    "full_path": "auswaertiges-amt.de",
+    "name": "Federal Foreign Office",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bundesfinanzministerium.de",
+    "full_path": "bundesfinanzministerium.de",
+    "name": "Federal Ministry of Finance",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmi.bund.de",
+    "full_path": "bmi.bund.de",
+    "name": "Federal Ministry of the Interior",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmj.de",
+    "full_path": "bmj.de",
+    "name": "Federal Ministry of Justice",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmvg.de",
+    "full_path": "bmvg.de",
+    "name": "Federal Ministry of Defence",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmbf.de",
+    "full_path": "bmbf.de",
+    "name": "Federal Ministry of Education and Research",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bundesgesundheitsministerium.de",
+    "full_path": "bundesgesundheitsministerium.de",
+    "name": "Federal Ministry of Health",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmas.de",
+    "full_path": "bmas.de",
+    "name": "Federal Ministry of Labour and Social Affairs",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmwk.de",
+    "full_path": "bmwk.de",
+    "name": "Federal Ministry for Economic Affairs and Climate Action",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmuv.de",
+    "full_path": "bmuv.de",
+    "name": "Federal Ministry for the Environment",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmel.de",
+    "full_path": "bmel.de",
+    "name": "Federal Ministry of Food and Agriculture",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmdv.de",
+    "full_path": "bmdv.de",
+    "name": "Federal Ministry for Digital and Transport",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmfsfj.de",
+    "full_path": "bmfsfj.de",
+    "name": "Federal Ministry for Family Affairs, Senior Citizens, Women and Youth",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmwsb.bund.de",
+    "full_path": "bmwsb.bund.de",
+    "name": "Federal Ministry for Housing, Urban Development and Building",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bmz.de",
+    "full_path": "bmz.de",
+    "name": "Federal Ministry for Economic Cooperation and Development",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "ministries"
+  },
+  {
+    "domain": "bundestag.de",
+    "full_path": "bundestag.de",
+    "name": "Bundestag",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "legislature"
+  },
+  {
+    "domain": "bundesrat.de",
+    "full_path": "bundesrat.de",
+    "name": "Bundesrat",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "legislature"
+  },
+  {
+    "domain": "verwaltung.bund.de",
+    "full_path": "verwaltung.bund.de",
+    "name": "Federal Administration Portal",
+    "abbreviation": "",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "portals"
+  },
+  {
+    "domain": "government.gov.gr",
+    "full_path": "government.gov.gr",
+    "name": "Government",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "executive"
+  },
+  {
+    "domain": "primeminister.gr",
+    "full_path": "primeminister.gr",
+    "name": "Prime Minister's Office",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "executive"
+  },
+  {
+    "domain": "presidency.gr",
+    "full_path": "presidency.gr",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "executive"
+  },
+  {
+    "domain": "mfa.gr",
+    "full_path": "mfa.gr",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "minfin.gr",
+    "full_path": "minfin.gr",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "ypes.gr",
+    "full_path": "ypes.gr",
+    "name": "Ministry of Interior",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "ministryofjustice.gr",
+    "full_path": "ministryofjustice.gr",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "geetha.mil.gr",
+    "full_path": "mod.mil.gr",
+    "name": "Ministry of National Defence",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "minedu.gov.gr",
+    "full_path": "minedu.gov.gr",
+    "name": "Ministry of Education and Religious Affairs",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "moh.gov.gr",
+    "full_path": "moh.gov.gr",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "ypakp.gr",
+    "full_path": "ypakp.gr",
+    "name": "Ministry of Labour and Social Affairs",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "mindev.gov.gr",
+    "full_path": "mindev.gov.gr",
+    "name": "Ministry of Development and Investments",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "ypen.gov.gr",
+    "full_path": "ypen.gov.gr",
+    "name": "Ministry of Environment and Energy",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "ministries"
+  },
+  {
+    "domain": "hellenicparliament.gr",
+    "full_path": "hellenicparliament.gr",
+    "name": "Hellenic Parliament",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "legislature"
+  },
+  {
+    "domain": "gov.gr",
+    "full_path": "gov.gr",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "portals"
+  },
+  {
+    "domain": "kormany.hu",
+    "full_path": "kormany.hu/kulgazdasagi-es-kulugyminiszterium",
+    "name": "Ministry of Foreign Affairs and Trade",
+    "abbreviation": "",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "ministries"
+  },
+  {
+    "domain": "miniszterelnok.hu",
+    "full_path": "miniszterelnok.hu",
+    "name": "Prime Minister's Office",
+    "abbreviation": "",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "executive"
+  },
+  {
+    "domain": "sandorpalota.hu",
+    "full_path": "sandorpalota.hu",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "executive"
+  },
+  {
+    "domain": "parlament.hu",
+    "full_path": "parlament.hu",
+    "name": "National Assembly",
+    "abbreviation": "",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "legislature"
+  },
+  {
+    "domain": "gov.ie",
+    "full_path": "gov.ie/decc",
+    "name": "Department of Environment, Climate and Communications",
+    "abbreviation": "",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "ministries"
+  },
+  {
+    "domain": "president.ie",
+    "full_path": "president.ie",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "executive"
+  },
+  {
+    "domain": "dfa.ie",
+    "full_path": "dfa.ie",
+    "name": "Department of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "ministries"
+  },
+  {
+    "domain": "justice.ie",
+    "full_path": "justice.ie",
+    "name": "Department of Justice",
+    "abbreviation": "",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "ministries"
+  },
+  {
+    "domain": "enterprise.gov.ie",
+    "full_path": "enterprise.gov.ie",
+    "name": "Department of Enterprise, Trade and Employment",
+    "abbreviation": "",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "ministries"
+  },
+  {
+    "domain": "oireachtas.ie",
+    "full_path": "oireachtas.ie",
+    "name": "Oireachtas (Parliament)",
+    "abbreviation": "",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "legislature"
+  },
+  {
+    "domain": "governo.it",
+    "full_path": "governo.it",
+    "name": "Government (Palazzo Chigi)",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "executive"
+  },
+  {
+    "domain": "quirinale.it",
+    "full_path": "quirinale.it",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "executive"
+  },
+  {
+    "domain": "esteri.it",
+    "full_path": "esteri.it",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "mef.gov.it",
+    "full_path": "mef.gov.it",
+    "name": "Ministry of Economy and Finance",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "interno.gov.it",
+    "full_path": "interno.gov.it",
+    "name": "Ministry of Interior",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "giustizia.it",
+    "full_path": "giustizia.it",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "difesa.it",
+    "full_path": "difesa.it",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "miur.gov.it",
+    "full_path": "miur.gov.it",
+    "name": "Ministry of Education and Merit",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "salute.gov.it",
+    "full_path": "salute.gov.it",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "lavoro.gov.it",
+    "full_path": "lavoro.gov.it",
+    "name": "Ministry of Labour and Social Policies",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "mise.gov.it",
+    "full_path": "mise.gov.it",
+    "name": "Ministry of Enterprises and Made in Italy",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "mase.gov.it",
+    "full_path": "mase.gov.it",
+    "name": "Ministry of Environment and Energy Security",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "politicheagricole.it",
+    "full_path": "politicheagricole.it",
+    "name": "Ministry of Agriculture",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "mit.gov.it",
+    "full_path": "mit.gov.it",
+    "name": "Ministry of Infrastructure and Transport",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "cultura.gov.it",
+    "full_path": "cultura.gov.it",
+    "name": "Ministry of Culture",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "mur.gov.it",
+    "full_path": "mur.gov.it",
+    "name": "Ministry of University and Research",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "ministries"
+  },
+  {
+    "domain": "camera.it",
+    "full_path": "camera.it",
+    "name": "Chamber of Deputies",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "legislature"
+  },
+  {
+    "domain": "senato.it",
+    "full_path": "senato.it",
+    "name": "Senate",
+    "abbreviation": "",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "legislature"
+  },
+  {
+    "domain": "mk.gov.lv",
+    "full_path": "mk.gov.lv",
+    "name": "Cabinet of Ministers",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "executive"
+  },
+  {
+    "domain": "president.lv",
+    "full_path": "president.lv",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "executive"
+  },
+  {
+    "domain": "mfa.gov.lv",
+    "full_path": "mfa.gov.lv",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "fm.gov.lv",
+    "full_path": "fm.gov.lv",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "iem.gov.lv",
+    "full_path": "iem.gov.lv",
+    "name": "Ministry of the Interior",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "tm.gov.lv",
+    "full_path": "tm.gov.lv",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "mod.gov.lv",
+    "full_path": "mod.gov.lv",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "izm.gov.lv",
+    "full_path": "izm.gov.lv",
+    "name": "Ministry of Education and Science",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "vm.gov.lv",
+    "full_path": "vm.gov.lv",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "lm.gov.lv",
+    "full_path": "lm.gov.lv",
+    "name": "Ministry of Welfare",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "em.gov.lv",
+    "full_path": "em.gov.lv",
+    "name": "Ministry of Economics",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "zm.gov.lv",
+    "full_path": "zm.gov.lv",
+    "name": "Ministry of Agriculture",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "varam.gov.lv",
+    "full_path": "varam.gov.lv",
+    "name": "Ministry of Environmental Protection and Regional Development",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "sam.gov.lv",
+    "full_path": "sam.gov.lv",
+    "name": "Ministry of Transport",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "km.gov.lv",
+    "full_path": "km.gov.lv",
+    "name": "Ministry of Culture",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "ministries"
+  },
+  {
+    "domain": "saeima.lv",
+    "full_path": "saeima.lv",
+    "name": "Parliament (Saeima)",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "legislature"
+  },
+  {
+    "domain": "latvija.lv",
+    "full_path": "latvija.lv",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "portals"
+  },
+  {
+    "domain": "lrv.lt",
+    "full_path": "lrv.lt",
+    "name": "Government",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "executive"
+  },
+  {
+    "domain": "lrp.lt",
+    "full_path": "lrp.lt",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "executive"
+  },
+  {
+    "domain": "urm.lt",
+    "full_path": "urm.lt",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "finmin.lrv.lt",
+    "full_path": "finmin.lrv.lt",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "vrm.lrv.lt",
+    "full_path": "vrm.lrv.lt",
+    "name": "Ministry of the Interior",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "tm.lrv.lt",
+    "full_path": "tm.lrv.lt",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "kam.lt",
+    "full_path": "kam.lt",
+    "name": "Ministry of National Defence",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "smm.lt",
+    "full_path": "smm.lt",
+    "name": "Ministry of Education, Science and Sport",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "sam.lrv.lt",
+    "full_path": "sam.lrv.lt",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "socmin.lrv.lt",
+    "full_path": "socmin.lrv.lt",
+    "name": "Ministry of Social Security and Labour",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "eimin.lrv.lt",
+    "full_path": "eimin.lrv.lt",
+    "name": "Ministry of Economy and Innovation",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "am.lrv.lt",
+    "full_path": "am.lrv.lt",
+    "name": "Ministry of Environment",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "zum.lrv.lt",
+    "full_path": "zum.lrv.lt",
+    "name": "Ministry of Agriculture",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "sumin.lrv.lt",
+    "full_path": "sumin.lrv.lt",
+    "name": "Ministry of Transport and Communications",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "lrkm.lrv.lt",
+    "full_path": "lrkm.lrv.lt",
+    "name": "Ministry of Culture",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "enmin.lrv.lt",
+    "full_path": "enmin.lrv.lt",
+    "name": "Ministry of Energy",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "ministries"
+  },
+  {
+    "domain": "lrs.lt",
+    "full_path": "lrs.lt",
+    "name": "Parliament (Seimas)",
+    "abbreviation": "",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "legislature"
+  },
+  {
+    "domain": "gouvernement.lu",
+    "full_path": "gouvernement.lu",
+    "name": "Prime Minister",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "executive"
+  },
+  {
+    "domain": "mae.gouvernement.lu",
+    "full_path": "mae.gouvernement.lu",
+    "name": "Ministry of Foreign and European Affairs",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "ministries"
+  },
+  {
+    "domain": "mfin.gouvernement.lu",
+    "full_path": "mfin.gouvernement.lu",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "ministries"
+  },
+  {
+    "domain": "mint.gouvernement.lu",
+    "full_path": "mint.gouvernement.lu",
+    "name": "Ministry of Home Affairs",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "ministries"
+  },
+  {
+    "domain": "mj.gouvernement.lu",
+    "full_path": "mj.gouvernement.lu",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "ministries"
+  },
+  {
+    "domain": "defense.gouvernement.lu",
+    "full_path": "defense.gouvernement.lu",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "ministries"
+  },
+  {
+    "domain": "men.lu",
+    "full_path": "men.lu",
+    "name": "Ministry of Education",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "ministries"
+  },
+  {
+    "domain": "sante.public.lu",
+    "full_path": "sante.gouvernement.lu",
+    "name": "Ministry of Health and Social Security",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "ministries"
+  },
+  {
+    "domain": "chd.lu",
+    "full_path": "chd.lu",
+    "name": "Chamber of Deputies",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "legislature"
+  },
+  {
+    "domain": "monarchie.lu",
+    "full_path": "monarchie.lu",
+    "name": "Grand Ducal Court",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "monarchy"
+  },
+  {
+    "domain": "luxembourg.lu",
+    "full_path": "luxembourg.lu",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "portals"
+  },
+  {
+    "domain": "gov.mt",
+    "full_path": "gov.mt",
+    "name": "Government",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "executive"
+  },
+  {
+    "domain": "opm.gov.mt",
+    "full_path": "opm.gov.mt",
+    "name": "Office of the Prime Minister",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "executive"
+  },
+  {
+    "domain": "president.gov.mt",
+    "full_path": "president.gov.mt",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "executive"
+  },
+  {
+    "domain": "foreign.gov.mt",
+    "full_path": "foreign.gov.mt",
+    "name": "Ministry for Foreign and European Affairs",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "ministries"
+  },
+  {
+    "domain": "finance.gov.mt",
+    "full_path": "finance.gov.mt",
+    "name": "Ministry for Finance",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "ministries"
+  },
+  {
+    "domain": "homeaffairs.gov.mt",
+    "full_path": "homeaffairs.gov.mt",
+    "name": "Ministry for Home Affairs, Security and Employment",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "ministries"
+  },
+  {
+    "domain": "justice.gov.mt",
+    "full_path": "justice.gov.mt",
+    "name": "Ministry for Justice",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "ministries"
+  },
+  {
+    "domain": "education.gov.mt",
+    "full_path": "education.gov.mt",
+    "name": "Ministry for Education, Sport, Youth, Research and Innovation",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "ministries"
+  },
+  {
+    "domain": "health.gov.mt",
+    "full_path": "health.gov.mt",
+    "name": "Ministry for Health",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "ministries"
+  },
+  {
+    "domain": "parlament.mt",
+    "full_path": "parlament.mt",
+    "name": "House of Representatives",
+    "abbreviation": "",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "legislature"
+  },
+  {
+    "domain": "government.nl",
+    "full_path": "government.nl/ministries/ministry-of-agriculture-nature-and-food-quality",
+    "name": "Ministry of Agriculture, Fisheries, Food Security and Nature",
+    "abbreviation": "",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "ministries"
+  },
+  {
+    "domain": "rijksoverheid.nl",
+    "full_path": "rijksoverheid.nl/ministeries/ministerie-van-algemene-zaken",
+    "name": "Ministry of General Affairs",
+    "abbreviation": "",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "ministries"
+  },
+  {
+    "domain": "defensie.nl",
+    "full_path": "defensie.nl",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "ministries"
+  },
+  {
+    "domain": "tweedekamer.nl",
+    "full_path": "tweedekamer.nl",
+    "name": "House of Representatives",
+    "abbreviation": "",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "legislature"
+  },
+  {
+    "domain": "eerstekamer.nl",
+    "full_path": "eerstekamer.nl",
+    "name": "Senate",
+    "abbreviation": "",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "legislature"
+  },
+  {
+    "domain": "royal-house.nl",
+    "full_path": "royal-house.nl",
+    "name": "Royal House",
+    "abbreviation": "",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "monarchy"
+  },
+  {
+    "domain": "overheid.nl",
+    "full_path": "overheid.nl",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "portals"
+  },
+  {
+    "domain": "gov.pl",
+    "full_path": "gov.pl/web/rolnictwo",
+    "name": "Ministry of Agriculture and Rural Development",
+    "abbreviation": "",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "ministries"
+  },
+  {
+    "domain": "premier.gov.pl",
+    "full_path": "premier.gov.pl",
+    "name": "Chancellery of the Prime Minister",
+    "abbreviation": "",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "executive"
+  },
+  {
+    "domain": "prezydent.pl",
+    "full_path": "prezydent.pl",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "executive"
+  },
+  {
+    "domain": "sejm.gov.pl",
+    "full_path": "sejm.gov.pl",
+    "name": "Sejm",
+    "abbreviation": "",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "legislature"
+  },
+  {
+    "domain": "senat.gov.pl",
+    "full_path": "senat.gov.pl",
+    "name": "Senate",
+    "abbreviation": "",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "legislature"
+  },
+  {
+    "domain": "portugal.gov.pt",
+    "full_path": "portugal.gov.pt/pt/gc24/area-de-governo/trabalho-solidariedade-e-seguranca-social",
+    "name": "Ministry of Labour, Solidarity and Social Security",
+    "abbreviation": "",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "ministries"
+  },
+  {
+    "domain": "presidencia.pt",
+    "full_path": "presidencia.pt",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "executive"
+  },
+  {
+    "domain": "portaldiplomatico.mne.gov.pt",
+    "full_path": "portaldiplomatico.mne.gov.pt",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "ministries"
+  },
+  {
+    "domain": "justica.gov.pt",
+    "full_path": "justica.gov.pt",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "ministries"
+  },
+  {
+    "domain": "defesa.gov.pt",
+    "full_path": "defesa.gov.pt",
+    "name": "Ministry of National Defence",
+    "abbreviation": "",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "ministries"
+  },
+  {
+    "domain": "parlamento.pt",
+    "full_path": "parlamento.pt",
+    "name": "Assembly of the Republic",
+    "abbreviation": "",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "legislature"
+  },
+  {
+    "domain": "eportugal.gov.pt",
+    "full_path": "eportugal.gov.pt",
+    "name": "ePortugal",
+    "abbreviation": "",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "portals"
+  },
+  {
+    "domain": "gov.ro",
+    "full_path": "gov.ro",
+    "name": "Government",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "executive"
+  },
+  {
+    "domain": "presidency.ro",
+    "full_path": "presidency.ro",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "executive"
+  },
+  {
+    "domain": "mae.ro",
+    "full_path": "mae.ro",
+    "name": "Ministry of Foreign Affairs",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "mfinante.gov.ro",
+    "full_path": "mfinante.gov.ro",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "mai.gov.ro",
+    "full_path": "mai.gov.ro",
+    "name": "Ministry of Internal Affairs",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "just.ro",
+    "full_path": "just.ro",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "mapn.ro",
+    "full_path": "mapn.ro",
+    "name": "Ministry of National Defence",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "edu.ro",
+    "full_path": "edu.ro",
+    "name": "Ministry of Education",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "ms.ro",
+    "full_path": "ms.ro",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "mmuncii.ro",
+    "full_path": "mmuncii.ro",
+    "name": "Ministry of Labour and Social Protection",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "economie.gov.ro",
+    "full_path": "economie.gov.ro",
+    "name": "Ministry of Economy",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "mmediu.ro",
+    "full_path": "mmediu.ro",
+    "name": "Ministry of Environment, Waters and Forests",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "madr.ro",
+    "full_path": "madr.ro",
+    "name": "Ministry of Agriculture and Rural Development",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "mt.ro",
+    "full_path": "mt.ro",
+    "name": "Ministry of Transport and Infrastructure",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "cultura.ro",
+    "full_path": "cultura.ro",
+    "name": "Ministry of Culture",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "research.gov.ro",
+    "full_path": "research.gov.ro",
+    "name": "Ministry of Research, Innovation and Digitalization",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries"
+  },
+  {
+    "domain": "cdep.ro",
+    "full_path": "cdep.ro",
+    "name": "Chamber of Deputies",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "legislature"
+  },
+  {
+    "domain": "senat.ro",
+    "full_path": "senat.ro",
+    "name": "Senate",
+    "abbreviation": "",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "legislature"
+  },
+  {
+    "domain": "vlada.gov.sk",
+    "full_path": "vlada.gov.sk",
+    "name": "Government",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "executive"
+  },
+  {
+    "domain": "prezident.sk",
+    "full_path": "prezident.sk",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "executive"
+  },
+  {
+    "domain": "mzv.sk",
+    "full_path": "mzv.sk",
+    "name": "Ministry of Foreign and European Affairs",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "mfsr.sk",
+    "full_path": "mfsr.sk",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "minv.sk",
+    "full_path": "minv.sk",
+    "name": "Ministry of Interior",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "justice.gov.sk",
+    "full_path": "justice.gov.sk",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "mosr.sk",
+    "full_path": "mosr.sk",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "minedu.sk",
+    "full_path": "minedu.sk",
+    "name": "Ministry of Education, Science, Research and Sport",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "health.gov.sk",
+    "full_path": "health.gov.sk",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "employment.gov.sk",
+    "full_path": "employment.gov.sk",
+    "name": "Ministry of Labour, Social Affairs and Family",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "mhsr.sk",
+    "full_path": "mhsr.sk",
+    "name": "Ministry of Economy",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "minzp.sk",
+    "full_path": "minzp.sk",
+    "name": "Ministry of Environment",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "mpsr.sk",
+    "full_path": "mpsr.sk",
+    "name": "Ministry of Agriculture and Rural Development",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "mindop.sk",
+    "full_path": "mindop.sk",
+    "name": "Ministry of Transport",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "culture.gov.sk",
+    "full_path": "culture.gov.sk",
+    "name": "Ministry of Culture",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "mirri.gov.sk",
+    "full_path": "mirri.gov.sk",
+    "name": "Ministry of Investments, Regional Development and Informatization",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "ministries"
+  },
+  {
+    "domain": "nrsr.sk",
+    "full_path": "nrsr.sk",
+    "name": "National Council",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "legislature"
+  },
+  {
+    "domain": "slovensko.sk",
+    "full_path": "slovensko.sk",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "portals"
+  },
+  {
+    "domain": "gov.si",
+    "full_path": "gov.si/drzavni-organi/ministrstva/ministrstvo-za-delo-druzino-socialne-zadeve-in-enake-moznosti",
+    "name": "Ministry of Labour, Family, Social Affairs and Equal Opportunities",
+    "abbreviation": "",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "ministries"
+  },
+  {
+    "domain": "up-rs.si",
+    "full_path": "up-rs.si",
+    "name": "President",
+    "abbreviation": "",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "executive"
+  },
+  {
+    "domain": "dz-rs.si",
+    "full_path": "dz-rs.si",
+    "name": "National Assembly",
+    "abbreviation": "",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "legislature"
+  },
+  {
+    "domain": "ds-rs.si",
+    "full_path": "ds-rs.si",
+    "name": "National Council",
+    "abbreviation": "",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "legislature"
+  },
+  {
+    "domain": "e-uprava.gov.si",
+    "full_path": "e-uprava.gov.si",
+    "name": "Government Portal",
+    "abbreviation": "",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "portals"
+  },
+  {
+    "domain": "lamoncloa.gob.es",
+    "full_path": "lamoncloa.gob.es",
+    "name": "Government (La Moncloa)",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "executive"
+  },
+  {
+    "domain": "casareal.es",
+    "full_path": "casareal.es",
+    "name": "Royal House",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "executive"
+  },
+  {
+    "domain": "exteriores.gob.es",
+    "full_path": "exteriores.gob.es",
+    "name": "Ministry of Foreign Affairs, European Union and Cooperation",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "hacienda.gob.es",
+    "full_path": "hacienda.gob.es",
+    "name": "Ministry of Finance",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "interior.gob.es",
+    "full_path": "interior.gob.es",
+    "name": "Ministry of the Interior",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "mjusticia.gob.es",
+    "full_path": "mjusticia.gob.es",
+    "name": "Ministry of Justice",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "defensa.gob.es",
+    "full_path": "defensa.gob.es",
+    "name": "Ministry of Defence",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "educacion.gob.es",
+    "full_path": "educacion.gob.es",
+    "name": "Ministry of Education, Vocational Training and Sports",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "sanidad.gob.es",
+    "full_path": "sanidad.gob.es",
+    "name": "Ministry of Health",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "mites.gob.es",
+    "full_path": "mites.gob.es",
+    "name": "Ministry of Labour and Social Economy",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "mineco.gob.es",
+    "full_path": "mineco.gob.es",
+    "name": "Ministry of Economy, Trade and Enterprise",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "miteco.gob.es",
+    "full_path": "miteco.gob.es",
+    "name": "Ministry of Ecological Transition and the Demographic Challenge",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "mapa.gob.es",
+    "full_path": "mapa.gob.es",
+    "name": "Ministry of Agriculture, Fisheries and Food",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "mitma.gob.es",
+    "full_path": "mitma.gob.es",
+    "name": "Ministry of Transport and Sustainable Mobility",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "cultura.gob.es",
+    "full_path": "cultura.gob.es",
+    "name": "Ministry of Culture",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "ciencia.gob.es",
+    "full_path": "ciencia.gob.es",
+    "name": "Ministry of Science, Innovation and Universities",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "digital.gob.es",
+    "full_path": "digital.gob.es",
+    "name": "Ministry for Digital Transformation and the Civil Service",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "inclusion.gob.es",
+    "full_path": "inclusion.gob.es",
+    "name": "Ministry of Inclusion, Social Security and Migration",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "mdsocialesa2030.gob.es",
+    "full_path": "mdsocialesa2030.gob.es",
+    "name": "Ministry of Social Rights, Consumer Affairs and Agenda 2030",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "igualdad.gob.es",
+    "full_path": "igualdad.gob.es",
+    "name": "Ministry of Equality",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "mivau.gob.es",
+    "full_path": "mivau.gob.es",
+    "name": "Ministry of Housing and Urban Agenda",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "mpr.gob.es",
+    "full_path": "mpr.gob.es",
+    "name": "Ministry of Presidency, Justice and Relations with the Cortes",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "mptfp.gob.es",
+    "full_path": "mptfp.gob.es",
+    "name": "Ministry of Territorial Policy and Democratic Memory",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "ministries"
+  },
+  {
+    "domain": "congreso.es",
+    "full_path": "congreso.es",
+    "name": "Congress of Deputies",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "legislature"
+  },
+  {
+    "domain": "senado.es",
+    "full_path": "senado.es",
+    "name": "Senate",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "legislature"
+  },
+  {
+    "domain": "administracion.gob.es",
+    "full_path": "administracion.gob.es",
+    "name": "Public Administration Portal",
+    "abbreviation": "",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "portals"
+  },
+  {
+    "domain": "government.se",
+    "full_path": "government.se/government-of-sweden/ministry-of-rural-affairs-and-infrastructure",
+    "name": "Ministry of Rural Affairs and Infrastructure",
+    "abbreviation": "",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "ministries"
+  },
+  {
+    "domain": "regeringen.se",
+    "full_path": "regeringen.se",
+    "name": "Government (Swedish)",
+    "abbreviation": "",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "executive"
+  },
+  {
+    "domain": "riksdagen.se",
+    "full_path": "riksdagen.se",
+    "name": "Parliament (Riksdag)",
+    "abbreviation": "",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "legislature"
+  },
+  {
+    "domain": "kungahuset.se",
+    "full_path": "kungahuset.se",
+    "name": "Royal Court",
+    "abbreviation": "",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "monarchy"
+  },
+  {
+    "domain": "sweden.se",
+    "full_path": "sweden.se",
+    "name": "Sweden Portal",
+    "abbreviation": "",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "portals"
+  },
+  {
+    "domain": "kulugyminiszterium.hu",
+    "country": "Hungary",
+    "country_code": "HU",
+    "name": "Ministry of Foreign Affairs and Trade",
+    "category": "ministries",
+    "full_path": "kulugyminiszterium.hu"
+  },
+  {
+    "domain": "im.gov.hu",
+    "country": "Hungary",
+    "country_code": "HU",
+    "name": "Ministry of Interior",
+    "category": "ministries",
+    "full_path": "im.gov.hu"
+  },
+  {
+    "domain": "pm.gov.hu",
+    "country": "Hungary",
+    "country_code": "HU",
+    "name": "Prime Minister's Office",
+    "category": "ministries",
+    "full_path": "pm.gov.hu"
+  },
+  {
+    "domain": "nav.gov.hu",
+    "country": "Hungary",
+    "country_code": "HU",
+    "name": "National Tax and Customs Administration",
+    "category": "other_bodies",
+    "full_path": "nav.gov.hu"
+  },
+  {
+    "domain": "mnb.hu",
+    "country": "Hungary",
+    "country_code": "HU",
+    "name": "Hungarian National Bank",
+    "category": "other_bodies",
+    "full_path": "mnb.hu"
+  },
+  {
+    "domain": "ksh.hu",
+    "country": "Hungary",
+    "country_code": "HU",
+    "name": "Hungarian Central Statistical Office",
+    "category": "other_bodies",
+    "full_path": "ksh.hu"
+  },
+  {
+    "domain": "msz.gov.pl",
+    "country": "Poland",
+    "country_code": "PL",
+    "name": "Ministry of Foreign Affairs",
+    "category": "ministries",
+    "full_path": "msz.gov.pl"
+  },
+  {
+    "domain": "ms.gov.pl",
+    "country": "Poland",
+    "country_code": "PL",
+    "name": "Ministry of Justice",
+    "category": "ministries",
+    "full_path": "ms.gov.pl"
+  },
+  {
+    "domain": "mf.gov.pl",
+    "country": "Poland",
+    "country_code": "PL",
+    "name": "Ministry of Finance",
+    "category": "ministries",
+    "full_path": "mf.gov.pl"
+  },
+  {
+    "domain": "mon.gov.pl",
+    "country": "Poland",
+    "country_code": "PL",
+    "name": "Ministry of National Defence",
+    "category": "ministries",
+    "full_path": "mon.gov.pl"
+  },
+  {
+    "domain": "nbp.pl",
+    "country": "Poland",
+    "country_code": "PL",
+    "name": "National Bank of Poland",
+    "category": "other_bodies",
+    "full_path": "nbp.pl"
+  },
+  {
+    "domain": "gus.gov.pl",
+    "country": "Poland",
+    "country_code": "PL",
+    "name": "Central Statistical Office",
+    "category": "other_bodies",
+    "full_path": "gus.gov.pl"
+  },
+  {
+    "domain": "podatki.gov.pl",
+    "country": "Poland",
+    "country_code": "PL",
+    "name": "Tax Portal",
+    "category": "other_bodies",
+    "full_path": "podatki.gov.pl"
+  },
+  {
+    "domain": "nsa.gov.pl",
+    "country": "Poland",
+    "country_code": "PL",
+    "name": "Supreme Administrative Court",
+    "category": "other_bodies",
+    "full_path": "nsa.gov.pl"
+  },
+  {
+    "domain": "mzz.gov.si",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "name": "Ministry of Foreign and European Affairs",
+    "category": "ministries",
+    "full_path": "mzz.gov.si"
+  },
+  {
+    "domain": "mf.gov.si",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "name": "Ministry of Finance",
+    "category": "ministries",
+    "full_path": "mf.gov.si"
+  },
+  {
+    "domain": "mnz.gov.si",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "name": "Ministry of the Interior",
+    "category": "ministries",
+    "full_path": "mnz.gov.si"
+  },
+  {
+    "domain": "mo.gov.si",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "name": "Ministry of Defence",
+    "category": "ministries",
+    "full_path": "mo.gov.si"
+  },
+  {
+    "domain": "bsi.si",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "name": "Bank of Slovenia",
+    "category": "other_bodies",
+    "full_path": "bsi.si"
+  },
+  {
+    "domain": "stat.si",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "name": "Statistical Office",
+    "category": "other_bodies",
+    "full_path": "stat.si"
+  },
+  {
+    "domain": "riksbank.se",
+    "country": "Sweden",
+    "country_code": "SE",
+    "name": "Sveriges Riksbank",
+    "category": "other_bodies",
+    "full_path": "riksbank.se"
+  },
+  {
+    "domain": "polisen.se",
+    "country": "Sweden",
+    "country_code": "SE",
+    "name": "Swedish Police Authority",
+    "category": "other_bodies",
+    "full_path": "polisen.se"
+  },
+  {
+    "domain": "skatteverket.se",
+    "country": "Sweden",
+    "country_code": "SE",
+    "name": "Swedish Tax Agency",
+    "category": "other_bodies",
+    "full_path": "skatteverket.se"
+  },
+  {
+    "domain": "domstol.se",
+    "country": "Sweden",
+    "country_code": "SE",
+    "name": "National Courts Administration",
+    "category": "other_bodies",
+    "full_path": "domstol.se"
+  },
+  {
+    "domain": "scb.se",
+    "country": "Sweden",
+    "country_code": "SE",
+    "name": "Statistics Sweden",
+    "category": "other_bodies",
+    "full_path": "scb.se"
+  },
+  {
+    "domain": "migrationsverket.se",
+    "country": "Sweden",
+    "country_code": "SE",
+    "name": "Swedish Migration Agency",
+    "category": "other_bodies",
+    "full_path": "migrationsverket.se"
+  },
+  {
+    "domain": "msb.se",
+    "country": "Sweden",
+    "country_code": "SE",
+    "name": "Civil Contingencies Agency",
+    "category": "other_bodies",
+    "full_path": "msb.se"
+  },
+  {
+    "domain": "folkhalsomyndigheten.se",
+    "country": "Sweden",
+    "country_code": "SE",
+    "name": "Public Health Agency",
+    "category": "other_bodies",
+    "full_path": "folkhalsomyndigheten.se"
+  },
+  {
+    "domain": "finance.gov.ie",
+    "country": "Ireland",
+    "country_code": "IE",
+    "name": "Department of Finance",
+    "category": "ministries",
+    "full_path": "finance.gov.ie"
+  },
+  {
+    "domain": "health.gov.ie",
+    "country": "Ireland",
+    "country_code": "IE",
+    "name": "Department of Health",
+    "category": "ministries",
+    "full_path": "health.gov.ie"
+  },
+  {
+    "domain": "defence.ie",
+    "country": "Ireland",
+    "country_code": "IE",
+    "name": "Department of Defence",
+    "category": "ministries",
+    "full_path": "defence.ie"
+  },
+  {
+    "domain": "revenue.ie",
+    "country": "Ireland",
+    "country_code": "IE",
+    "name": "Revenue Commissioners",
+    "category": "other_bodies",
+    "full_path": "revenue.ie"
+  },
+  {
+    "domain": "courts.ie",
+    "country": "Ireland",
+    "country_code": "IE",
+    "name": "Courts Service of Ireland",
+    "category": "other_bodies",
+    "full_path": "courts.ie"
+  },
+  {
+    "domain": "cso.ie",
+    "country": "Ireland",
+    "country_code": "IE",
+    "name": "Central Statistics Office",
+    "category": "other_bodies",
+    "full_path": "cso.ie"
+  },
+  {
+    "domain": "rechtspraak.nl",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "name": "Dutch Judiciary",
+    "category": "other_bodies",
+    "full_path": "rechtspraak.nl"
+  },
+  {
+    "domain": "belastingdienst.nl",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "name": "Tax and Customs Administration",
+    "category": "other_bodies",
+    "full_path": "belastingdienst.nl"
+  },
+  {
+    "domain": "cbs.nl",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "name": "Statistics Netherlands",
+    "category": "other_bodies",
+    "full_path": "cbs.nl"
+  },
+  {
+    "domain": "dnb.nl",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "name": "De Nederlandsche Bank",
+    "category": "other_bodies",
+    "full_path": "dnb.nl"
+  },
+  {
+    "domain": "politie.nl",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "name": "Dutch Police",
+    "category": "other_bodies",
+    "full_path": "politie.nl"
+  },
+  {
+    "domain": "sns.gov.pt",
+    "country": "Portugal",
+    "country_code": "PT",
+    "name": "National Health Service",
+    "category": "ministries",
+    "full_path": "sns.gov.pt"
+  },
+  {
+    "domain": "bportugal.pt",
+    "country": "Portugal",
+    "country_code": "PT",
+    "name": "Banco de Portugal",
+    "category": "other_bodies",
+    "full_path": "bportugal.pt"
+  },
+  {
+    "domain": "ine.pt",
+    "country": "Portugal",
+    "country_code": "PT",
+    "name": "National Statistics Institute",
+    "category": "other_bodies",
+    "full_path": "ine.pt"
+  },
+  {
+    "domain": "tribunalconstitucional.pt",
+    "country": "Portugal",
+    "country_code": "PT",
+    "name": "Constitutional Court",
+    "category": "other_bodies",
+    "full_path": "tribunalconstitucional.pt"
+  },
+  {
+    "domain": "police.hu",
+    "name": "Hungarian Police",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "ministries",
+    "full_path": "police.hu"
+  },
+  {
+    "domain": "garda.ie",
+    "name": "An Garda Síochána",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "ministries",
+    "full_path": "garda.ie"
+  },
+  {
+    "domain": "police.public.lu",
+    "name": "Police Grand-Ducale",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "ministries",
+    "full_path": "police.public.lu"
+  },
+  {
+    "domain": "pulizija.gov.mt",
+    "name": "Malta Police Force",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "ministries",
+    "full_path": "pulizija.gov.mt"
+  },
+  {
+    "domain": "policja.gov.pl",
+    "name": "Polish Police",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "ministries",
+    "full_path": "policja.gov.pl"
+  },
+  {
+    "domain": "politiaromana.ro",
+    "name": "Romanian Police",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "ministries",
+    "full_path": "politiaromana.ro"
+  },
+  {
+    "domain": "psp.pt",
+    "name": "Public Security Police",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "ministries",
+    "full_path": "psp.pt"
+  },
+  {
+    "domain": "policija.si",
+    "name": "Slovenian Police",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "ministries",
+    "full_path": "policija.si"
+  },
+  {
+    "domain": "mil.be",
+    "name": "Belgian Defence",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "ministries",
+    "full_path": "mil.be"
+  },
+  {
+    "domain": "honvedelem.hu",
+    "name": "Ministry of Defence",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "ministries",
+    "full_path": "honvedelem.hu"
+  },
+  {
+    "domain": "afm.gov.mt",
+    "name": "Armed Forces of Malta",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "ministries",
+    "full_path": "afm.gov.mt"
+  },
+  {
+    "domain": "forsvarsmakten.se",
+    "name": "Swedish Armed Forces",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "ministries",
+    "full_path": "forsvarsmakten.se"
+  },
+  {
+    "domain": "slovenskavojska.si",
+    "name": "Slovenian Armed Forces",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "ministries",
+    "full_path": "slovenskavojska.si"
+  },
+  {
+    "domain": "mz.gov.pl",
+    "name": "Ministry of Health",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "ministries",
+    "full_path": "mz.gov.pl"
+  },
+  {
+    "domain": "men.gov.pl",
+    "name": "Ministry of Education",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "ministries",
+    "full_path": "men.gov.pl"
+  }
+]

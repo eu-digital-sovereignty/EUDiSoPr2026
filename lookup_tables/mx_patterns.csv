@@ -1,0 +1,23 @@
+regex,vendor,category,hq,critical,reason
+\.protection\.outlook\.com$,Microsoft 365,email,US,yes,unavailability of MX will stop email service
+\.mail\.protection\.outlook\.com$,Microsoft 365,email,US,yes,unavailability of MX will stop email service
+\.google\.com$,Google Workspace,email,US,yes,unavailability of MX will stop email service
+aspmx.*\.google\.com$,Google Workspace,email,US,yes,unavailability of MX will stop email service
+\.googlemail\.com$,Google Workspace,email,US,yes,unavailability of MX will stop email service
+\.pphosted\.com$,Proofpoint,email_security,US,yes,unavailability of MX will stop email service
+\.mimecast\.com$,Mimecast,email_security,GB,yes,unavailability of MX will stop email service
+\.messagelabs\.com$,Symantec (Broadcom),email_security,US,yes,unavailability of MX will stop email service
+\.barracudanetworks\.com$,Barracuda,email_security,US,yes,unavailability of MX will stop email service
+\.ovh\.net$,OVHcloud,email,FR,yes,unavailability of MX will stop email service
+\.hornetsecurity\.com$,Hornetsecurity,email_security,DE,yes,unavailability of MX will stop email service
+\.register\.it$,Register.it,email,IT,yes,unavailability of MX will stop email service
+\.gandi\.net$,Gandi,email,FR,yes,unavailability of MX will stop email service
+\.kundenserver\.de$,IONOS,email,DE,yes,unavailability of MX will stop email service
+\.iphmx\.com$,Cisco IronPort,email_security,US,yes,unavailability of MX will stop email service
+\.mailcontrol\.com$,Forcepoint,email_security,US,yes,unavailability of MX will stop email service
+\.trendmicro\.eu$,Trend Micro,email_security,JP,yes,unavailability of MX will stop email service
+\.mpssec\.net$,Cisco CES,email_security,US,yes,unavailability of MX will stop email service
+\.sophos\.com$,Sophos,email_security,GB,yes,unavailability of MX will stop email service
+\.vadesecure\.com$,Vade Secure,email_security,FR,yes,unavailability of MX will stop email service
+\.outlook\.com$,Microsoft 365,email,US,yes,unavailability of MX will stop email service
+\.mx\.microsoft$,Microsoft 365,email,US,yes,unavailability of MX will stop email service

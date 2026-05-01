@@ -1,0 +1,8 @@
+pattern,name,country,is_eu,reason
+# Overrides where certificate countryName differs from ultimate parent-company HQ
+globalsign,GlobalSign,JP,False,subsidiary of GMO Internet Group (Tokyo); acquired 2007
+sectigo,Sectigo/Comodo,US,False,owned by GI Partners (US PE); HQ Scottsdale AZ
+comodo,Sectigo/Comodo,US,False,legacy name for Sectigo (rebranded 2018)
+entrust,Entrust,US,False,HQ Minneapolis MN; sold public CA business to Sectigo Jan 2025
+digicert,DigiCert,US,False,DigiCert Ireland Ltd is subsidiary of DigiCert Inc (Lehi UT)
+quovadis,QuoVadis/DigiCert,US,False,acquired by DigiCert in 2019

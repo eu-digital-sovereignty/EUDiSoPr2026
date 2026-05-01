@@ -1,0 +1,3166 @@
+[
+  {
+    "domain": "bank99.at",
+    "name": "bank99",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "bankaustria.at",
+    "name": "Bank Austria",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "bawag.at",
+    "name": "BAWAG",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "capitalbank.at",
+    "name": "CAPITAL BANK – GRAWE Gruppe AG",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "erstegroup.com",
+    "name": "Erste Group",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "oberbank.at",
+    "name": "Oberbank",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "raiffeisendigital.com",
+    "name": "Raiffeisen Digital Bank",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "rbtg.at",
+    "name": "Raiffeisenbank Traisen-Gölsental",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "volksbanksalzburg.at",
+    "name": "Volksbank Salzburg",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "volksbankwien.at",
+    "name": "VOLKSBANK WIEN AG",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "wienerprivatbank.com",
+    "name": "Wiener Privatbank SE",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "bank"
+  },
+  {
+    "domain": "argenta.be",
+    "name": "Argenta",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "axabank.be",
+    "name": "AXA Bank Belgium",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "belfius.be",
+    "name": "Belfius",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "bnpparibasfortis.com",
+    "name": "BNP Paribas Fortis",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "bpostbank.be",
+    "name": "bpost bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "crelan.be",
+    "name": "Crelan",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "degroofpetercam.be",
+    "name": "Bank Degroof Petercam",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "delen.be",
+    "name": "Delen Private Bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "dexia.com",
+    "name": "Dexia",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "europabank.be",
+    "name": "Europabank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "fintro.be",
+    "name": "Fintro",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "fortis.com",
+    "name": "Fortis",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "gbank.com",
+    "name": "Generale Bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "ing.be",
+    "name": "ING Bank N.V.",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "ing.nl",
+    "name": "ING Bank N.V.",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "kbc.com",
+    "name": "KBC Bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "nagelmackers.be",
+    "name": "Bank Nagelmackers",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "optima.be",
+    "name": "Optima bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "puilaetcodewaay.be",
+    "name": "Puilaetco Private Bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "triodos.be",
+    "name": "Triodos Bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "triodos.co.uk",
+    "name": "Triodos Bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "triodos.com",
+    "name": "Triodos Bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "triodos.es",
+    "name": "Triodos Bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "triodos.nl",
+    "name": "Triodos Bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "vdk.be",
+    "name": "vdk bank",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "bank"
+  },
+  {
+    "domain": "allianz.bg",
+    "name": "Alianz Bank Bulgaria",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "bacb.bg",
+    "name": "Bulgarian-American Credit Bank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "ccbank.bg",
+    "name": "Central Cooperative Bank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "dbank.bg",
+    "name": "DBank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "dskbank.bg",
+    "name": "DSK Bank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "fibank.bg",
+    "name": "First Investment Bank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "iabank.bg",
+    "name": "International Asset Bank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "ibank.bg",
+    "name": "Investbank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "postbank.bg",
+    "name": "Postbank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "procreditbank.bg",
+    "name": "ProCredit Bank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "teximbank.bg",
+    "name": "Texim Bank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "ubb.bg",
+    "name": "United Bulgarian Bank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "unicreditbulbank.bg",
+    "name": "UniCredit Bulbank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "ziraatbank.bg",
+    "name": "Ziraat Bank",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "bank"
+  },
+  {
+    "domain": "bankofcyprus.com",
+    "name": "Bank of Cyprus",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "bank"
+  },
+  {
+    "domain": "airbank.cz",
+    "name": "Air Bank",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "ceb.cz",
+    "name": "Česká exportní banka",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "cmss.cz",
+    "name": "ČSOB Stavební spořitelna",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "cmzrb.cz",
+    "name": "Národní rozvojová banka",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "creditas.cz",
+    "name": "Banka Creditas",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "csas.cz",
+    "name": "Česká spořitelna",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "csob.cz",
+    "name": "Československá obchodní banka",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "csobstavebni.cz",
+    "name": "ČSOB Stavební spořitelna",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "equabank.cz",
+    "name": "Equa bank",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "fio.cz",
+    "name": "Fio banka",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "jtbank.cz",
+    "name": "J&T Banka",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "jtbanka.hr",
+    "name": "J&T Banka",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "kb.cz",
+    "name": "Komerční banka",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "moneta.cz",
+    "name": "MONETA Bank",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "partnersbanka.cz",
+    "name": "Partners Banka",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "ppfbanka.cz",
+    "name": "PPF Banka",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "rb.cz",
+    "name": "Raiffeisenbank",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "sberbank.cz",
+    "name": "Sberbank CZ",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "trinitybank.cz",
+    "name": "Trinity Bank",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "wuestenrot.cz",
+    "name": "Moneta Stavební Spořitelna",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "bank"
+  },
+  {
+    "domain": "banklenz.de",
+    "name": "Q66125173",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "berliner-bank.de",
+    "name": "Berliner Bank",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "commerzbank.com",
+    "name": "Commerzbank AG",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "commerzbank.de",
+    "name": "Commerzbank AG",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "db.com",
+    "name": "Deutsche Bank",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "dzbank.com",
+    "name": "DZ Bank",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "dzbank.de",
+    "name": "DZ Bank",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "essenhyp.com",
+    "name": "Hypothekenbank in Essen",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "hcob-bank.de",
+    "name": "Hamburg Commercial Bank",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "hypovereinsbank.de",
+    "name": "HypoVereinsbank",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "ikb.de",
+    "name": "IKB Deutsche Industriebank",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "mediserv.de",
+    "name": "mediserv Bank",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "meinebank.de",
+    "name": "Raiffeisenbank im Hochtaunus",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "mlp-banking.de",
+    "name": "MLP Banking AG",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "procredit-holding.com",
+    "name": "Procredit Group",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "rb-windsbach.de",
+    "name": "Q64739253",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "santander.de",
+    "name": "Santander",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "santanderconsumer.it",
+    "name": "Santander",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "santanderconsumer.pl",
+    "name": "Santander",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "spk-swb.de",
+    "name": "Sparkasse Schwarzwald-Baar",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "traderepublic.com",
+    "name": "Trade Republic",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "vb-mittelhessen.de",
+    "name": "Volksbank Mittelhessen",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "volksbank-koeln-bonn.de",
+    "name": "Volksbank Cologne Bonn",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "volksbank-syke.de",
+    "name": "Volksbank Bassum - Stuhr - Syke - Weyhe",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "vwfsag.de",
+    "name": "Volkswagen Financial Services",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "bank"
+  },
+  {
+    "domain": "al-bank.dk",
+    "name": "Arbejdernes Landsbank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "andelskassen.dk",
+    "name": "Danske Andelskassers Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "basisbank.dk",
+    "name": "Basisbank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "coopbank.dk",
+    "name": "Coop Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "danskebank.com",
+    "name": "Danske Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "djurslandsbank.dk",
+    "name": "Djurslands Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "expressbank.dk",
+    "name": "Q18199327",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "fih.dk",
+    "name": "FIH Erhvervsbank A/S",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "fynskebank.dk",
+    "name": "Fynske Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "handelsbanken.dk",
+    "name": "Handelsbanken",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "home.saxo",
+    "name": "Saxo Bank A/S",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "hvidbjergbank.dk",
+    "name": "Hvidbjerg Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "jutlander.dk",
+    "name": "Jutlander Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "jyskebank.dk",
+    "name": "Jyske Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "kompasbank.dk",
+    "name": "kompasbank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "kreditbanken.dk",
+    "name": "Kreditbanken",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "landbobanken.dk",
+    "name": "Ringkjøbing Landbobank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "lollandsbank.dk",
+    "name": "Lollands Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "lsb.dk",
+    "name": "Lån og Spar Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "majbank.dk",
+    "name": "Q134966066",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "midspar.dk",
+    "name": "Q12327047",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "moensbank.dk",
+    "name": "Møns Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "nordea.dk",
+    "name": "Nordea Bank Danmark A/S",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "nordfynsbank.dk",
+    "name": "Nordfyns Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "nordjyskebank.dk",
+    "name": "Nordjyske Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "nykredit.com",
+    "name": "Nykredit",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "oeb.dk",
+    "name": "Østjydsk Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "pensam.dk",
+    "name": "PenSam Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "roskildebank.dk",
+    "name": "Roskilde Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "sallingbank.dk",
+    "name": "Salling Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "sjfbank.dk",
+    "name": "Sparekassen Sjælland",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "skjernbank.dk",
+    "name": "Skjern Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "sparbredebro.dk",
+    "name": "Q135978333",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "spard.dk",
+    "name": "Sparekassen Danmark",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "sparnord.dk",
+    "name": "Spar Nord Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "sydbank.com",
+    "name": "AL Sydbank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "totalbanken.dk",
+    "name": "Totalbanken",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "vestjyskbank.dk",
+    "name": "Vestjysk Bank",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "bank"
+  },
+  {
+    "domain": "holmbank.ee",
+    "name": "Holm Bank AS",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "bank"
+  },
+  {
+    "domain": "lhv.ee",
+    "name": "LHV Pank",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "bank"
+  },
+  {
+    "domain": "luminor.ee",
+    "name": "Luminor Bank",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "bank"
+  },
+  {
+    "domain": "tbb.ee",
+    "name": "Tallinn Business Bank",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "bank"
+  },
+  {
+    "domain": "abanca.com",
+    "name": "Abanca",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "abancacorporacionbancaria.com",
+    "name": "Abanca",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "andbank.es",
+    "name": "Andbank España Banca Privada",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancamarch.com",
+    "name": "March Bank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancamarch.es",
+    "name": "March Bank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancapueyo.es",
+    "name": "Banca Pueyo",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancocooperativo.es",
+    "name": "Banco Cooperativo Español",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancodevalencia.es",
+    "name": "Banco de Valencia",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancoetcheverria.es",
+    "name": "Banco Etcheverría",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancoherrero.com",
+    "name": "Banco Herrero",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancomadrid.com",
+    "name": "Banco de Madrid",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancomediolanum.es",
+    "name": "Banc Mediolanum",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancopastor.es",
+    "name": "Banco Pastor",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bancsabadell.com",
+    "name": "Sabadell Bank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bankia.es",
+    "name": "Bankia",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bankinter.com",
+    "name": "Bankinter",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bbva.com",
+    "name": "Banco Bilbao Vizcaya Argentaria",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bbva.com.co",
+    "name": "BBVA Colombia",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bbva.es",
+    "name": "Banco Bilbao Vizcaya Argentaria",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bcc.es",
+    "name": "Banco de Crédito Cooperativo",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "bef.es",
+    "name": "Banco Europeo de Finanzas",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "caixabank.cat",
+    "name": "CaixaBank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "caixabank.com",
+    "name": "CaixaBank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "caixabank.es",
+    "name": "CaixaBank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "cajamar.es",
+    "name": "Cajamar",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "ceca.es",
+    "name": "Q18822529",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "cecabank.es",
+    "name": "Cecabank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "ebnbanco.com",
+    "name": "EBN Banco de Negocios",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "eurocajarural.es",
+    "name": "Eurocaja Rural",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "evobanco.com",
+    "name": "EVO Banco",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "fiarebancaetica.coop",
+    "name": "FIARE",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "finantia.es",
+    "name": "Banco Finantia SA Sucursal en España",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "ibercaja.es",
+    "name": "Ibercaja",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "imaginbank.cat",
+    "name": "Imagin",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "inversis.com",
+    "name": "Banco Inversis",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "liberbank.es",
+    "name": "Liberbank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "portal.cajasur.es",
+    "name": "CajaSur Banco",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "portal.kutxabank.es",
+    "name": "Kutxabank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "r4.com",
+    "name": "Renta 4 Banco",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "santander.com",
+    "name": "Banco Santander",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "sareb.es",
+    "name": "SAREB",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "singularbank.es",
+    "name": "Singular Bank",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "unicajabanco.es",
+    "name": "Unicaja Banco",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "wizink.es",
+    "name": "Wizink",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "bank"
+  },
+  {
+    "domain": "aktia.fi",
+    "name": "Aktia Bank",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "alandsbanken.ax",
+    "name": "Bank of Åland",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "fellowbank.com",
+    "name": "Alisa Pankki",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "fellowpankki.fi",
+    "name": "Alisa Pankki",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "leabank.es",
+    "name": "Lea Bank",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "leabank.fi",
+    "name": "Lea Bank",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "leabank.no",
+    "name": "Lea Bank",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "leabank.se",
+    "name": "Lea Bank",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "nordea.com",
+    "name": "Nordea",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "nordea.fi",
+    "name": "Nordea",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "nordea.no",
+    "name": "Nordea",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "nordea.se",
+    "name": "Nordea",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "omasp.fi",
+    "name": "Oma Savings Bank",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "op.fi",
+    "name": "OP Financial Group",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "s-pankki.fi",
+    "name": "S-Bank",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "saastopankki.fi",
+    "name": "Aito Säästöpankki",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "bank"
+  },
+  {
+    "domain": "allianz-trade.com",
+    "name": "Allianz Trade",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "banque-rhone-alpes.fr",
+    "name": "Q101444740",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "banquepopulaire.fr",
+    "name": "Banque Dupuy de Parseval",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "caisse-epargne.fr",
+    "name": "Groupe Caisse d’épargne",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "cm-arkea.com",
+    "name": "Crédit mutuel Arkéa",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "credit-agricole.com",
+    "name": "Credit Agricole Group",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "edmond-de-rothschild.fr",
+    "name": "Compagnie Financière Edmond de Rothschild",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "gbanque.com",
+    "name": "Q42587412",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "group.bnpparibas",
+    "name": "BNP Paribas",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "groupe-credit-du-nord.com",
+    "name": "Credit du Nord",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "rothschildandco.com",
+    "name": "Rothschild & Co",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "smc.fr",
+    "name": "Marseillaise Credit Company",
+    "country": "France",
+    "country_code": "FR",
+    "category": "bank"
+  },
+  {
+    "domain": "alpha.gr",
+    "name": "Alpha Bank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "atebank.gr",
+    "name": "ATEbank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "atticabank.gr",
+    "name": "CrediaBank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "emporiki.gr",
+    "name": "Emporiki Bank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "eurobank.gr",
+    "name": "Eurobank Ergasias",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "geniki.gr",
+    "name": "Geniki Bank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "hdb.gr",
+    "name": "Hellenic Development Bank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "nbg.gr",
+    "name": "National Bank of Greece",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "optimabank.gr",
+    "name": "Optima bank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "piraeusbank.gr",
+    "name": "Piraeus Bank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "protonbank.gr",
+    "name": "Proton Bank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "snappibank.com",
+    "name": "Snappi",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "ttbank.gr",
+    "name": "TT Hellenic Postbank",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "bank"
+  },
+  {
+    "domain": "agrambanka.hr",
+    "name": "Agram banka",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "croatiabanka.hr",
+    "name": "Croatia banka",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "ikb.hr",
+    "name": "Istarska kreditna banka Umag",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "imexbanka.hr",
+    "name": "IMEX BANKA d.d.",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "kaba.hr",
+    "name": "KARLOVAČKA BANKA d.d.",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "kentbank.hr",
+    "name": "KentBank",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "kovanica.hr",
+    "name": "BANKA KOVANICA d.d.",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "otpbanka.hr",
+    "name": "OTP banka",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "paba.hr",
+    "name": "Partner banka",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "pbz.hr",
+    "name": "Privredna banka Zagreb",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "poba.hr",
+    "name": "Podravska banka",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "rba.hr",
+    "name": "Raiffeisen Bank (Croatia)",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "sabank.hr",
+    "name": "Samoborska banka",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "slatinska-banka.hr",
+    "name": "Slatinska banka",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "bank"
+  },
+  {
+    "domain": "budapestbank.hu",
+    "name": "Budapest Bank",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "erstebank.hu",
+    "name": "Erste Bank Hungary",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "exim.hu",
+    "name": "Hungarian Export-Import Bank Plc.",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "fhb.hu",
+    "name": "FHB Mortgage Bank",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "granitbank.hu",
+    "name": "Gránit Bank",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "kh.hu",
+    "name": "K&H Bank",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "mbhbank.com",
+    "name": "MBH Bank",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "otpbank.hu",
+    "name": "OTP Bank",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "otpbank.ro",
+    "name": "OTP Bank",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "raiffeisen.hu",
+    "name": "Raiffeisen Bank Hungary",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "bank"
+  },
+  {
+    "domain": "aib.ie",
+    "name": "Allied Irish Banks",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "bank"
+  },
+  {
+    "domain": "angloirishbank.ie",
+    "name": "Anglo Irish Bank",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "bank"
+  },
+  {
+    "domain": "bankofireland.com",
+    "name": "Bank of Ireland",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "bank"
+  },
+  {
+    "domain": "branches.aib.ie",
+    "name": "Allied Irish Banks",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "bank"
+  },
+  {
+    "domain": "ptsb.ie",
+    "name": "Ptsb",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "bank"
+  },
+  {
+    "domain": "allianzbank.it",
+    "name": "Q131765596",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "axa.com",
+    "name": "Allsecures",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "azzoaglio.it",
+    "name": "Q55590043",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "banca360fvg.it",
+    "name": "Banca 360 Credito Cooperativo FVG - Società cooperativa",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancacentroemilia.it",
+    "name": "Banca Centro Emilia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancacentrolazio.net",
+    "name": "Banca Centro Lazio",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadellamarca.it",
+    "name": "Banca della Marca",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadelpiceno.bcc.it",
+    "name": "Banca del Piceno Credito Cooperativo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadelpiemonte.it",
+    "name": "Banca del Piemonte",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadiasti.it",
+    "name": "Cassa di Risparmio di Asti",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadicaraglio.it",
+    "name": "Banca di Caraglio",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadicherasco.it",
+    "name": "Banca Di Credito Cooperativo Di Cherasco",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadilegnano.it",
+    "name": "Bank of Legnano",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadipisa.it",
+    "name": "Q21207370",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancaditalia.it",
+    "name": "Bank of Italy",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadiviterbo.it",
+    "name": "Banca di Viterbo Credito Cooperativo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancadriacollieuganei.it",
+    "name": "Banca Adria Colli Euganei",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancaetica.it",
+    "name": "Banca Etica",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancaifis.it",
+    "name": "Banca Ifis",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancamediolanum.it",
+    "name": "Banca Mediolanum",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancapassadore.it",
+    "name": "Q16530867",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancaprealpisanbiagio.it",
+    "name": "Banca Prealpi SanBiagio",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancaroma.it",
+    "name": "UniCredit Banca di Roma",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancatema.it",
+    "name": "Banca TEMA",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancaumbria.it",
+    "name": "Banca dell'Umbria 1462",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancavalsabbina.com",
+    "name": "Banca Valsabbina",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancobpm.it",
+    "name": "Popular Bank of Milan",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancodinapoli.it",
+    "name": "Banco di Napoli",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancoposta.poste.it",
+    "name": "BancoPosta",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bancosardegna.it",
+    "name": "Bank of Sardinia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bccbrescia.it",
+    "name": "BCC Brescia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bcccaravaggio.it",
+    "name": "BCC Caravaggio e Cremasco",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bccmilano.it",
+    "name": "Cooperative Credit Bank of Rome",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bccveneta.it",
+    "name": "BCC Veneta",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bci.it",
+    "name": "Banca Commerciale Italiana",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bcp.it",
+    "name": "Banca di Credito Popolare",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bnl.it",
+    "name": "Banca Nazionale del Lavoro",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bpcbank.it",
+    "name": "Popular Bank of Crotone",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bper.it",
+    "name": "BPER Banca",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bpn.it",
+    "name": "Banca Popolare di Novara",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bpp.it",
+    "name": "Banca Popolare Pugliese",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bppb.it",
+    "name": "Banca Popolare di Puglia e Basilicata",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "bpv.it",
+    "name": "Banca Popolare di Verona",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "carichieti.it",
+    "name": "Nuova Cassa di Risparmio di Chieti",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "carisbo.it",
+    "name": "Carisbo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "carivit.it",
+    "name": "Cassa di Risparmio della Provincia di Viterbo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "cassacentrale.it",
+    "name": "Cassa Centrale Banca - Credito Cooperativo del Nord Est",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "casserurali.it",
+    "name": "Casse Rurali Trentine",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "cdp.it",
+    "name": "Cassa Depositi e Prestiti",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "cherrybank.it",
+    "name": "Cherry Bank",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "compass.it",
+    "name": "Compass Banca",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "credem.it",
+    "name": "Credito Emiliano",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "credit-agricole.it",
+    "name": "Crédit Agricole Italia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "creval.it",
+    "name": "Credito Artigiano",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "deutsche-bank.it",
+    "name": "Deutsche Bank",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "emilbanca.it",
+    "name": "Emil Banca",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "finecobank.com",
+    "name": "FinecoBank",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "gruppocarige.it",
+    "name": "Banca Carige",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "gruppocreval.com",
+    "name": "Credito Valtellinese",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "illimity.com",
+    "name": "Illimity Bank",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "mcc.it",
+    "name": "Banca del Mezzogiorno - MedioCredito Centrale",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "mediobanca.com",
+    "name": "Mediobanca",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "mediocreditoitaliano.com",
+    "name": "MedioCredito Italiano",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "mps.it",
+    "name": "Banca Monte dei Paschi di Siena",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "nexigroup.com",
+    "name": "Nexi",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "popolarevicenza.it",
+    "name": "Banca Popolare di Vicenza",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "popso.it",
+    "name": "Banca Popolare di Sondrio",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "rivierabanca.it",
+    "name": "Riviera Banca",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "sanfelice1893.it",
+    "name": "Q134599741",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "sanpaoloimi.it",
+    "name": "Sanpaolo IMI",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "sellagroup.eu",
+    "name": "Sella Bank",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "solution.bank",
+    "name": "Q124959610",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "ubibanca.it",
+    "name": "UBI Bank",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "unicreditgroup.eu",
+    "name": "UniCredit",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "venetobanca.it",
+    "name": "Veneto Bank",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "widiba.it",
+    "name": "Widiba",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "zkb.it",
+    "name": "ZKB",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "bank"
+  },
+  {
+    "domain": "luminor.lt",
+    "name": "Luminor Bank AB",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "bank"
+  },
+  {
+    "domain": "mokilizingas.lt",
+    "name": "Q12672130",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "bank"
+  },
+  {
+    "domain": "urbo.lt",
+    "name": "Urbo bankas",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "bank"
+  },
+  {
+    "domain": "bcee.lu",
+    "name": "Banque et Caisse d'Épargne de l'État",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "bank"
+  },
+  {
+    "domain": "bgl.lu",
+    "name": "BGL BNP Paribas",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "bank"
+  },
+  {
+    "domain": "bil.com",
+    "name": "International Bank in Luxembourg",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "bank"
+  },
+  {
+    "domain": "lu.abchina.com",
+    "name": "Q137806774",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "bank"
+  },
+  {
+    "domain": "ablv.com",
+    "name": "ABLV Bank",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "bank.lv",
+    "name": "Bank of Latvia",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "bluorbank.lv",
+    "name": "BluOr Bank",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "citadele.lv",
+    "name": "Citadele banka",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "dnb.lv",
+    "name": "Luminor Bank AS",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "industra.finance",
+    "name": "Industra Bank",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "lkb.lv",
+    "name": "Latvijas Krājbanka",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "lpb.lv",
+    "name": "LPB Bank",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "luminor.lv",
+    "name": "Luminor Bank",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "parexbank.de",
+    "name": "Parex Bank",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "pnbbanka.eu",
+    "name": "PNB Banka",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "privatbank.lv",
+    "name": "PrivatBank",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "rietumu.lv",
+    "name": "Rietumu Banka",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "seb.lv",
+    "name": "SEB banka",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "swedbank.lv",
+    "name": "Swedbank Latvia",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "tkb.lv",
+    "name": "TRASTA KOMERCBANKA",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "bank"
+  },
+  {
+    "domain": "apsbank.com.mt",
+    "name": "APS Bank",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "bank"
+  },
+  {
+    "domain": "bov.com",
+    "name": "Bank of Valletta",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "bank"
+  },
+  {
+    "domain": "hsbc.com.mt",
+    "name": "HSBC Bank Malta",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "bank"
+  },
+  {
+    "domain": "lombardmalta.com",
+    "name": "Lombard Bank",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "bank"
+  },
+  {
+    "domain": "medirect.com.mt",
+    "name": "MeDirect",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "bank"
+  },
+  {
+    "domain": "abnamro.com",
+    "name": "ABN AMRO",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "alex.nl",
+    "name": "Alex",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "binck.com",
+    "name": "BinckBank",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "bng.nl",
+    "name": "BNG Bank",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "bunq.com",
+    "name": "bunq",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "bunq.de",
+    "name": "bunq",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "bunq.es",
+    "name": "bunq",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "bunq.fr",
+    "name": "bunq",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "bunq.it",
+    "name": "bunq",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "bunq.nl",
+    "name": "bunq",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "devolksbank.nl",
+    "name": "De Volksbank",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "evivanlanschot.nl",
+    "name": "Evi van Lanschot",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "frieslandbank.nl",
+    "name": "Friesland Bank",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "knab.nl",
+    "name": "Knab",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "meespierson.nl",
+    "name": "ABN AMRO MeesPierson",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "nwbbank.com",
+    "name": "Nederlandse Waterschapsbank",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "paypnk.com",
+    "name": "Q112667969",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "rabobank.com",
+    "name": "Rabobank",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "regiobank.nl",
+    "name": "RegioBank",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "snsbank.nl",
+    "name": "SNS Bank",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "staalbankiers.nl",
+    "name": "Staalbankiers",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "vanlanschot.nl",
+    "name": "Van Lanschot",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "bank"
+  },
+  {
+    "domain": "aliorbank.pl",
+    "name": "Alior Bank",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "bankbps.pl",
+    "name": "Bank BPS",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "banksmart.pl",
+    "name": "Q24944534",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "bgk.pl",
+    "name": "Bank Gospodarstwa Krajowego",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "bgz.pl",
+    "name": "BNP Paribas Bank Polska",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "bosbank.pl",
+    "name": "Bank Ochrony Środowiska",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "bph.pl",
+    "name": "Bank BPH",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "citibank.pl",
+    "name": "Bank Handlowy",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "credit-agricole.pl",
+    "name": "Crédit Agricole Bank Polska",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "deutschebank.pl",
+    "name": "Deutsche Bank Polska",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "eurobank.pl",
+    "name": "Euro Bank",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "gnb.pl",
+    "name": "Getin Noble Bank",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "ideabank.pl",
+    "name": "Idea Bank",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "ing.pl",
+    "name": "ING Bank Śląski",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "kasastefczyka.pl",
+    "name": "Kasa Stefczyka",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "kbsbank.com.pl",
+    "name": "Krakow Cooperative Bank",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "nestbank.pl",
+    "name": "Nest Bank",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "nordea.pl",
+    "name": "Nordea Bank Polska",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "pbsciechanow.pl",
+    "name": "Polski Bank Spółdzielczy w Ciechanowie",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "pkobp.pl",
+    "name": "Powszechna Kasa Oszczędności Bank Polski",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "plusbank.pl",
+    "name": "Plus Bank",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "pocztowy.pl",
+    "name": "Bank Pocztowy",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "rbinternational.com.pl",
+    "name": "Raiffeisen Bank Polska",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "sgb.pl",
+    "name": "SGB-Bank",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "velobank.pl",
+    "name": "VeloBank",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "vwbank.pl",
+    "name": "Q9369089",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "bank"
+  },
+  {
+    "domain": "bancomontepio.pt",
+    "name": "Banco Montepio",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "bes.pt",
+    "name": "Banco Espírito Santo",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "bnu.com.mo",
+    "name": "Banco Nacional Ultramarino",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "bpfomento.pt",
+    "name": "Banco Português de Fomento",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "cgd.pt",
+    "name": "Caixa Geral de Depósitos",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "creditoagricola.pt",
+    "name": "Agricultural Credit Group",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "finantia.com",
+    "name": "Banco Finantia",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "finantia.pt",
+    "name": "Banco Finantia",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "montepio.pt",
+    "name": "Banco Montepio",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "novobanco.com",
+    "name": "Novo Banco",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "novobanco.pt",
+    "name": "Novo Banco",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "bank"
+  },
+  {
+    "domain": "banca-romaneasca.ro",
+    "name": "Banca Românească",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "bank"
+  },
+  {
+    "domain": "bancpost.ro",
+    "name": "Bancpost",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "bank"
+  },
+  {
+    "domain": "emporiki.ro",
+    "name": "Crédit Agricole Romania",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "bank"
+  },
+  {
+    "domain": "leumi.ro",
+    "name": "Bank Leumi Romania",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "bank"
+  },
+  {
+    "domain": "enity.com",
+    "name": "Enity Bank Group",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "group.tfbank.se",
+    "name": "TF Bank AB",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "handelsbanken.se",
+    "name": "Handelsbanken",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "icabanken.se",
+    "name": "ICA Banken",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "landshypotek.se",
+    "name": "Landshypotek Bank",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "morrowbank.no",
+    "name": "Morrow Bank",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "morrowbank.se",
+    "name": "Morrow Bank",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "nordax.no",
+    "name": "Q136218722",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "nordax.se",
+    "name": "Noba Bank Group",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "nordiska.se",
+    "name": "Q135671844",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "northmill.com",
+    "name": "Q101002624",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "sebgroup.com",
+    "name": "Skandinaviska Enskilda Banken",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "skandia.se",
+    "name": "Skandiabanken",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "sparbankenbergslagen.se",
+    "name": "Q135294659",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "sparbankenskane.se",
+    "name": "Sparbanken Skåne",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "svea.com",
+    "name": "Svea Bank",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "swedbank.com",
+    "name": "Swedbank",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "bank"
+  },
+  {
+    "domain": "delavska-hranilnica.si",
+    "name": "Delavska hranilnica",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "bank"
+  },
+  {
+    "domain": "intesasanpaolobank.si",
+    "name": "Banka Intesa Sanpaolo",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "bank"
+  },
+  {
+    "domain": "nkbm.si",
+    "name": "Nova Kreditna banka Maribor",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "bank"
+  },
+  {
+    "domain": "nlb.si",
+    "name": "NLB Group",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "bank"
+  },
+  {
+    "domain": "skb.si",
+    "name": "SKB Banka D.D. Ljubljana",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "bank"
+  },
+  {
+    "domain": "365.bank",
+    "name": "365.bank",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  },
+  {
+    "domain": "csob.sk",
+    "name": "Československá obchodná banka",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  },
+  {
+    "domain": "postovabanka.sk",
+    "name": "Poštová banka",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  },
+  {
+    "domain": "primabanka.sk",
+    "name": "Prima Banka",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  },
+  {
+    "domain": "privatbanka.sk",
+    "name": "Privatbanka",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  },
+  {
+    "domain": "raiffeisen.sk",
+    "name": "Raiffeisen banka",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  },
+  {
+    "domain": "sberbanksk.sk",
+    "name": "Sberbank Slovensko",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  },
+  {
+    "domain": "slsp.sk",
+    "name": "Slovenská sporiteľňa",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  },
+  {
+    "domain": "tatrabanka.sk",
+    "name": "Tatra banka",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  },
+  {
+    "domain": "vub.sk",
+    "name": "Všeobecná úverová banka",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "bank"
+  }
+]

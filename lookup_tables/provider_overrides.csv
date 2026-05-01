@@ -1,0 +1,48 @@
+asn,canonical_name,hq,is_eu,is_cdn,category
+# --- CDN providers (canonicalized + correct HQ) ---
+13335,Cloudflare,US,False,True,cdn
+209242,Cloudflare,US,False,True,cdn
+20940,Akamai,US,False,True,cdn
+16625,Akamai,US,False,True,cdn
+33905,Akamai,US,False,True,cdn
+63949,Akamai,US,False,True,cdn
+54113,Fastly,US,False,True,cdn
+19551,Imperva/Incapsula,US,False,True,cdn
+35280,F5 Networks,US,False,True,cdn
+# --- Hyperscalers (multi-ASN canonical names) ---
+8075,Microsoft Azure,US,False,False,hyperscaler
+8069,Microsoft Azure,US,False,False,hyperscaler
+396982,Google Cloud,US,False,False,hyperscaler
+15169,Google,US,False,False,hyperscaler
+16509,Amazon,US,False,False,hyperscaler
+14618,Amazon,US,False,False,hyperscaler
+31898,Oracle Cloud,US,False,False,hyperscaler
+# --- Empty Cymru name fixups ---
+2799,Swedish Police (Polismyndigheten),SE,True,False,gov
+2842,University of Gothenburg,SE,True,False,research
+2846,Lund University,SE,True,False,research
+6883,Austrian Parliament (Parlamentsdirektion),AT,True,False,gov
+9095,Istanbul Technical University,TR,False,False,research
+9159,Crédit Agricole,FR,True,False,bank
+15607,Banca Carige,IT,True,False,bank
+# --- HQ corrections (parent-company rule) ---
+12874,Fastweb (Swisscom),CH,False,False,isp
+3209,Vodafone (DE backbone),GB,False,False,isp
+# --- Display-name canonicalization for verbose Cymru ASN names ---
+24940,Hetzner,DE,True,False,hosting
+16276,OVH,FR,True,False,hosting
+137,GARR,IT,True,False,research
+2200,RENATER,FR,True,False,research
+1955,KIFU,HU,True,False,research
+2611,BELNET,BE,True,False,research
+2852,CESNET,CZ,True,False,research
+8194,VITA,LV,True,False,gov
+2614,ROEDUNET,RO,True,False,research
+31313,STS,RO,True,False,gov
+8560,IONOS,DE,True,False,hosting
+200521,SARA,ES,True,False,gov
+5408,GR-NET,GR,True,False,research
+3352,Telefónica,ES,True,False,isp
+# --- Cymru returns 'EU' for legacy aut-nums lacking country attr (verified via RIPE org-record) ---
+1257,Tele2 Sweden,SE,True,False,isp
+1653,SUNET (Swedish University Network),SE,True,False,research

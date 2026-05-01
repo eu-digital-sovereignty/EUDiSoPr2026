@@ -1,0 +1,4741 @@
+[
+  {
+    "domain": "aau.at",
+    "name": "University of Klagenfurt",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "akbild.ac.at",
+    "name": "Academy of Fine Arts Vienna",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "almamater.at",
+    "name": "Alma Mater Europaea",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "danube-private-university.at",
+    "name": "Danube Private University",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "donau-uni.ac.at",
+    "name": "University for Continuing Education Krems",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "epu.ac.at",
+    "name": "European Peace University",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "hochschule-heiligenkreuz.at",
+    "name": "Philosophisch-Theologische Hochschule Heiligenkreuz",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "i-med.ac.at",
+    "name": "Medical University of Innsbruck",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "imadec.eu",
+    "name": "Imadec Executive Education",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "kl.ac.at",
+    "name": "Karl Landsteiner University of Health Sciences",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "ku-linz.at",
+    "name": "Catholic Private University Linz",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "kug.ac.at",
+    "name": "University of Music and Performing Arts Graz",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "medunigraz.at",
+    "name": "Medical University of Graz",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "muk.ac.at",
+    "name": "Music and Arts University of the City of Vienna",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "ndu.ac.at",
+    "name": "New Design University St. Pölten",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "plus.ac.at",
+    "name": "University of Salzburg",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "rewi.uni-graz.at",
+    "name": "Faculty of Law of the University of Graz",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "ufg.ac.at",
+    "name": "University of Art and Design Linz",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "umit.at",
+    "name": "UMIT Tirol - Private University for Health Sciences and Health Technology",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "uni-graz.at",
+    "name": "University of Graz",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "uni-mozarteum.at",
+    "name": "Mozarteum University Salzburg",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "uni-seeburg.at",
+    "name": "Seeburg Castle University",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "unileoben.ac.at",
+    "name": "Technical University of Leoben",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "univie.ac.at",
+    "name": "University of Vienna",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "uzr.at",
+    "name": "Q2496451",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "vetmeduni.ac.at",
+    "name": "University of Veterinary Medicine Vienna",
+    "country": "Austria",
+    "country_code": "AT",
+    "category": "university"
+  },
+  {
+    "domain": "academielouvain.be",
+    "name": "Académie Louvain",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "ephec.be",
+    "name": "École pratique des hautes études commerciales",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "etf.edu",
+    "name": "Evangelical Theological Faculty",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "futp.be",
+    "name": "Faculteit voor Protestantse Godgeleerdheid",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "hec.uliege.be",
+    "name": "HEC Management School – University of Liège",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "hepl.be",
+    "name": "Haute École de la Province de Liège",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "hepn.be",
+    "name": "Haute Ecole de la Province de Namur",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "kent.ac.uk",
+    "name": "Brussels School of International Studies",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "kubrussel.ac.be",
+    "name": "Katholieke Universiteit Brussel",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "leseptantecinq.be",
+    "name": "École Supérieure des Arts de l'Image Le 75",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "portail.umons.ac.be",
+    "name": "Faculté polytechnique de Mons",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "rma.ac.be",
+    "name": "Royal Military Academy",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "tul.edu",
+    "name": "transnationale Universiteit Limburg",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "uantwerpen.be",
+    "name": "University of Antwerp",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "ucsia.org",
+    "name": "Saint Ignatius University Centre, Antwerp",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "ulb.be",
+    "name": "Université libre de Bruxelles",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "umons.ac.be",
+    "name": "University of Mons-Hainaut",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "unamur.be",
+    "name": "University of Namur",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "usaintlouis.be",
+    "name": "UCLouvain Saint-Louis – Bruxelles",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "vub.be",
+    "name": "Vrije Universiteit Brussel",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "web.umons.ac.be",
+    "name": "University of Mons",
+    "country": "Belgium",
+    "country_code": "BE",
+    "category": "university"
+  },
+  {
+    "domain": "agriacad.bg",
+    "name": "Agricultural Academy",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "au-plovdiv.bg",
+    "name": "Agricultural University Plovdiv",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "aubg.edu",
+    "name": "American University in Bulgaria",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "bfu.bg",
+    "name": "Burgas Free University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "btu.bg",
+    "name": "\"Prof. Dr. Assen Zlatarov\" University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "epu.bg",
+    "name": "European Polytechnical University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "ltu.bg",
+    "name": "University of Forestry, Sofia",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "mgu.bg",
+    "name": "University of Mining and Geology \"Saint Ivan Rilski\"",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "mu-pleven.bg",
+    "name": "Medical University Pleven",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "mu-plovdiv.bg",
+    "name": "Plovdiv Medical University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "mu-sofia.bg",
+    "name": "Sofia Medical University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "mu-varna.bg",
+    "name": "Medical University of Varna",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "naval-acad.bg",
+    "name": "Nikola Vaptsarov Naval Academy",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "nbu.bg",
+    "name": "New Bulgarian University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "shu-bg.net",
+    "name": "Shumen University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "shu.bg",
+    "name": "Shumen University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "swu.bg",
+    "name": "South-West University \"Neofit Rilski\"",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "ti-bs.org",
+    "name": "College of Economics – Bourgas",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "tu-sofia.bg",
+    "name": "Technical University of Sofia",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "tu-varna.bg",
+    "name": "Technical University of Varna",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "tugab.bg",
+    "name": "Technical University of Gabrovo",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "uacg.bg",
+    "name": "University of Architecture, Civil Engineering and Geodesy",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "uctm.edu",
+    "name": "University of Chemical Technology and Metallurgy",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "ue-varna.bg",
+    "name": "University of Economics - Varna",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "uft-plovdiv.bg",
+    "name": "University of Food Technologies",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "uni-plovdiv.bg",
+    "name": "Plovdiv University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "uni-ruse.bg",
+    "name": "University of Ruse",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "uni-svishtov.bg",
+    "name": "D. A. Tsenov Academy of Economics",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "uni-sz.bg",
+    "name": "Trakia University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "uni-vt.bg",
+    "name": "Veliko Tarnovo University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "unibit.bg",
+    "name": "State University of Library Studies and Information Technologies",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "vfu.bg",
+    "name": "Varna Free University",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "vtu.bg",
+    "name": "Todor Kableshkov Higher School of Transport",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "vum.bg",
+    "name": "Varna University of Management",
+    "country": "Bulgaria",
+    "country_code": "BG",
+    "category": "university"
+  },
+  {
+    "domain": "akun.edu.tr",
+    "name": "Q19610445",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "bun.edu.tr",
+    "name": "British University of Nicosia",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "cima.ac.cy",
+    "name": "Cyprus Institute of Marketing",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "ciu.edu.tr",
+    "name": "Cyprus International University",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "cut.ac.cy",
+    "name": "Cyprus University of Technology",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "cycollege.ac.cy",
+    "name": "Cyprus College",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "education.gau.edu.tr",
+    "name": "Q21526112",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "frederick.ac.cy",
+    "name": "Frederick University",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "hti.ac.cy",
+    "name": "Higher Technical Institute of Cyprus",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "kes.ac.cy",
+    "name": "KES College",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "kktc.itu.edu.tr",
+    "name": "ITU-TRNC Education Research Campuses",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "ncc.metu.edu.tr",
+    "name": "Middle East Technical University Northern Cyprus Campus",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "nup.ac.cy",
+    "name": "Neapolis University Pafos",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "ouc.ac.cy",
+    "name": "Open University of Cyprus",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "uol.ac.cy",
+    "name": "University of Limassol",
+    "country": "Cyprus",
+    "country_code": "CY",
+    "category": "university"
+  },
+  {
+    "domain": "aauni.edu",
+    "name": "Anglo-American University",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "archip.eu",
+    "name": "ARCHIP",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "cuni.cz",
+    "name": "Charles University",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "czu.cz",
+    "name": "Czech University of Life Sciences Prague",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "jamu.cz",
+    "name": "Janáček Academy of Music and Performing Arts",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "jcu.cz",
+    "name": "University of South Bohemia in České Budějovice",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "mendelu.cz",
+    "name": "Mendel University in Brno",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "mup.cz",
+    "name": "Metropolitan University Prague",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "neisse-uni.org",
+    "name": "Neisse University",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "osu.eu",
+    "name": "University of Ostrava",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "polac.cz",
+    "name": "Police Academy of the Czech Republic",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "savs.cz",
+    "name": "Škoda Auto University",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "slu.cz",
+    "name": "Silesian University in Opava",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "tul.cz",
+    "name": "Technical University of Liberec",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "uhk.cz",
+    "name": "University of Hradec Králové",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "ujep.cz",
+    "name": "Jan Evangelista Purkyně University in Ústí nad Labem",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "unicornuniversity.net",
+    "name": "Unicorn University",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "unyp.cz",
+    "name": "University of New York in Prague",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "upce.cz",
+    "name": "University of Pardubice",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "vetuni.cz",
+    "name": "University of Veterinary Sciences Brno",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "vsb.cz",
+    "name": "VSB – Technical University of Ostrava",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "vscht.cz",
+    "name": "University of Chemistry and Technology",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "vse.cz",
+    "name": "Prague University of Economics and Business",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "vsfs.cz",
+    "name": "University of Finance and Administration",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "vsmvv.cz",
+    "name": "University of International and Public Relations Prague",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "vso.cz",
+    "name": "University of Business in Prague",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "vut.cz",
+    "name": "Brno University of Technology",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "web.utb.cz",
+    "name": "Tomas Baťa University in Zlín",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "zcu.cz",
+    "name": "University of West Bohemia",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "zmvs.cz",
+    "name": "Westmoravian College Třebíč",
+    "country": "Czechia",
+    "country_code": "CZ",
+    "category": "university"
+  },
+  {
+    "domain": "academyeurope.eu",
+    "name": "European Open University",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "ciu.edu",
+    "name": "Columbia International University Korntal",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "euruni.edu",
+    "name": "EU Business School",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "filmuniversitaet.de",
+    "name": "Konrad Wolf Film University of Babelsberg",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "folkwang-uni.de",
+    "name": "Folkwang University of the Arts",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "german-uds.de",
+    "name": "German University of Digital Science",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "gradschool.uni-luebeck.de",
+    "name": "Graduate School Lübeck",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "hanseuni.de",
+    "name": "Hanseatic University Rostock",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "hfg-archiv.museumulm.de",
+    "name": "Ulm School of Design",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "hfg-archiv.ulm.de",
+    "name": "Ulm School of Design",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "karlsruhe.dhbw.de",
+    "name": "DHBW Karlsruhe",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "onlinembadegree.in",
+    "name": "EU Business School",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "oss.uni-frankfurt.de",
+    "name": "Otto Stern School for Integrated Doctoral Education",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "sankt-georgen.de",
+    "name": "Sankt Georgen Graduate School of Philosophy and Theology",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "sfu-berlin.de",
+    "name": "Sigmund Freud Privatuniversität - Standort Berlin",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "srh-hochschule-berlin.de",
+    "name": "SRH Berlin University of Applied Sciences",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "uni-erfurt.de",
+    "name": "University of Erfurt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "uni-helmstedt.hab.de",
+    "name": "University of Helmstedt",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "uni-karlsruhe.de",
+    "name": "University of Karlsruhe",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "uni-koblenz.de",
+    "name": "University of Koblenz",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "uni-wh.de",
+    "name": "Q122335127",
+    "country": "Germany",
+    "country_code": "DE",
+    "category": "university"
+  },
+  {
+    "domain": "aau.dk",
+    "name": "Aalborg University",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "ah.dk",
+    "name": "Aalborg Business College",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "business.aau.dk",
+    "name": "IKE Group",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "cbs.dk",
+    "name": "Copenhagen Business School",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "designskolenkolding.dk",
+    "name": "Design School Kolding",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "en.aau.dk",
+    "name": "Aalborg University",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "en.itu.dk",
+    "name": "IT University of Copenhagen",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "en.phabsalon.dk",
+    "name": "University College Absalon",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "eucroma.dk",
+    "name": "European Cross Media Academy",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "informationstudies.ku.dk",
+    "name": "Department of Information Studies",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "itu.dk",
+    "name": "IT University of Copenhagen",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "kadk.dk",
+    "name": "Danish Design School",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "karch.dk",
+    "name": "Kunstakademiets Arkitektskole",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "phabsalon.dk",
+    "name": "University College Absalon",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "ruc.dk",
+    "name": "Roskilde University",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "sceu.dk",
+    "name": "Selandia - Center for Business Education",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "ucc.dk",
+    "name": "University College Capital",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "ucl.dk",
+    "name": "University College Lillebaelt",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "ucn.dk",
+    "name": "University College of Northern Denmark",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "ucsyd.dk",
+    "name": "University College South Denmark",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "ucvest.dk",
+    "name": "West Jutland University College",
+    "country": "Denmark",
+    "country_code": "DK",
+    "category": "university"
+  },
+  {
+    "domain": "artun.ee",
+    "name": "Estonian Academy of Arts",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "university"
+  },
+  {
+    "domain": "audentes.eu",
+    "name": "International University Audentes",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "university"
+  },
+  {
+    "domain": "eamt.ee",
+    "name": "Estonian Academy of Music and Theatre",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "university"
+  },
+  {
+    "domain": "emu.ee",
+    "name": "Estonian University of Life Sciences",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "university"
+  },
+  {
+    "domain": "taltech.ee",
+    "name": "Tallinn University of Technology",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "university"
+  },
+  {
+    "domain": "ut.ee",
+    "name": "University of Tartu",
+    "country": "Estonia",
+    "country_code": "EE",
+    "category": "university"
+  },
+  {
+    "domain": "bam.edu.es",
+    "name": "Begoñako Andra Mari Teacher Training University College",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "bam.eus",
+    "name": "Begoñako Andra Mari Teacher Training University College",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "bircham.edu",
+    "name": "Bircham International University",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "ceu.es",
+    "name": "Centro de Estudios Universitarios",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "cinemaravillame.com",
+    "name": "Q137796888",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "cunef.edu",
+    "name": "CUNEF Universidad",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "ehu.eus",
+    "name": "University of the Basque Country",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "esic.edu",
+    "name": "ESIC University",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "euneiz.com",
+    "name": "EUNEIZ University",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "euroinnova.us",
+    "name": "Euroinnova Business School USA",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "hoxe.vigo.org",
+    "name": "Escola Municipal de Artes e Oficios de Vigo",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "iabarcelona.com",
+    "name": "Institute of Arts Barcelona",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "ie.edu",
+    "name": "IE School of Global and Public Affairs",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "innovacion.upv.es",
+    "name": "Ciudad Politécnica de la Innovación",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "isde.es",
+    "name": "ISDE Law & Business School",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "lesroches.es",
+    "name": "Les Roches Marbella International School of Hotel Management",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "maec.es",
+    "name": "Diplomatic School of Spain",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "numss.com",
+    "name": "National University of Medical Sciences, Spain",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "ortegaygasset.edu",
+    "name": "Residencia de Señoritas",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "uc3m.es",
+    "name": "Universidad Carlos III de Madrid",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "udit.es",
+    "name": "University School of Design, Innovation and Technology",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "uie.edu",
+    "name": "Q111737585",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "uji.es",
+    "name": "Jaume I University",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "uned.es",
+    "name": "National University of Distance Education",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "unileon.es",
+    "name": "University of León",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "universidadatlanticomedio.es",
+    "name": "Universidad del Atlántico Medio",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "universidadlaboraldemalaga.es",
+    "name": "Q131742874",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "unizar.es",
+    "name": "University of Zaragoza",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "uoc.edu",
+    "name": "Open University of Catalonia",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "upc.edu",
+    "name": "Polytechnic University of Catalonia",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "urv.cat",
+    "name": "Rovira i Virgili University",
+    "country": "Spain",
+    "country_code": "ES",
+    "category": "university"
+  },
+  {
+    "domain": "arts.aalto.fi",
+    "name": "Aalto University School of Arts, Design and Architecture",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "university"
+  },
+  {
+    "domain": "eng.aalto.fi",
+    "name": "Aalto University School of Engineering",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "university"
+  },
+  {
+    "domain": "hut.fi",
+    "name": "Helsinki University of Technology",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "university"
+  },
+  {
+    "domain": "joensuu.fi",
+    "name": "University of Joensuu",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "university"
+  },
+  {
+    "domain": "jyu.fi",
+    "name": "University of Jyväskylä",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "university"
+  },
+  {
+    "domain": "lut.fi",
+    "name": "Lappeenranta-Lahti University of Technology LUT",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "university"
+  },
+  {
+    "domain": "tut.fi",
+    "name": "Tampere University of Technology",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "university"
+  },
+  {
+    "domain": "uef.fi",
+    "name": "University of Kuopio",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "university"
+  },
+  {
+    "domain": "ulapland.fi",
+    "name": "University of Lapland",
+    "country": "Finland",
+    "country_code": "FI",
+    "category": "university"
+  },
+  {
+    "domain": "animosteo.fr",
+    "name": "Animosteo",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "avicenne.eu",
+    "name": "Q3151714",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "ceea.edu",
+    "name": "Conservatoire européen d'écriture audiovisuelle",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "cifacom.com",
+    "name": "Cifacom",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "cityuparis.fr",
+    "name": "City University of Paris",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "clermont-auvergne-inp.fr",
+    "name": "National Polytechnic Institute of Clermont Auvergne",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "dbs.school",
+    "name": "Digital Business School",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "dskisd.com",
+    "name": "Rubika",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "ecole-ecs.com",
+    "name": "European Communication School",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "ecole-intuit-lab.co.in",
+    "name": "École intuit.lab",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "ecole-intuit-lab.com",
+    "name": "École intuit.lab",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "ecole-intuit-lab.com.br",
+    "name": "École intuit.lab",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "enserg.fr",
+    "name": "École nationale supérieure d'électronique et de radioélectricité de Grenoble",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "etna.io",
+    "name": "École des technologies numériques avancées",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "european-master.com",
+    "name": "European Master in Management",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "hec.edu",
+    "name": "Institut supérieur des affaires",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "hec.fr",
+    "name": "Groupement de Recherche et d’Études en Gestion à HEC Paris",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "idc.u-paris2.fr",
+    "name": "Paris Institute of Comparative Law",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "imie-paris.fr",
+    "name": "Q111462011",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "inalco.fr",
+    "name": "Institut national des langues et civilisations orientales",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "inp-toulouse.fr",
+    "name": "National Polytechnic Institute of Toulouse",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "insa-hautsdefrance.fr",
+    "name": "INSA Hauts-de-France",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "inspe-paris.fr",
+    "name": "INSPÉ de l'académie de Paris",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "inspe.univ-toulouse.fr",
+    "name": "INSPÉ Toulouse Occitanie-Pyrénées",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "ipgp.fr",
+    "name": "Paris Institute of Earth Physics",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "iriaf.univ-poitiers.fr",
+    "name": "École nationale supérieure des sciences applicatives et du risque",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "isunet.edu",
+    "name": "International Space University",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "iut-c.univ-lille.fr",
+    "name": "Q3152703",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "lorraine-inp.fr",
+    "name": "Lorraine INP",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "nyu.edu",
+    "name": "NYU Paris",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "pariscentreuniversites.fr",
+    "name": "Paris Centre Universités",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "pstm.fr",
+    "name": "Paris School of Technology and Management",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "rubika-edu.com",
+    "name": "Supinfocom",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "sciences.univ-amu.fr",
+    "name": "Aix-Marseille University Faculty of Sciences",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "sciencespo-saintgermainenlaye.fr",
+    "name": "Institut d'études politiques de Saint-Germain-en-Laye",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "telecom-st-etienne.fr",
+    "name": "Télécom Saint-Étienne",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "toulousetech.net",
+    "name": "Toulouse Tech",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "tse-fr.eu",
+    "name": "Toulouse School of Economics",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "uebm.org",
+    "name": "Boulogne-sur-Mer Langues et Cultures",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "uess.fr",
+    "name": "Université Européenne des Senteurs & Saveurs",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "ueu.eus",
+    "name": "Udako Euskal Unibertsitatea",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "ufr3s.univ-lille.fr",
+    "name": "Q125475094",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "ulip.london.ac.uk",
+    "name": "University of London Institute in Paris",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "universitedespatients-sorbonne.fr",
+    "name": "Q97696577",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "utbm.fr",
+    "name": "Université de technologie de Belfort-Montbéliard",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "www-galilee.univ-paris13.fr",
+    "name": "Institut Galilée",
+    "country": "France",
+    "country_code": "FR",
+    "category": "university"
+  },
+  {
+    "domain": "aegean.edu",
+    "name": "University of the Aegean",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "aegean.gr",
+    "name": "University of the Aegean",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "akto.gr",
+    "name": "Athenian Technology Association",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "aspete.gr",
+    "name": "School of Pedagogical and Technological Education",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "aua.gr",
+    "name": "Agricultural University of Athens",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "aueb.gr",
+    "name": "Athens University of Economics and Business",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "auth.gr",
+    "name": "Aristotle University of Thessaloniki",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "city.academic.gr",
+    "name": "CITY College, University of York Europe Campus",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "eap.gr",
+    "name": "Hellenic Open University",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "elgs.eu",
+    "name": "European Law and Governance School",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "hmu.gr",
+    "name": "Hellenic Mediterranean University",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "hua.gr",
+    "name": "Harokopio University of Athens",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "ihu.edu.gr",
+    "name": "International Hellenic University",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "ionio.gr",
+    "name": "Ionian University",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "maich.gr",
+    "name": "Mediterranean Agronomic Institute of Chania",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "ntua.gr",
+    "name": "National Technical University of Athens",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "panteion.gr",
+    "name": "Panteion University",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "tuc.gr",
+    "name": "Technical University of Crete",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "ucg.gr",
+    "name": "University of Central Greece",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "unipi.gr",
+    "name": "University of Piraeus",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "uniwa.gr",
+    "name": "University of West Attica",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "uoa.gr",
+    "name": "National and Kapodistrian University of Athens",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "uop.gr",
+    "name": "University of Peloponnese",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "uowm.gr",
+    "name": "University of Western Macedonia",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "upatras.gr",
+    "name": "University of Patras",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "uth.gr",
+    "name": "University of Thessaly",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "uwg.gr",
+    "name": "University of Western Greece",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "york.citycollege.eu",
+    "name": "CITY College, University of York Europe Campus",
+    "country": "Greece",
+    "country_code": "GR",
+    "category": "university"
+  },
+  {
+    "domain": "gfos.unios.hr",
+    "name": "Faculty of Civil Engineering, University of Osijek",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "mefos.unios.hr",
+    "name": "School of Medicine, University of Osijek",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "par.hr",
+    "name": "Business School PAR",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "pravos.unios.hr",
+    "name": "Faculty of Law, University of Osijek",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "ptfos.hr",
+    "name": "Faculty of Food Technology, University of Osijek",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "ufos.unios.hr",
+    "name": "Faculty of Teacher Education, University of Osijek",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "uni.libertas.hr",
+    "name": "Dubrovnik International University",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "unicath.hr",
+    "name": "Catholic University of Croatia",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "unidu.hr",
+    "name": "University of Dubrovnik",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "unin.hr",
+    "name": "University North",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "unios.hr",
+    "name": "University of Osijek",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "unipu.hr",
+    "name": "University of Pula",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "uniri.hr",
+    "name": "University of Rijeka",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "unist.hr",
+    "name": "University of Split",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "unizd.hr",
+    "name": "University of Zadar",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "vps-libertas.hr",
+    "name": "Professional Business School of Higher Education LIBERTAS",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "zsem.hr",
+    "name": "Zagreb School of Economics and Management",
+    "country": "Croatia",
+    "country_code": "HR",
+    "category": "university"
+  },
+  {
+    "domain": "andrassyuni.eu",
+    "name": "Andrássy University Budapest",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "drhe.hu",
+    "name": "Debrecen Reformed Theological University",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "gau.hu",
+    "name": "Gödöllő University of Agricultural Sciences",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "international.pte.hu",
+    "name": "University of Pécs",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "ke.hu",
+    "name": "University of Kaposvár",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "kee.hu",
+    "name": "University of Horticulture and Food Industry",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "kodolanyi.hu",
+    "name": "Kodolányi János University",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "kre.hu",
+    "name": "Károli Gáspár University of the Reformed Church in Hungary",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "mke.hu",
+    "name": "Hungarian University of Fine Arts",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "mome.hu",
+    "name": "Moholy-Nagy University of Art and Design",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "mte.eu",
+    "name": "Hungarian Dance Academy",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "nye.hu",
+    "name": "University of Nyíregyháza",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "or-zse.hu",
+    "name": "Budapest University of Jewish Studies",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "pte.hu",
+    "name": "University of Pécs",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "semmelweis.hu",
+    "name": "Semmelweis University",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "szfe.hu",
+    "name": "University of Theatre and Film Arts",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "tf.hu",
+    "name": "Hungarian University of Sports Science",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni-bge.hu",
+    "name": "Budapest Business University",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni-corvinus.hu",
+    "name": "Corvinus University of Budapest",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni-mate.hu",
+    "name": "Hungarian University of Agriculture and Life Sciences",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni-miskolc.hu",
+    "name": "University of Miskolc",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni-neumann.hu",
+    "name": "John von Neumann University",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni-nke.hu",
+    "name": "National University of Public Service",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni-obuda.hu",
+    "name": "Óbuda University",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni-pannon.hu",
+    "name": "University of Pannonia",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni-sopron.hu",
+    "name": "University of Sopron",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni.lutheran.hu",
+    "name": "Lutheran Theological University",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uni.sze.hu",
+    "name": "Széchenyi István University",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "unideb.hu",
+    "name": "University of Debrecen",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "uniduna.hu",
+    "name": "University of Dunaújváros",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "unithe.hu",
+    "name": "University of Tokaj",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "univet.hu",
+    "name": "University of Veterinary Medicine Budapest",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "zmne.hu",
+    "name": "Zrínyi Miklós National Defense University",
+    "country": "Hungary",
+    "country_code": "HU",
+    "category": "university"
+  },
+  {
+    "domain": "amcd.ie",
+    "name": "American College, Dublin",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "burrencollege.ie",
+    "name": "Burren College of Art",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "digitalskillsacademy.com",
+    "name": "Digital Skills Academy",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "dublindesign.ie",
+    "name": "Dublin Institute of Design",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "dungarvancollege.ie",
+    "name": "Dungarvan College",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "eyedoctors.ie",
+    "name": "Irish College of Ophthalmologists",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "gaelchultur.com",
+    "name": "Coláiste na hÉireann/Gaelchultúr",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "griffith.ie",
+    "name": "Leinster School of Music & Drama",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "hiberniacollege.com",
+    "name": "Hibernia College",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "lit.ie",
+    "name": "LIT Tipperary",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "mallowcollege.ie",
+    "name": "Mallow College of Further Education",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "maynoothuniversity.ie",
+    "name": "Maynooth University",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "mic.ul.ie",
+    "name": "St. Patrick's College, Thurles",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "prioryinstitute.com",
+    "name": "Priory Institute",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "saor-ollscoil.ie",
+    "name": "Free University of Ireland",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "shannoncollege.com",
+    "name": "Shannon College of Hotel Management",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "stjohnscollege.ie",
+    "name": "St. John's Central College",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "theologicalinstitute.ie",
+    "name": "Church of Ireland Theological Institute",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "ul.ie",
+    "name": "University of Limerick",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "www2.ul.ie",
+    "name": "Thomond College of Education, Limerick",
+    "country": "Ireland",
+    "country_code": "IE",
+    "category": "university"
+  },
+  {
+    "domain": "abaperugia.org",
+    "name": "Accademia di Belle Arti di Perugia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "accademiabelleartiverona.it",
+    "name": "Academy of Fine Arts, Verona",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "accademiacignaroli.it",
+    "name": "National Observatory of Outsider Art",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "accademiaitaliana.com",
+    "name": "Accademia italiana",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "accademiasilviodamico.it",
+    "name": "Accademia Nazionale d'Arte Drammatica Silvio D'Amico",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "accademiavenezia.it",
+    "name": "Accademia di Belle Arti di Venezia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "albertina-academy.it",
+    "name": "Accademia Albertina",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "almed.unicatt.it",
+    "name": "Graduate School of Media Communication and Performing Arts",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "altems.unicatt.it",
+    "name": "Graduate School of Health Economics and Management",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "altis.unicatt.it",
+    "name": "ALTIS – Postgraduate School Business & Society",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "anselmianum.com",
+    "name": "Pontificio Ateneo Sant Anselmo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "asa.unicatt.it",
+    "name": "Postgraduate School for Environmental Studies",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "asag.unicatt.it",
+    "name": "Postgraduate School of Psychology Agostino Gemelli",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "aseri.unicatt.it",
+    "name": "Graduate School of Economics and International Relations",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "asp-poli.it",
+    "name": "Alta Scuola Politecnica",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "aur.edu",
+    "name": "American University of Rome",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "carloalberto.org",
+    "name": "Collegio Carlo Alberto",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "criminologia.it",
+    "name": "Istituto Italiano di Criminologia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "csfederalismo.it",
+    "name": "Centre for Studies on Federalism",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "cuoa.it",
+    "name": "CUOA Foundation",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "esercito.difesa.it",
+    "name": "Military Academy of Modena",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "ghislieri.it",
+    "name": "Ghislieri College",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "hunimed.eu",
+    "name": "Humanitas University",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "iadc.unigre.it",
+    "name": "Institute of Anthropology: Interdisciplinary Studies on Human Dignity and Care",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "imb.it",
+    "name": "Istituto di Moda Burgo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "ispionline.it",
+    "name": "Institute for International Political Studies",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "italicon.education",
+    "name": "Consorzio ICoN",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "iuav.it",
+    "name": "IUAV University of Venice",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "iuctorino.it",
+    "name": "International University College of Turin",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "iusspavia.it",
+    "name": "Scuola Superiore Studi Pavia IUSS",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "iusve.it",
+    "name": "Istituto Universitario Salesiano Venezia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "jhubc.it",
+    "name": "The Johns Hopkins University SAIS Bologna Center",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "johncabot.edu",
+    "name": "John Cabot University",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "laba.biz",
+    "name": "Libera Accademia di Belle Arti",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "laba.edu",
+    "name": "Free Academy of Fine Arts (LABA)",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "latinitas.unisal.it",
+    "name": "Facoltà di Lettere Cristiane e Classiche",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "laycentre.org",
+    "name": "Lay Centre at Foyer Unitas",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "liuc.it",
+    "name": "University Carlo Cattaneo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "lorenzodemedici.org",
+    "name": "Lorenzo de' Medici School",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "luc.edu",
+    "name": "John Felice Rome Center",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "monash.edu",
+    "name": "Monash University Prato",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "nicopepe.it",
+    "name": "Civica Accademia d'arte drammatica Nico Pepe",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "orienta.uniparthenope.it",
+    "name": "Parthenope University of Naples",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "polimoda.com",
+    "name": "Polimoda",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "polouniversitariogrosseto.it",
+    "name": "Polo Universitario Grossetano",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "qui.uniud.it",
+    "name": "Toppo Wassermann College",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "rassegnastampa.unipi.it",
+    "name": "Pisa University System",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "romebusinessschool.com",
+    "name": "Rome Business School",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "sanpietroamajella.it",
+    "name": "San Pietro a Majella Conservatory of Music",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "scienze.unifi.it",
+    "name": "School of Mathematics, Physics e Natural Sciences",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "scuoladesign.com",
+    "name": "Scuola Politecnica di Design",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "scuolaitalianadesign.com",
+    "name": "Scuola Italiana Design",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "silviodamico.it",
+    "name": "Accademia Nazionale d'Arte Drammatica Silvio D'Amico",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "sissa.it",
+    "name": "International School for Advanced Studies",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "smea.unicatt.it",
+    "name": "Graduate School of Agri-Food Management and Economics",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "ssmlcarlobo.it",
+    "name": "Scuola superiore per mediatori linguistici Carlo Bo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "teologiatorino.it",
+    "name": "Theological University of Northern Italy – Turin Campus",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "turinschool.itcilo.org",
+    "name": "Turin School of Development",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uer.it",
+    "name": "Università Europea di Roma",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uni.cl.it",
+    "name": "Consorzio universitario di Caltanissetta",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uniba.it",
+    "name": "University of Bari",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unibs.it",
+    "name": "University of Brescia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unibz.it",
+    "name": "Free University of Bozen-Bolzano",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unical.it",
+    "name": "University of Calabria",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unicam.it",
+    "name": "University of Camerino",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unicampus.it",
+    "name": "Campus Bio Medico University of Rome",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unicas.it",
+    "name": "University of Cassino",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unich.it",
+    "name": "D'Annunzio University of Chieti–Pescara",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unict.it",
+    "name": "University of Catania",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unidarc.it",
+    "name": "University for Foreigners \"Dante Alighieri\" of Reggio Calabria",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unife.it",
+    "name": "University of Ferrara",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unifg.it",
+    "name": "University of Foggia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unifi.it",
+    "name": "University of Florence",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unige.it",
+    "name": "University of Genoa",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unigre.it",
+    "name": "History Curriculum at the Gregorian University",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unikore.it",
+    "name": "Kore University of Enna",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unime.it",
+    "name": "University of Messina",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unimib.it",
+    "name": "University of Milan-Bicocca",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unimore.it",
+    "name": "University of Modena and Reggio Emilia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uninettunouniversity.net",
+    "name": "Università telematica internazionale UniNettuno",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uninsubria.eu",
+    "name": "University of Insubria",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uninsubria.it",
+    "name": "University of Insubria",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unior.it",
+    "name": "Naples Eastern University",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unipa.it",
+    "name": "University of Palermo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uniparthenope.it",
+    "name": "Parthenope University of Naples",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unipd.it",
+    "name": "University of Padua",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unipg.it",
+    "name": "University of Perugia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unipiams.org",
+    "name": "Pontificio istituto ambrosiano di musica sacra",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unipopprato.it",
+    "name": "Università popolare di Prato",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unirc.it",
+    "name": "Mediterranea University of Reggio Calabria",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unirg.it",
+    "name": "University of Ragusa",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unisannio.it",
+    "name": "University of Sannio",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unisi.it",
+    "name": "University of Siena",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unisob.na.it",
+    "name": "Suor Orsola Benincasa University of Naples",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unisr.it",
+    "name": "Vita-Salute San Raffaele University",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uniss.it",
+    "name": "University of Sassari",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unistrasi.it",
+    "name": "Foreigners University of Siena",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unitelmasapienza.it",
+    "name": "Università degli Studi di Roma \"Unitelma Sapienza\"",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unitn.it",
+    "name": "University of Trento",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unito.it",
+    "name": "University of Turin",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unitus.it",
+    "name": "University of Tuscia",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uniud.it",
+    "name": "University of Udine",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uniupo.it",
+    "name": "University of Eastern Piedmont",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "uniurb.it",
+    "name": "University of Urbino",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "univaq.it",
+    "name": "University of L'Aquila",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "univda.it",
+    "name": "Aosta Valley University",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "unive.it",
+    "name": "Ca' Foscari University of Venice",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "universitadeicanidatartufo.it",
+    "name": "Università dei cani da tartufo",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "univi.it",
+    "name": "Università a Vicenza",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "univiu.org",
+    "name": "Venice International University",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "univpm.it",
+    "name": "Polytechnic University of the Marches",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "univr.it",
+    "name": "University of Verona",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "web.unicz.it",
+    "name": "Magna Græcia University",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "web.uniroma2.it",
+    "name": "Tor Vergata University of Rome",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "www3.unimol.it",
+    "name": "University of Molise",
+    "country": "Italy",
+    "country_code": "IT",
+    "category": "university"
+  },
+  {
+    "domain": "asu.lt",
+    "name": "Vytautas Magnus University Agriculture Academy",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "ism.lt",
+    "name": "ISM University of Management and Economics",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "kks.lcn.lt",
+    "name": "Kaunas Priest Seminary",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "ksu.lt",
+    "name": "Kazimieras Simonavičius University",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "ktu.edu",
+    "name": "Kaunas University of Technology",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "ku.lt",
+    "name": "Klaipėda University",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "lcc.lt",
+    "name": "LCC International University",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "leu.lt",
+    "name": "Lithuanian University of Educational Sciences",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "lka.lt",
+    "name": "General Jonas Žemaitis Military Academy of Lithuania",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "lmta.lt",
+    "name": "Lithuanian Academy of Music and Theatre",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "lsu.lt",
+    "name": "Lithuanian Sports University",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "seminarija.lt",
+    "name": "Vilnius St. Joseph Seminary",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "tks.lt",
+    "name": "Telšiai Bishop Vincentas Borisevičius Priest Seminary",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "uspv.lt",
+    "name": "Polish University in Vilnius",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "vda.lt",
+    "name": "Vilnius Academy of Art",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "vdu.lt",
+    "name": "Vytautas Magnus University",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "vgtu.lt",
+    "name": "Vilnius Gediminas Technical University",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "vm.vu.lt",
+    "name": "Vilnius University Business School",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "vtdko.lt",
+    "name": "Q18412215",
+    "country": "Lithuania",
+    "country_code": "LT",
+    "category": "university"
+  },
+  {
+    "domain": "miamioh.edu",
+    "name": "Miami University Dolibois European Center",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "university"
+  },
+  {
+    "domain": "uni.lu",
+    "name": "University of Luxembourg",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "category": "university"
+  },
+  {
+    "domain": "bsa.edu.lv",
+    "name": "Baltic International Academy",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "du.lv",
+    "name": "Daugavpils University",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "eka.edu.lv",
+    "name": "EKA University of Applied Sciences",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "isma.lv",
+    "name": "ISMA University",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "jvlma.lv",
+    "name": "Jāzeps Vītols Latvian Academy of Music",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "kulturaskoledza.lv",
+    "name": "Latvian College of Culture",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "latja.lv",
+    "name": "Latvian Maritime Academy",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "liepu.lv",
+    "name": "University of Liepāja",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "lka.edu.lv",
+    "name": "Latvian Academy of Culture",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "llu.lv",
+    "name": "Latvia University of Life Sciences and Technologies",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "riseba.lv",
+    "name": "RISEBA University of Business, Arts and Technology",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "rkiigarau.lv",
+    "name": "Riga Civil Aviation Engineers Institute",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "rsu.lv",
+    "name": "Riga Stradiņš University",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "sppa.lv",
+    "name": "International Institute of Practical Psychology",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "venta.lv",
+    "name": "Ventspils University of Applied Sciences",
+    "country": "Latvia",
+    "country_code": "LV",
+    "category": "university"
+  },
+  {
+    "domain": "stmartins.edu",
+    "name": "St. Martin's Institute of Higher Education",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "university"
+  },
+  {
+    "domain": "um.edu.mt",
+    "name": "University of Malta",
+    "country": "Malta",
+    "country_code": "MT",
+    "category": "university"
+  },
+  {
+    "domain": "eur.nl",
+    "name": "Erasmus University College",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "hersteldhervormdseminarie.nl",
+    "name": "Q2230040",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "ktu.nl",
+    "name": "Catholic University of Utrecht",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "maastrichtuniversity.nl",
+    "name": "Maastricht University",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "nyenrode.nl",
+    "name": "Nyenrode Business University",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "ou.nl",
+    "name": "Open University of the Netherlands",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "pthu.nl",
+    "name": "Protestant Theological University",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "ru.nl",
+    "name": "Radboud University",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "saba.edu",
+    "name": "Saba University School of Medicine",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "tue.nl",
+    "name": "Eindhoven University of Technology",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "tuu.nl",
+    "name": "Theological University of the Reformed Churches",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "universiteitleiden.nl",
+    "name": "Leiden University",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "utwente.nl",
+    "name": "University of Twente",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "uva.nl",
+    "name": "University of Amsterdam",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "uvh.nl",
+    "name": "University of Humanistic Studies",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "vu.nl",
+    "name": "Vrije Universiteit Amsterdam",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "webster.nl",
+    "name": "Webster University Leiden",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "category": "university"
+  },
+  {
+    "domain": "alp.edu.pl",
+    "name": "Akademia Lospuma Training Institute",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "am.lublin.pl",
+    "name": "Medical University of Lublin",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "amu.edu.pl",
+    "name": "Adam Mickiewicz University in Poznań",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "amw.gdynia.pl",
+    "name": "Polish Naval Academy",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "awf.edu.pl",
+    "name": "Józef Piłsudski University of Physical Education in Warsaw",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "awf.wroc.pl",
+    "name": "University of Physical Education in Wrocław",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "en.ug.edu.pl",
+    "name": "University of Gdańsk",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "en.uni.lodz.pl",
+    "name": "University of Łódź",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "international.amu.edu.pl",
+    "name": "Adam Mickiewicz University in Poznań",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "ksa.edu.pl",
+    "name": "Cracow School of Art and Fashion Design",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "kul.lublin.pl",
+    "name": "John Paul II Catholic University of Lublin",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "merito.pl",
+    "name": "Wyższa Szkoła Bankowa w Toruniu",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "mwsl.eu",
+    "name": "International University of Logistics and Transport In Wrocław",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "osw.olsztyn.pl",
+    "name": "Q11798134",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "pcz.pl",
+    "name": "Częstochowa University of Technology",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "pk.edu.pl",
+    "name": "Kraków University of Technology",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "pw.edu.pl",
+    "name": "Warsaw University of Technology",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uap.edu.pl",
+    "name": "Magdalena Abakanowicz University of the Arts Poznań",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "ubb.edu.pl",
+    "name": "University of Bielsko-Biała",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uek.krakow.pl",
+    "name": "Krakow University of Economics",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "ug.edu.pl",
+    "name": "University of Gdańsk",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uj.edu.pl",
+    "name": "Jagiellonian University",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "ujk.edu.pl",
+    "name": "Jan Kochanowski University",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uken.krakow.pl",
+    "name": "University of the National Education Commission",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "ukw.edu.pl",
+    "name": "Kazimierz Wielki University in Bydgoszcz",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "umed.pl",
+    "name": "Medical University of Łódź",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "umk.pl",
+    "name": "Nicolaus Copernicus University in Toruń",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uni.lodz.pl",
+    "name": "University of Łódź",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uniwersytetradom.pl",
+    "name": "University of Radom",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "up.lublin.pl",
+    "name": "University of Life Sciences in Lublin",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "up.poznan.pl",
+    "name": "University of Life Sciences in Poznań",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "up.wroc.pl",
+    "name": "Wrocław University of Environmental and Life Sciences",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "upwr.edu.pl",
+    "name": "Wrocław University of Environmental and Life Sciences",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "urk.edu.pl",
+    "name": "Agricultural University of Kraków",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "us.edu.pl",
+    "name": "University of Silesia in Katowice",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "utp.edu.pl",
+    "name": "University of Technology and Life Sciences in Bydgoszcz",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uw.edu.pl",
+    "name": "University of Warsaw",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uwb.edu.pl",
+    "name": "University of Białystok",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uwm.edu.pl",
+    "name": "University of Warmia and Mazury in Olsztyn",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uwr.edu.pl",
+    "name": "University of Wrocław",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uws.edu.pl",
+    "name": "University of Siedlce",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "uz.zgora.pl",
+    "name": "University of Zielona Góra",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "vizja.pl",
+    "name": "University of Finance and Management In Warsaw",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "w.prz.edu.pl",
+    "name": "Rzeszów University of Technology",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "wsb.edu.pl",
+    "name": "WSB University; Branch Faculty in Żywiec",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "wsei.lublin.pl",
+    "name": "University of Economics and Innovation",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "wsm.edu.pl",
+    "name": "Legnica University of Management",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "wsps.pl",
+    "name": "The College of Strategic Planning in Dąbrowa Górnicza",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "zut.edu.pl",
+    "name": "West Pomeranian University of Technology in Szczecin",
+    "country": "Poland",
+    "country_code": "PL",
+    "category": "university"
+  },
+  {
+    "domain": "iesfafe.pt",
+    "name": "Institute of Higher Studies of Fafe",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "ipa.univ.pt",
+    "name": "Instituto Superior Autónomo de Estudos Politécnicos",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "isal.pt",
+    "name": "Instituto Superior de Administração e Línguas da Madeira",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "ispa.pt",
+    "name": "ISPA – University Institute",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "uatlantica.pt",
+    "name": "Universidade Atlântica",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "ubi.pt",
+    "name": "University of Beira Interior",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "ulusiada.pt",
+    "name": "Lusíada University",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "uma.pt",
+    "name": "University of Madeira",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "unl.pt",
+    "name": "NOVA University Lisbon",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "upt.pt",
+    "name": "Oporto Global University",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "utad.pt",
+    "name": "University of Trás-os-Montes and Alto Douro",
+    "country": "Portugal",
+    "country_code": "PT",
+    "category": "university"
+  },
+  {
+    "domain": "academiacomerciala.ro",
+    "name": "Commercial Academy of Satu Mare",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "academiadepolitie.ro",
+    "name": "Alexandru Ioan Cuza Police Academy",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "animv.ro",
+    "name": "National Intelligence Academy",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "arteiasi.ro",
+    "name": "George Enescu University of Arts of Iași",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "bioterra.ro",
+    "name": "Bioterra University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "cnap.unap.ro",
+    "name": "National College of Defence",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "hyperion.ro",
+    "name": "Hyperion University of Bucharest",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "iuls.ro",
+    "name": "Iași University of Life Sciences",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "mta.ro",
+    "name": "Military Technical Academy",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "rau.ro",
+    "name": "Romanian-American University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "roger-univ.ro",
+    "name": "Romanian-German University of Sibiu",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "sapientia.ro",
+    "name": "Sapientia University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "sarta.ro",
+    "name": "People's Art School Bucharest",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "spiruharet.ro",
+    "name": "Spiru Haret University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "tibiscus.ro",
+    "name": "Tibiscus University of Timișoara",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "tuiasi.ro",
+    "name": "Gheorghe Asachi Technical University of Iași",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "uab.ro",
+    "name": "1 Decembrie 1918 University, Alba Iulia",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "uad.ro",
+    "name": "Art and Design University of Cluj-Napoca",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "uaic.ro",
+    "name": "Alexandru Ioan Cuza University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "uat.ro",
+    "name": "University of Arts Târgu-Mureș",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "uauim.ro",
+    "name": "Ion Mincu University of Architecture and Urban Planning",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "uav.ro",
+    "name": "\"Aurel Vlaicu\" University of Arad",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "ub.ro",
+    "name": "University of Bacău",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "ubbcluj.ro",
+    "name": "Babeș-Bolyai University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "ucdc.ro",
+    "name": "Dimitrie Cantemir Christian University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "ucv.ro",
+    "name": "University of Craiova",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "ueb.ro",
+    "name": "Ecological University of Bucharest",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "uem.ro",
+    "name": "University \"Eftimie Murgu\" of Reșița",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "ugal.ro",
+    "name": "University of Galați",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "ugb.ro",
+    "name": "Universitatea George Bacovia",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "ugc.ro",
+    "name": "Romanian University of Sciences and Arts \"Gheorghe Cristea\"",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "umfcd.ro",
+    "name": "Carol Davila University of Medicine and Pharmacy",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "umfcluj.ro",
+    "name": "Iuliu Hațieganu University of Medicine and Pharmacy",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "umfiasi.ro",
+    "name": "Grigore T. Popa University of Medicine and Pharmacy",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "umft.ro",
+    "name": "Victor Babeș University of Medicine and Pharmacy",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "umk.ro",
+    "name": "Mihail Kogălniceanu University of Iași",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "unarte.ro",
+    "name": "Bucharest National University of Arts",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "unefs.ro",
+    "name": "National Academy of Physical Education and Sport",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "univagora.ro",
+    "name": "Agora University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "univapollonia.ro",
+    "name": "Apollonia University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "univcb.ro",
+    "name": "Constantin Brâncoveanu University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "universitateaapolloniadiniasi.ro",
+    "name": "Apollonia University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "universitateaeuropeanadragan.ro",
+    "name": "\"Drăgan\" European University of Lugoj",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "universitateazane.ro",
+    "name": "Gheorghe Zane University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "unmb.ro",
+    "name": "National University of Music Bucharest",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "uoradea.ro",
+    "name": "University of Oradea",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "upa.ro",
+    "name": "Petre Andrei University of Iași",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "upb.ro",
+    "name": "Politehnica University of Bucharest",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "upg-ploiesti.ro",
+    "name": "Oil & Gas University of Ploiești",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "upit.ro",
+    "name": "University of Pitești",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "upm.ro",
+    "name": "Petru Maior University of Târgu Mureș",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "upt.ro",
+    "name": "Politehnica University of Timișoara",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "usamv.ro",
+    "name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "usv.ro",
+    "name": "Stefan cel Mare University of Suceava",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "usvt.ro",
+    "name": "University of Life Science \"King Mihai I\" from Timisoara",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "utcb.ro",
+    "name": "Technical University of Civil Engineering of Bucharest",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "utcluj.ro",
+    "name": "Technical University of Cluj-Napoca",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "utgjiu.ro",
+    "name": "Constantin Brâncuși University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "utm.ro",
+    "name": "Titu Maiorescu University",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "uvvg.ro",
+    "name": "Vasile Goldiș Western University of Arad",
+    "country": "Romania",
+    "country_code": "RO",
+    "category": "university"
+  },
+  {
+    "domain": "chalmers.se",
+    "name": "Chalmers University of Technology",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "gu.se",
+    "name": "University of Gothenburg",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "iiiee.lu.se",
+    "name": "IIIEE",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "ki.se",
+    "name": "Karolinska Institutet",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "konstfack.se",
+    "name": "Konstfack",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "kth.se",
+    "name": "Royal Institute of Technology",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "liu.se",
+    "name": "Linköping University",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "ltu.se",
+    "name": "Luleå University of Technology",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "mau.se",
+    "name": "Malmö University",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "miun.se",
+    "name": "Mid Sweden University",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "oru.se",
+    "name": "Örebro University",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "slu.se",
+    "name": "Swedish University of Agricultural Sciences",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "umu.se",
+    "name": "Umeå University",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "uu.se",
+    "name": "Uppsala University",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "vxu.se",
+    "name": "Växjö University",
+    "country": "Sweden",
+    "country_code": "SE",
+    "category": "university"
+  },
+  {
+    "domain": "emuni.si",
+    "name": "Euro-Mediterranean University of Slovenia",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "university"
+  },
+  {
+    "domain": "mfdps.si",
+    "name": "International School for Business and Social Studies",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "university"
+  },
+  {
+    "domain": "nova-uni.si",
+    "name": "New University",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "university"
+  },
+  {
+    "domain": "uni-nm.si",
+    "name": "University of Novo Mesto",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "university"
+  },
+  {
+    "domain": "unm.si",
+    "name": "University and Research Centre Novo Mesto",
+    "country": "Slovenia",
+    "country_code": "SI",
+    "category": "university"
+  },
+  {
+    "domain": "euba.sk",
+    "name": "University of Economics in Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "university"
+  },
+  {
+    "domain": "szu.sk",
+    "name": "Slovak Medical University",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "university"
+  },
+  {
+    "domain": "tnuni.sk",
+    "name": "Alexander Dubcek University in Trencin",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "university"
+  },
+  {
+    "domain": "tuzvo.sk",
+    "name": "Technical University in Zvolen",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "university"
+  },
+  {
+    "domain": "ucm.sk",
+    "name": "University of Ss. Cyril and Methodius in Trnava",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "university"
+  },
+  {
+    "domain": "unipo.sk",
+    "name": "University of Prešov",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "university"
+  },
+  {
+    "domain": "uvlf.sk",
+    "name": "University of Veterinary Medicine and Pharmacy in Košice",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "university"
+  },
+  {
+    "domain": "vsbm.sk",
+    "name": "University of Security Management in Košice",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "university"
+  },
+  {
+    "domain": "vsm.sk",
+    "name": "The School of Management",
+    "country": "Slovakia",
+    "country_code": "SK",
+    "category": "university"
+  }
+]

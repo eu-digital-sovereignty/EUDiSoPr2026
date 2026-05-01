@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+
+# Generated outputs (regenerable via visualization/*.py)
+visualization/figures/
+paper/tables/tab_*_top.tex
+paper/tables/saas_rules.csv
+paper/tables/saas_rules.tex

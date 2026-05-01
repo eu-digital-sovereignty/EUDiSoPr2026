@@ -1,0 +1,52 @@
+{
+  "by_sector": {
+    "bank": {
+      "crawl_failed_or_excluded_count": 97,
+      "crawl_failed_or_excluded_share_pct": 21.46,
+      "input_domain_count": 452,
+      "mixed_in_eu_and_outside_eu_count": 226,
+      "mixed_in_eu_and_outside_eu_share_pct": 50.0,
+      "only_in_eu_count": 16,
+      "only_in_eu_share_pct": 3.54,
+      "only_outside_eu_count": 113,
+      "only_outside_eu_share_pct": 25.0,
+      "share_sum_pct": 100.0
+    },
+    "government": {
+      "crawl_failed_or_excluded_count": 129,
+      "crawl_failed_or_excluded_share_pct": 28.043,
+      "input_domain_count": 460,
+      "mixed_in_eu_and_outside_eu_count": 170,
+      "mixed_in_eu_and_outside_eu_share_pct": 36.957,
+      "only_in_eu_count": 76,
+      "only_in_eu_share_pct": 16.522,
+      "only_outside_eu_count": 85,
+      "only_outside_eu_share_pct": 18.478,
+      "share_sum_pct": 100.0
+    },
+    "newspaper": {
+      "crawl_failed_or_excluded_count": 64,
+      "crawl_failed_or_excluded_share_pct": 16.04,
+      "input_domain_count": 399,
+      "mixed_in_eu_and_outside_eu_count": 251,
+      "mixed_in_eu_and_outside_eu_share_pct": 62.907,
+      "only_in_eu_count": 8,
+      "only_in_eu_share_pct": 2.005,
+      "only_outside_eu_count": 76,
+      "only_outside_eu_share_pct": 19.048,
+      "share_sum_pct": 100.0
+    },
+    "university": {
+      "crawl_failed_or_excluded_count": 181,
+      "crawl_failed_or_excluded_share_pct": 26.736,
+      "input_domain_count": 677,
+      "mixed_in_eu_and_outside_eu_count": 343,
+      "mixed_in_eu_and_outside_eu_share_pct": 50.665,
+      "only_in_eu_count": 50,
+      "only_in_eu_share_pct": 7.386,
+      "only_outside_eu_count": 103,
+      "only_outside_eu_share_pct": 15.214,
+      "share_sum_pct": 100.001
+    }
+  }
+}
