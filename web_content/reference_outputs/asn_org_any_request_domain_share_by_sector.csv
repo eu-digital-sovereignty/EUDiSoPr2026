@@ -1,0 +1,49 @@
+category,vendor,domains_with_any_request,domain_share_pct
+government,Google LLC,138,41.692
+government,"Cloudflare, Inc.",104,31.42
+government,"Amazon.com, Inc.",96,29.003
+government,Microsoft Corporation,48,14.502
+government,"Fastly, Inc.",43,12.991
+government,Akamai International B.V.,34,10.272
+government,Datacamp Limited,31,9.366
+government,"Facebook, Inc.",22,6.647
+government,OVH SAS,16,4.834
+government,Ambientia Group Oy,11,3.323
+government,Hetzner Online GmbH,11,3.323
+government,Centre des technologies de l'information de l'Etat,10,3.021
+university,Google LLC,392,79.032
+university,"Cloudflare, Inc.",242,48.79
+university,"Amazon.com, Inc.",114,22.984
+university,"Fastly, Inc.",77,15.524
+university,"Facebook, Inc.",75,15.121
+university,Akamai International B.V.,70,14.113
+university,Datacamp Limited,53,10.685
+university,Microsoft Corporation,49,9.879
+university,Consortium GARR,21,4.234
+university,"Automattic, Inc",20,4.032
+university,Hetzner Online GmbH,19,3.831
+university,CESNET z.s.p.o.,14,2.823
+bank,Google LLC,261,73.521
+bank,"Cloudflare, Inc.",173,48.732
+bank,"Amazon.com, Inc.",129,36.338
+bank,Akamai International B.V.,119,33.521
+bank,Microsoft Corporation,86,24.225
+bank,"Fastly, Inc.",63,17.746
+bank,"Facebook, Inc.",37,10.423
+bank,Incapsula Inc,28,7.887
+bank,Datacamp Limited,25,7.042
+bank,"Akamai Technologies, Inc.",16,4.507
+bank,OVH SAS,9,2.535
+bank,SCALEWAY S.A.S.,8,2.254
+newspaper,Google LLC,279,83.284
+newspaper,"Amazon.com, Inc.",236,70.448
+newspaper,"Cloudflare, Inc.",225,67.164
+newspaper,Akamai International B.V.,120,35.821
+newspaper,"Fastly, Inc.",110,32.836
+newspaper,Datacamp Limited,108,32.239
+newspaper,OVH SAS,78,23.284
+newspaper,Hetzner Online GmbH,66,19.701
+newspaper,"Akamai Technologies, Inc.",60,17.91
+newspaper,"Facebook, Inc.",41,12.239
+newspaper,Microsoft Corporation,27,8.06
+newspaper,"DigitalOcean, LLC",17,5.075

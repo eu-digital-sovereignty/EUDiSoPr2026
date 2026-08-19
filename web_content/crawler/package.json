@@ -1,0 +1,22 @@
+{
+  "name": "eu-gov-dependency-crawler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bounded website crawler with SQLite-by-default storage and optional PostgreSQL support.",
+  "main": "crawler_eu_check.js",
+  "type": "commonjs",
+  "scripts": {
+    "crawl": "node crawler_eu_check.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^17.2.3",
+    "fs-extra": "^11.3.2",
+    "maxmind": "^4.3.29",
+    "puppeteer": "24.39.0",
+    "puppeteer-har": "^1.1.2"
+  }
+}

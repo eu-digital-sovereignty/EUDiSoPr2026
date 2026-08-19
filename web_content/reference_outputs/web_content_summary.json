@@ -1,0 +1,117 @@
+{
+  "blocking_effect_by_sector": [
+    {
+      "category": "government",
+      "domain_count": 331,
+      "html_loss_mean_pct": 8.305411,
+      "html_loss_n": 331,
+      "visual_loss_mean_pct": 7.386412,
+      "visual_loss_n": 329
+    },
+    {
+      "category": "university",
+      "domain_count": 496,
+      "html_loss_mean_pct": 13.70636,
+      "html_loss_n": 496,
+      "visual_loss_mean_pct": 8.460919,
+      "visual_loss_n": 496
+    },
+    {
+      "category": "bank",
+      "domain_count": 355,
+      "html_loss_mean_pct": 19.050815,
+      "html_loss_n": 355,
+      "visual_loss_mean_pct": 7.336055,
+      "visual_loss_n": 351
+    },
+    {
+      "category": "newspaper",
+      "domain_count": 335,
+      "html_loss_mean_pct": 20.400413,
+      "html_loss_n": 335,
+      "visual_loss_mean_pct": 11.873253,
+      "visual_loss_n": 333
+    }
+  ],
+  "crawl": {
+    "excluded_domain_count": 471,
+    "exclusion_reasons": {
+      "http_200_202_blank_screenshot": 128,
+      "http_403": 54,
+      "http_4xx": 62,
+      "no_main_document_http_status": 264,
+      "other_excluded": 17
+    },
+    "input_domain_count": 1988,
+    "lithuania_government": {
+      "http_403_count": 17,
+      "input_domain_count": 17
+    },
+    "normal_1_status_counts_among_excluded": {
+      "200": 136,
+      "400": 3,
+      "403": 54,
+      "404": 5,
+      "503": 9,
+      "none": 264
+    },
+    "successful_domain_count": 1517
+  },
+  "government_named_resource_domain_counts": {
+    "Cloudflare Insights": 9,
+    "Cloudflare cdnjs": 23,
+    "Facebook events/SDK": 14,
+    "Google Analytics": 18,
+    "Google Fonts CSS": 74,
+    "Google Fonts CSS or files (unique-domain union)": 77,
+    "Google Fonts CSS plus files (summed pattern counts)": 83,
+    "Google Fonts files": 9,
+    "Google Tag Manager": 67,
+    "Matomo/Piwik": 71,
+    "jsDelivr CDN": 28
+  },
+  "request_destinations": {
+    "domain_share_pct": {
+      "Amazon": 37.904,
+      "Cloudflare": 49.044,
+      "Fastly": 19.314,
+      "Google": 70.534,
+      "Microsoft": 13.843
+    },
+    "government_domain_share_pct": {
+      "Amazon": 29.003,
+      "Cloudflare": 31.42,
+      "Google": 41.692
+    },
+    "request_share_pct": {
+      "Akamai": 5.075,
+      "Amazon": 32.253,
+      "Cloudflare": 12.166,
+      "Fastly": 2.574,
+      "Google": 3.738,
+      "Microsoft": 3.015
+    }
+  },
+  "request_share": {
+    "domains_only_in_eu_share_pct_by_sector": {
+      "Bank": 4.507,
+      "Government": 22.961,
+      "Newspaper": 2.388,
+      "University": 10.081
+    },
+    "mean_domain_in_eu_request_share_pct_by_sector": {
+      "Bank": 49.654,
+      "Government": 65.669,
+      "Newspaper": 40.547,
+      "University": 69.39
+    },
+    "overall": {
+      "domain_share_pct": 90.112,
+      "domains_with_any_outside_request": 1367,
+      "input_domain_count": 1517,
+      "outside_request_count": 90466,
+      "outside_request_share_pct": 56.03,
+      "total_request_count": 161461
+    }
+  }
+}

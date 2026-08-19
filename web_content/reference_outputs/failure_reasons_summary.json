@@ -1,0 +1,24 @@
+{
+  "excluded_domain_count": 471,
+  "exclusion_reasons": {
+    "http_200_202_blank_screenshot": 128,
+    "http_403": 54,
+    "http_4xx": 62,
+    "no_main_document_http_status": 264,
+    "other_excluded": 17
+  },
+  "input_domain_count": 1988,
+  "lithuania_government": {
+    "http_403_count": 17,
+    "input_domain_count": 17
+  },
+  "normal_1_status_counts_among_excluded": {
+    "200": 136,
+    "400": 3,
+    "403": 54,
+    "404": 5,
+    "503": 9,
+    "none": 264
+  },
+  "successful_domain_count": 1517
+}

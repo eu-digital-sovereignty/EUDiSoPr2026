@@ -1,0 +1,5 @@
+category,domain_count,visual_loss_mean_pct,visual_loss_n,html_loss_mean_pct,html_loss_n
+government,331,7.386412,329,8.305411,331
+university,496,8.460919,496,13.70636,496
+bank,355,7.336055,351,19.050815,355
+newspaper,335,11.873253,333,20.400413,335

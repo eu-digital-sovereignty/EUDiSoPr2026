@@ -1,0 +1,21 @@
+vendor,domains_with_any_request,domain_share_pct,request_count,request_share_pct
+Google LLC,1070,70.534,5760,3.738
+"Cloudflare, Inc.",744,49.044,18745,12.166
+"Amazon.com, Inc.",575,37.904,49696,32.253
+Akamai International B.V.,343,22.61,7820,5.075
+"Fastly, Inc.",293,19.314,3966,2.574
+Datacamp Limited,217,14.305,946,0.614
+Microsoft Corporation,210,13.843,4646,3.015
+"Facebook, Inc.",175,11.536,235,0.153
+OVH SAS,116,7.647,1940,1.259
+Hetzner Online GmbH,102,6.724,2050,1.33
+"Akamai Technologies, Inc.",81,5.339,931,0.604
+Incapsula Inc,34,2.241,1945,1.262
+"Automattic, Inc",28,1.846,340,0.221
+"DigitalOcean, LLC",27,1.78,174,0.113
+Consortium GARR,21,1.384,892,0.579
+Xandr Inc.,18,1.187,77,0.05
+Adform A/S,17,1.121,578,0.375
+LeaseWeb Netherlands B.V.,16,1.055,120,0.078
+Criteo Technology SAS,16,1.055,74,0.048
+CESNET z.s.p.o.,15,0.989,990,0.643

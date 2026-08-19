@@ -1,0 +1,302 @@
+{
+  "by_country": [
+    {
+      "country_code": "AT",
+      "domain_share_pct": 66.038,
+      "domains_with_any_outside_request": 35,
+      "input_domain_count": 53,
+      "outside_request_count": 731,
+      "outside_request_share_pct": 20.47,
+      "total_request_count": 3571
+    },
+    {
+      "country_code": "BE",
+      "domain_share_pct": 83.333,
+      "domains_with_any_outside_request": 45,
+      "input_domain_count": 54,
+      "outside_request_count": 814,
+      "outside_request_share_pct": 28.682,
+      "total_request_count": 2838
+    },
+    {
+      "country_code": "BG",
+      "domain_share_pct": 98.039,
+      "domains_with_any_outside_request": 50,
+      "input_domain_count": 51,
+      "outside_request_count": 886,
+      "outside_request_share_pct": 22.029,
+      "total_request_count": 4022
+    },
+    {
+      "country_code": "CY",
+      "domain_share_pct": 100.0,
+      "domains_with_any_outside_request": 23,
+      "input_domain_count": 23,
+      "outside_request_count": 1830,
+      "outside_request_share_pct": 78.507,
+      "total_request_count": 2331
+    },
+    {
+      "country_code": "CZ",
+      "domain_share_pct": 91.935,
+      "domains_with_any_outside_request": 57,
+      "input_domain_count": 62,
+      "outside_request_count": 1057,
+      "outside_request_share_pct": 23.221,
+      "total_request_count": 4552
+    },
+    {
+      "country_code": "DE",
+      "domain_share_pct": 79.31,
+      "domains_with_any_outside_request": 92,
+      "input_domain_count": 116,
+      "outside_request_count": 3669,
+      "outside_request_share_pct": 41.566,
+      "total_request_count": 8827
+    },
+    {
+      "country_code": "DK",
+      "domain_share_pct": 96.104,
+      "domains_with_any_outside_request": 74,
+      "input_domain_count": 77,
+      "outside_request_count": 3462,
+      "outside_request_share_pct": 64.266,
+      "total_request_count": 5387
+    },
+    {
+      "country_code": "EE",
+      "domain_share_pct": 91.667,
+      "domains_with_any_outside_request": 11,
+      "input_domain_count": 12,
+      "outside_request_count": 1263,
+      "outside_request_share_pct": 85.743,
+      "total_request_count": 1473
+    },
+    {
+      "country_code": "ES",
+      "domain_share_pct": 99.0,
+      "domains_with_any_outside_request": 99,
+      "input_domain_count": 100,
+      "outside_request_count": 5341,
+      "outside_request_share_pct": 57.872,
+      "total_request_count": 9229
+    },
+    {
+      "country_code": "EU",
+      "domain_share_pct": 100.0,
+      "domains_with_any_outside_request": 41,
+      "input_domain_count": 41,
+      "outside_request_count": 1537,
+      "outside_request_share_pct": 59.527,
+      "total_request_count": 2582
+    },
+    {
+      "country_code": "FI",
+      "domain_share_pct": 75.0,
+      "domains_with_any_outside_request": 33,
+      "input_domain_count": 44,
+      "outside_request_count": 1038,
+      "outside_request_share_pct": 18.747,
+      "total_request_count": 5537
+    },
+    {
+      "country_code": "FR",
+      "domain_share_pct": 91.579,
+      "domains_with_any_outside_request": 87,
+      "input_domain_count": 95,
+      "outside_request_count": 2950,
+      "outside_request_share_pct": 36.09,
+      "total_request_count": 8174
+    },
+    {
+      "country_code": "GR",
+      "domain_share_pct": 90.909,
+      "domains_with_any_outside_request": 40,
+      "input_domain_count": 44,
+      "outside_request_count": 1632,
+      "outside_request_share_pct": 39.641,
+      "total_request_count": 4117
+    },
+    {
+      "country_code": "HR",
+      "domain_share_pct": 94.737,
+      "domains_with_any_outside_request": 36,
+      "input_domain_count": 38,
+      "outside_request_count": 1048,
+      "outside_request_share_pct": 32.648,
+      "total_request_count": 3210
+    },
+    {
+      "country_code": "HU",
+      "domain_share_pct": 94.0,
+      "domains_with_any_outside_request": 47,
+      "input_domain_count": 50,
+      "outside_request_count": 1905,
+      "outside_request_share_pct": 41.118,
+      "total_request_count": 4633
+    },
+    {
+      "country_code": "IE",
+      "domain_share_pct": 100.0,
+      "domains_with_any_outside_request": 35,
+      "input_domain_count": 35,
+      "outside_request_count": 1375,
+      "outside_request_share_pct": 62.958,
+      "total_request_count": 2184
+    },
+    {
+      "country_code": "IT",
+      "domain_share_pct": 94.18,
+      "domains_with_any_outside_request": 178,
+      "input_domain_count": 189,
+      "outside_request_count": 47316,
+      "outside_request_share_pct": 85.761,
+      "total_request_count": 55172
+    },
+    {
+      "country_code": "LT",
+      "domain_share_pct": 93.333,
+      "domains_with_any_outside_request": 14,
+      "input_domain_count": 15,
+      "outside_request_count": 689,
+      "outside_request_share_pct": 33.528,
+      "total_request_count": 2055
+    },
+    {
+      "country_code": "LU",
+      "domain_share_pct": 47.826,
+      "domains_with_any_outside_request": 11,
+      "input_domain_count": 23,
+      "outside_request_count": 449,
+      "outside_request_share_pct": 31.844,
+      "total_request_count": 1410
+    },
+    {
+      "country_code": "LV",
+      "domain_share_pct": 87.5,
+      "domains_with_any_outside_request": 21,
+      "input_domain_count": 24,
+      "outside_request_count": 887,
+      "outside_request_share_pct": 50.628,
+      "total_request_count": 1752
+    },
+    {
+      "country_code": "MT",
+      "domain_share_pct": 100.0,
+      "domains_with_any_outside_request": 17,
+      "input_domain_count": 17,
+      "outside_request_count": 1443,
+      "outside_request_share_pct": 90.869,
+      "total_request_count": 1588
+    },
+    {
+      "country_code": "NL",
+      "domain_share_pct": 98.077,
+      "domains_with_any_outside_request": 51,
+      "input_domain_count": 52,
+      "outside_request_count": 1554,
+      "outside_request_share_pct": 42.988,
+      "total_request_count": 3615
+    },
+    {
+      "country_code": "PL",
+      "domain_share_pct": 95.385,
+      "domains_with_any_outside_request": 62,
+      "input_domain_count": 65,
+      "outside_request_count": 1180,
+      "outside_request_share_pct": 17.134,
+      "total_request_count": 6887
+    },
+    {
+      "country_code": "PT",
+      "domain_share_pct": 93.103,
+      "domains_with_any_outside_request": 27,
+      "input_domain_count": 29,
+      "outside_request_count": 1185,
+      "outside_request_share_pct": 50.706,
+      "total_request_count": 2337
+    },
+    {
+      "country_code": "RO",
+      "domain_share_pct": 91.045,
+      "domains_with_any_outside_request": 61,
+      "input_domain_count": 67,
+      "outside_request_count": 1082,
+      "outside_request_share_pct": 22.277,
+      "total_request_count": 4857
+    },
+    {
+      "country_code": "SE",
+      "domain_share_pct": 85.227,
+      "domains_with_any_outside_request": 75,
+      "input_domain_count": 88,
+      "outside_request_count": 3152,
+      "outside_request_share_pct": 64.843,
+      "total_request_count": 4861
+    },
+    {
+      "country_code": "SI",
+      "domain_share_pct": 80.0,
+      "domains_with_any_outside_request": 16,
+      "input_domain_count": 20,
+      "outside_request_count": 147,
+      "outside_request_share_pct": 9.441,
+      "total_request_count": 1557
+    },
+    {
+      "country_code": "SK",
+      "domain_share_pct": 87.879,
+      "domains_with_any_outside_request": 29,
+      "input_domain_count": 33,
+      "outside_request_count": 844,
+      "outside_request_share_pct": 31.225,
+      "total_request_count": 2703
+    }
+  ],
+  "by_sector": [
+    {
+      "category": "government",
+      "domain_share_pct": 77.039,
+      "domains_with_any_outside_request": 255,
+      "input_domain_count": 331,
+      "outside_request_count": 7402,
+      "outside_request_share_pct": 29.941,
+      "total_request_count": 24722
+    },
+    {
+      "category": "university",
+      "domain_share_pct": 89.919,
+      "domains_with_any_outside_request": 446,
+      "input_domain_count": 496,
+      "outside_request_count": 12739,
+      "outside_request_share_pct": 30.712,
+      "total_request_count": 41479
+    },
+    {
+      "category": "bank",
+      "domain_share_pct": 95.493,
+      "domains_with_any_outside_request": 339,
+      "input_domain_count": 355,
+      "outside_request_count": 12699,
+      "outside_request_share_pct": 48.311,
+      "total_request_count": 26286
+    },
+    {
+      "category": "newspaper",
+      "domain_share_pct": 97.612,
+      "domains_with_any_outside_request": 327,
+      "input_domain_count": 335,
+      "outside_request_count": 57626,
+      "outside_request_share_pct": 83.547,
+      "total_request_count": 68974
+    }
+  ],
+  "overall": {
+    "domain_share_pct": 90.112,
+    "domains_with_any_outside_request": 1367,
+    "input_domain_count": 1517,
+    "outside_request_count": 90466,
+    "outside_request_share_pct": 56.03,
+    "total_request_count": 161461
+  }
+}

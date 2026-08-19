@@ -37,4 +37,17 @@ scanner/
 visualization/
 ```
 
+#### Web Content reproducibility artifact
 
+The code, compact crawl databases, reference outputs, and the manuscript's Web
+Content section are provided under [`web_content/`](web_content/).
+From that directory, run:
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r analysis/requirements.txt
+.venv/bin/python analysis/reproduce.py
+```
+
+Large screenshot and HAR archives are not included in this repository and are
+available from the authors on request.

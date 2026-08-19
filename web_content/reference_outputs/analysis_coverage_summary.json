@@ -1,0 +1,41 @@
+{
+  "analyzed_domain_count": 1517,
+  "analyzed_share_pct": 76.308,
+  "by_sector": [
+    {
+      "analyzed_domain_count": 331,
+      "analyzed_share_pct": 71.957,
+      "category": "government",
+      "excluded_domain_count": 129,
+      "input_domain_count": 460
+    },
+    {
+      "analyzed_domain_count": 496,
+      "analyzed_share_pct": 73.264,
+      "category": "university",
+      "excluded_domain_count": 181,
+      "input_domain_count": 677
+    },
+    {
+      "analyzed_domain_count": 355,
+      "analyzed_share_pct": 78.54,
+      "category": "bank",
+      "excluded_domain_count": 97,
+      "input_domain_count": 452
+    },
+    {
+      "analyzed_domain_count": 335,
+      "analyzed_share_pct": 83.96,
+      "category": "newspaper",
+      "excluded_domain_count": 64,
+      "input_domain_count": 399
+    }
+  ],
+  "classified_subrequest_count": 154080,
+  "crawl_row_count": 1988,
+  "excluded_domain_count": 471,
+  "filter": "normal_1_status is 2xx/3xx and normal_1_blank_white == 0",
+  "input_domain_count": 1988,
+  "request_filter": "blocked-phase classified subrequests: excludes allow_main_navigation, no-host rows, and rows without IP/ASN/block classification",
+  "retained_blocked_phase_request_count": 161461
+}
