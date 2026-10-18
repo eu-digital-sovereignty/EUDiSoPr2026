@@ -5,6 +5,7 @@ Generate a per-sector radar chart for the EU Digital Sovereignty Index.
 Produces: sovereignty_radar.png / .pdf
 """
 
+import argparse
 import json
 import os
 from pathlib import Path
@@ -25,8 +26,17 @@ from chart_style import (
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--collection", default="20260408_1.1.1.1",
+                    help="Results collection (default: %(default)s)")
+args = parser.parse_args()
+RESULTS_DIR = Path(__file__).resolve().parent.parent / "results" / args.collection
+if not RESULTS_DIR.is_dir():
+    parser.error(f"Results collection does not exist: {args.collection}")
+
+
 def _find_latest(sector):
-    d = Path(__file__).resolve().parent.parent / "results" / sector
+    d = RESULTS_DIR / sector
     files = sorted(f for f in d.iterdir()
                    if f.name.startswith("analyzed_results") and f.suffix == ".json")
     return str(files[-1]) if files else None
@@ -40,7 +50,7 @@ DATA_FILES = {
 }
 
 # SSL collection (lightweight cert-only pass)
-SSL_COLLECTION = str(Path(__file__).resolve().parent.parent / "results" / "ssl_collection.json")
+SSL_COLLECTION = str(RESULTS_DIR / "ssl_collection.json")
 FIGURES_DIR = str(Path(__file__).resolve().parent / "figures")
 os.makedirs(FIGURES_DIR, exist_ok=True)
 
@@ -140,7 +150,7 @@ if os.path.exists(SSL_COLLECTION):
     print(f"  SSL collection: {len(ssl_lookup)} certs loaded")
 
 # Load page-load web measurement (mean per-domain in-EU request share)
-WEB_EU_FILE = Path(__file__).resolve().parent.parent / "results" / "in_eu_request_summary.json"
+WEB_EU_FILE = RESULTS_DIR / "in_eu_request_summary.json"
 web_eu_by_sector = {}
 if WEB_EU_FILE.exists():
     with open(WEB_EU_FILE) as f:
@@ -151,6 +161,8 @@ if WEB_EU_FILE.exists():
         if r["category"] in _sector_map:
             web_eu_by_sector[_sector_map[r["category"]]] = r["mean_domain_in_eu_request_share_pct"]
     print(f"  Web layer: {web_eu_by_sector}")
+else:
+    print(f"  No web-content data for {args.collection}")
 
 sector_scores = {}
 for sector, path in DATA_FILES.items():

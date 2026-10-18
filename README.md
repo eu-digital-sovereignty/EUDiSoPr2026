@@ -37,6 +37,8 @@ scanner/
 visualization/
 ```
 
+Use `--collection <name>` to select a results snapshot (default: `20260408_1.1.1.1`).
+
 #### Web Content reproducibility artifact
 
 The code, compact crawl databases, reference outputs, and the manuscript's Web

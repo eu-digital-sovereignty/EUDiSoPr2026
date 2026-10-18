@@ -20,6 +20,7 @@ Panels:
   (1,2) Web Requests
 """
 
+import argparse
 import csv
 import glob
 import json
@@ -50,11 +51,11 @@ ROOT = Path(__file__).resolve().parent.parent
 EU = set("AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE".split())
 
 
-def load_data():
+def load_data(results_dir):
     out = {}
     for sector in SECTOR_ORDER:
         d = sector.lower()
-        f = sorted(glob.glob(str(ROOT / "results" / d / "analyzed_results*.json")))
+        f = sorted(glob.glob(str(results_dir / d / "analyzed_results*.json")))
         f = [p for p in f if "BEFORE" not in p][-1]
         with open(f) as fp:
             out[sector] = json.load(fp)
@@ -94,13 +95,13 @@ def _canonical_ca(issuer_raw):
     return issuer_raw or None
 
 
-def load_ssl_lookup():
+def load_ssl_lookup(results_dir):
     overrides = []
     with open(ROOT / "lookup_tables" / "ca_database.csv") as f:
         for row in csv.reader(f):
             if row and not row[0].startswith("#") and row[0] != "pattern":
                 overrides.append((row[0].lower(), row[2]))
-    with open(ROOT / "results" / "ssl_collection.json") as f:
+    with open(results_dir / "ssl_collection.json") as f:
         ssl = [r for r in json.load(f)["results"] if not r.get("error")]
     lookup = {}
     for r in ssl:
@@ -491,11 +492,15 @@ def panel_saas(ax, data):
     return _categorical_split(ax, data, classify, bands, "(f) Software-as-a-Service")
 
 
-def load_web_metrics():
+def load_web_metrics(results_dir):
     """Per-sector strict (% domains 100% EU) and mean (% requests EU)."""
-    with open(ROOT / "results" / "domain_scope_class_summary_with_failed_compact.json") as f:
+    classes_path = results_dir / "domain_scope_class_summary_with_failed_compact.json"
+    mean_path = results_dir / "in_eu_request_summary.json"
+    if not classes_path.is_file() or not mean_path.is_file():
+        return None
+    with open(classes_path) as f:
         cls_data = json.load(f)
-    with open(ROOT / "results" / "in_eu_request_summary.json") as f:
+    with open(mean_path) as f:
         mean_data = json.load(f)
     sector_map = {"government": "Government", "newspaper": "Newspapers",
                   "bank": "Banks", "university": "Universities"}
@@ -516,14 +521,21 @@ def load_web_metrics():
     return classes, mean
 
 
-def panel_web_requests(ax, _data):
+def panel_web_requests(ax, _data, results_dir):
     """Twin-bar per sector:
        top sub-bar = 4-bucket per-domain classification (only-EU / mixed / only-outside-EU / failed),
        bottom sub-bar = mean per-domain in-EU request share (split EU vs non-EU).
        Note the two sub-bars use different denominators: top is full input set,
        bottom is the retained-crawl subset.
     """
-    classes, mean = load_web_metrics()
+    metrics = load_web_metrics(results_dir)
+    if metrics is None:
+        ax.set_title("(c) Web Content", fontsize=FONT_SUBTITLE, fontweight="bold")
+        ax.text(0.5, 0.5, "No web-content data\nfor this collection",
+                ha="center", va="center", transform=ax.transAxes, fontsize=FONT_LABEL)
+        ax.set_axis_off()
+        return [], []
+    classes, mean = metrics
     bar_h = 0.32
     offset = 0.20
 
@@ -588,9 +600,17 @@ def panel_web_requests(ax, _data):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--collection", default="20260408_1.1.1.1",
+                        help="Results collection (default: %(default)s)")
+    args = parser.parse_args()
+    results_dir = ROOT / "results" / args.collection
+    if not results_dir.is_dir():
+        parser.error(f"Results collection does not exist: {args.collection}")
+
     apply_style()
-    data = load_data()
-    ssl_lookup = load_ssl_lookup()
+    data = load_data(results_dir)
+    ssl_lookup = load_ssl_lookup(results_dir)
 
     fig = plt.figure(figsize=(22, 9.5))
     gs = gridspec.GridSpec(2, 3, figure=fig, hspace=0.33, wspace=0.30)
@@ -600,7 +620,7 @@ def main():
     panels = [
         (gs[0, 0], panel_ns,           (data,)),
         (gs[0, 1], panel_hosting,      (data,)),
-        (gs[0, 2], panel_web_requests, (data,)),
+        (gs[0, 2], panel_web_requests, (data, results_dir)),
         (gs[1, 0], panel_tls_ca,       (data, ssl_lookup)),
         (gs[1, 1], panel_email,        (data,)),
         (gs[1, 2], panel_saas,         (data,)),

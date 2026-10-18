@@ -16,8 +16,8 @@ This separation allows:
 3. Different analysis approaches on the same raw data
 
 Usage:
-    python post_processor.py raw_data/ -o results/
-    python post_processor.py raw_data/all_raw_data.json.gz -o results/
+    python post_processor.py raw_data/20260408_1.1.1.1/government/all_raw_data.json.gz -o results/20260408_1.1.1.1/government/
+    python post_processor.py raw_data/20260408_1.1.1.1/banks/all_raw_data.json.gz -o results/20260408_1.1.1.1/banks/
 """
 
 import json
@@ -71,6 +71,7 @@ class AnalyzedDomain:
 
     # NS Analysis
     ns_providers: list[dict] = field(default_factory=list)  # [{ns, ip, provider, hq, is_eu}]
+    ns_authority: Optional[dict] = None
 
     # Hosting Analysis
     hosting_ips: list[dict] = field(default_factory=list)
@@ -192,14 +193,14 @@ class PostProcessor:
         )
 
         # Process DNS data
-        self._process_dns(raw_data.get('dns_queries', []), result)
+        self._process_dns(raw_data.get('dns_queries', []), result, raw_data.get('ns_authority'))
 
         # Perform SaaS detection
         self._detect_saas(result)
 
         return result
 
-    def _process_dns(self, dns_queries: list, result: AnalyzedDomain):
+    def _process_dns(self, dns_queries: list, result: AnalyzedDomain, ns_authority: dict = None):
         """Extract and analyze DNS data"""
         for query in dns_queries:
             qname = query.get('query_name', '')
@@ -267,11 +268,11 @@ class PostProcessor:
                                 else:
                                     result.caa_has_non_eu_ca = True
             elif qtype == 'DNSKEY':
-                if answers:
+                if any(a.get('type') == 'DNSKEY' for a in answers):
                     result.has_dnskey = True
                     result.dnssec_enabled = True
             elif qtype == 'DS':
-                if answers:
+                if any(a.get('type') == 'DS' for a in answers):
                     result.has_ds = True
                     result.dnssec_enabled = True
             elif qtype == 'DNSSEC_CHECK':
@@ -367,6 +368,10 @@ class PostProcessor:
         if not result.a_records and result.hosting_status is None:
             result.hosting_status = 'no_dns'
 
+        if ns_authority is not None:
+            self._process_ns_authority(ns_authority, result)
+            return
+
         # --- NS provider resolution (same rigor as hosting) ---
         for ns_host in result.ns_records:
             try:
@@ -399,6 +404,50 @@ class PostProcessor:
                     'hq': None,
                     'is_eu': None,
                 })
+
+    def _process_ns_authority(self, authority: dict, result: AnalyzedDomain):
+        result.ns_authority = authority
+        result.ns_records = []
+        if authority.get('status') != 'complete':
+            result.analysis_errors.append(f"NS authority {authority.get('status')}: {authority.get('error')}")
+            return
+        result.ns_records = sorted({host for hop in authority['path'] for host in hop['ns']})
+        for host in result.ns_records:
+            samples = []
+            errors = list(authority.get('address_errors', {}).get(host, []))
+            for ip in authority.get('addresses', {}).get(host, []):
+                sample = {'ip': ip, 'provider': None, 'hq': None, 'is_eu': None, 'error': None}
+                try:
+                    info = self.ip_mapper.lookup_ip(ip)
+                    hq, is_eu = info.provider_hq, info.is_eu_provider
+                    if hq is None:
+                        cymru = self.ip_mapper._query_cymru(ip)
+                        if cymru and cymru.get('country'):
+                            hq = cymru['country'].upper()
+                            is_eu = hq in EU_COUNTRIES or hq == 'EU'
+                    sample.update(provider=info.provider, hq=hq, is_eu=is_eu)
+                    if is_eu is None:
+                        sample['error'] = 'Provider jurisdiction unknown'
+                except Exception as e:
+                    sample['error'] = f'{type(e).__name__}: {e}'
+                if sample['error']:
+                    errors.append(f"{ip}: {sample['error']}")
+                samples.append(sample)
+
+            def consensus(key):
+                values = {sample[key] for sample in samples}
+                return next(iter(values)) if len(values) == 1 else None
+
+            if not samples:
+                errors.append('No A/AAAA addresses collected')
+            elif not errors and consensus('is_eu') is None:
+                errors.append('NS addresses have mixed or unknown jurisdiction')
+            result.ns_providers.append({
+                'ns': host, 'ip': samples[0]['ip'] if samples else None,
+                'provider': consensus('provider'), 'hq': consensus('hq'),
+                'is_eu': consensus('is_eu'),
+                'addresses': samples, 'errors': errors})
+            result.analysis_errors.extend(f'NS {host}: {error}' for error in errors)
 
     # Block detection patterns
     def _detect_saas(self, result: AnalyzedDomain):
@@ -590,7 +639,8 @@ def save_results(results: list[AnalyzedDomain], output_dir: Path):
                 r.email_provider, r.email_provider_hq, r.email_is_eu,
                 r.office_suite, r.cdn_detected, r.dmarc_policy,
                 r.has_https, r.has_hsts,
-                len(r.trackers), len(r.third_party_domains),
+                len(r.trackers) if r.trackers is not None else None,
+                len(r.third_party_domains) if r.third_party_domains is not None else None,
                 r.http_status, len(r.collection_errors) + len(r.analysis_errors)
             ])
     logger.info(f"Saved summary to {csv_path}")
@@ -660,17 +710,20 @@ This processor reads raw data and performs analysis:
 - Tracker classification
 
 Examples:
-  # Process all raw data
-  python post_processor.py raw_data/ -o results/
+  # Process April government data
+  python post_processor.py raw_data/20260408_1.1.1.1/government/all_raw_data.json.gz -o results/20260408_1.1.1.1/government/
 
-  # Process single combined file
-  python post_processor.py raw_data/all_raw_data.json.gz -o results/
+  # Process April bank data
+  python post_processor.py raw_data/20260408_1.1.1.1/banks/all_raw_data.json.gz -o results/20260408_1.1.1.1/banks/
         """
     )
     parser.add_argument('input', help='Raw data directory or file')
-    parser.add_argument('-o', '--output', default='results', help='Output directory')
+    parser.add_argument('--collection', default='20260408_1.1.1.1',
+                        help='Results collection when --output is omitted (default: %(default)s)')
+    parser.add_argument('-o', '--output', help='Output directory (default: results/<collection>)')
 
     args = parser.parse_args()
+    output_dir = Path(args.output) if args.output else Path(__file__).resolve().parent.parent / 'results' / args.collection
 
     # Load raw data
     logger.info(f"Loading raw data from {args.input}")
@@ -691,7 +744,7 @@ Examples:
             logger.error(f"Failed to process {raw.get('domain', 'unknown')}: {e}")
 
     # Save results
-    save_results(results, Path(args.output))
+    save_results(results, output_dir)
 
     # Write error log for failed Cymru lookups
     if processor.ip_mapper.failed_lookups:
@@ -701,7 +754,7 @@ Examples:
             'failed_lookups': len(processor.ip_mapper.failed_lookups),
             'failures': processor.ip_mapper.failed_lookups,
         }
-        err_path = Path(args.output) / f'cymru_errors_{datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")}.json'
+        err_path = output_dir / f'cymru_errors_{datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")}.json'
         with open(err_path, 'w') as f:
             json.dump(error_log, f, indent=2)
         logger.warning(

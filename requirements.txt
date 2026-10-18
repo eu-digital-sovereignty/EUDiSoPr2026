@@ -1,0 +1,14 @@
+# EU Government Infrastructure Scanner
+# Requirements file
+
+# DNS resolution
+dnspython==2.8.0
+
+# HTTP requests
+requests>=2.31.0
+
+# HTML parsing
+beautifulsoup4>=4.12.0
+
+# Optional: faster HTML parsing
+lxml>=4.9.0

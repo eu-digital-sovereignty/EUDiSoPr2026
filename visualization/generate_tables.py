@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Export top-10 provider tables from analyzed_results into paper/tables/."""
 
+import argparse
 import csv
 import glob
 import json
@@ -13,11 +14,11 @@ TABLES_DIR = ROOT / "paper" / "tables"
 EU = set("AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE".split())
 
 
-def load_entries():
+def load_entries(results_dir):
     entries = []
     for sector in ["government", "banks", "newspapers", "universities"]:
         path = sorted(
-            f for f in glob.glob(f"{ROOT}/results/{sector}/analyzed_results*.json")
+            f for f in glob.glob(str(results_dir / sector / "analyzed_results*.json"))
             if "BEFORE" not in f
         )[-1]
         with open(path) as f:
@@ -25,8 +26,8 @@ def load_entries():
     return entries
 
 
-def load_ssl():
-    with open(ROOT / "results" / "ssl_collection.json") as f:
+def load_ssl(results_dir):
+    with open(results_dir / "ssl_collection.json") as f:
         return [r for r in json.load(f)["results"] if not r.get("error")]
 
 
@@ -168,8 +169,16 @@ def write_top10(out_path, counter, country_for, total, caption, label):
 
 
 def main():
-    entries = load_entries()
-    ssl_ok = load_ssl()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--collection", default="20260408_1.1.1.1",
+                        help="Results collection (default: %(default)s)")
+    args = parser.parse_args()
+    results_dir = ROOT / "results" / args.collection
+    if not results_dir.is_dir():
+        parser.error(f"Results collection does not exist: {args.collection}")
+
+    entries = load_entries(results_dir)
+    ssl_ok = load_ssl(results_dir)
     overrides = load_ca_overrides()
     total = len(entries)
     print(f"Total domains: {total}, TLS certs: {len(ssl_ok)}")

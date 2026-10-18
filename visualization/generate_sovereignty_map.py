@@ -11,6 +11,7 @@ Usage:
     uv run python3 visualization/generate_sovereignty_map.py
 """
 
+import argparse
 import csv
 import glob
 import json
@@ -26,9 +27,7 @@ from chart_style import COLORSCALE_PLOTLY
 # Paths & constants
 # ---------------------------------------------------------------------------
 BASE = Path(__file__).parent.parent
-RESULTS_DIR = BASE / "results"
 OUT_DIR = Path(__file__).parent / "figures"
-SSL_COLLECTION = RESULTS_DIR / "ssl_collection.json"
 CA_DB = BASE / "lookup_tables" / "ca_database.csv"
 
 EU_COUNTRIES = frozenset(
@@ -104,7 +103,7 @@ GEO_LAYOUT = dict(
 # ---------------------------------------------------------------------------
 # Data loading (shared with heatmap)
 # ---------------------------------------------------------------------------
-def load_ssl_lookup():
+def load_ssl_lookup(results_dir):
     """Load SSL collection with CA parent-company overrides."""
     ca_overrides = []
     if CA_DB.exists():
@@ -114,8 +113,9 @@ def load_ssl_lookup():
                     ca_overrides.append((row[0].lower(), row[2]))
 
     ssl_lookup = {}
-    if SSL_COLLECTION.exists():
-        with open(SSL_COLLECTION) as f:
+    ssl_collection = results_dir / "ssl_collection.json"
+    if ssl_collection.exists():
+        with open(ssl_collection) as f:
             for r in json.load(f)["results"]:
                 if not r.get("error") and r.get("ssl_issuer_country"):
                     country = r["ssl_issuer_country"]
@@ -128,11 +128,11 @@ def load_ssl_lookup():
     return ssl_lookup
 
 
-def load_all_sectors(ssl_lookup):
+def load_all_sectors(ssl_lookup, results_dir):
     """Load and enrich all sector data. Returns {sector_name: [entries]}."""
     data = {}
     for sector_name, sector_dir in SECTORS:
-        pattern = str(RESULTS_DIR / sector_dir / "analyzed_results*.json")
+        pattern = str(results_dir / sector_dir / "analyzed_results*.json")
         files = sorted(glob.glob(pattern))
         if not files:
             continue
@@ -147,9 +147,9 @@ def load_all_sectors(ssl_lookup):
     return data
 
 
-def load_web_lookup():
+def load_web_lookup(results_dir):
     """{(cc, sector_display_name|'All Sectors'): mean_eu_pct} from page-load data."""
-    path = RESULTS_DIR / "in_eu_request_summary.json"
+    path = results_dir / "in_eu_request_summary.json"
     if not path.exists():
         return {}
     with open(path) as f:
@@ -470,14 +470,22 @@ def map_interactive(all_data, web_lookup):
 # Main
 # ---------------------------------------------------------------------------
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--collection", default="20260408_1.1.1.1",
+                        help="Results collection (default: %(default)s)")
+    args = parser.parse_args()
+    results_dir = BASE / "results" / args.collection
+    if not results_dir.is_dir():
+        parser.error(f"Results collection does not exist: {args.collection}")
+
     print("Loading data...")
-    ssl_lookup = load_ssl_lookup()
+    ssl_lookup = load_ssl_lookup(results_dir)
     print(f"  SSL lookup: {len(ssl_lookup)} certs")
-    all_data = load_all_sectors(ssl_lookup)
+    all_data = load_all_sectors(ssl_lookup, results_dir)
     for name, entries in all_data.items():
         print(f"  {name}: {len(entries)} domains")
 
-    web_lookup = load_web_lookup()
+    web_lookup = load_web_lookup(results_dir)
     print(f"  Web layer: {len(web_lookup)} (country, sector) entries")
 
     map_overall(all_data, web_lookup)
