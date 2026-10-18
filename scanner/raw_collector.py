@@ -15,11 +15,8 @@ Usage:
 """
 
 import json
-import hashlib
 import base64
 import gzip
-import socket
-import ssl
 import time
 import logging
 import argparse
@@ -27,18 +24,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 from dataclasses import dataclass, field, asdict
-from urllib.parse import urlparse
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import dns.resolver
+import dns.rcode
 import dns.rdatatype
 import dns.query
 import dns.message
 import dns.name
 import dns.exception
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 logging.basicConfig(
     level=logging.INFO,
@@ -70,40 +64,7 @@ class RawDNSResponse:
     response_time_ms: float
     raw_wire: Optional[str] = None  # Base64 encoded wire format
     error: Optional[str] = None
-
-
-@dataclass
-class RawSSLCertificate:
-    """Raw SSL/TLS certificate data"""
-    subject: dict  # CN, O, OU, etc.
-    issuer: dict   # CA information
-    version: int
-    serial_number: str
-    not_before: str
-    not_after: str
-    subject_alt_names: list  # DNS names, IP addresses
-    signature_algorithm: str
-    public_key_algorithm: str
-    public_key_bits: int
-    fingerprint_sha256: str
-    pem: str  # Full certificate in PEM format
-    chain: list = field(default_factory=list)  # Certificate chain (issuer certs)
-
-
-@dataclass
-class RawHTTPTransaction:
-    """Single HTTP request/response in HAR-like format"""
-    started_datetime: str
-    time_ms: float
-    request: dict
-    response: dict
-    timings: dict
-    server_ip: Optional[str] = None
-    connection: Optional[str] = None
-    ssl_certificate: Optional[dict] = None  # RawSSLCertificate as dict
-    ssl_protocol: Optional[str] = None  # TLS version
-    ssl_cipher: Optional[str] = None  # Cipher suite
-    error: Optional[str] = None
+    checking_disabled: bool = False
 
 
 @dataclass
@@ -111,16 +72,14 @@ class RawDomainData:
     """Complete raw data for a domain"""
     domain: str
     collection_timestamp: str
-    collection_version: str = "1.0"
+    collection_version: str = "2.0"
 
     # Metadata (from input, not processed)
     metadata: dict = field(default_factory=dict)
 
     # Raw DNS responses
     dns_queries: list = field(default_factory=list)
-
-    # Raw HTTP transactions (HAR entries format)
-    http_transactions: list = field(default_factory=list)
+    ns_authority: Optional[dict] = None
 
     # Collection errors
     errors: list = field(default_factory=list)
@@ -130,6 +89,8 @@ class RawDNSCollector:
     """Collects raw DNS responses without interpretation"""
 
     RETRY_TIMEOUTS = [5, 10, 15]  # escalating timeouts for retries
+    MAX_NS_QUERIES = 128
+    MAX_NS_ALIASES = 16
 
     def __init__(self, resolvers: list[str] = None, timeout: float = 5.0, retries: int = 3):
         self.resolvers = resolvers or ['1.1.1.1', '8.8.8.8']
@@ -143,13 +104,15 @@ class RawDNSCollector:
         self._resolver_index = (self._resolver_index + 1) % len(self.resolvers)
         return resolver
 
-    def _do_query(self, domain: str, rdtype: str, resolver_ip: str, timeout: float) -> RawDNSResponse:
+    def _do_query(self, domain: str, rdtype: str, resolver_ip: str, timeout: float,
+                  checking_disabled: bool = False) -> RawDNSResponse:
         """Perform a single DNS query attempt and return raw response"""
         start_time = time.time()
 
         response = RawDNSResponse(
             query_name=domain,
             query_type=rdtype,
+            checking_disabled=checking_disabled,
             query_time=datetime.now(timezone.utc).isoformat(),
             resolver=resolver_ip,
             status='',
@@ -167,26 +130,40 @@ class RawDNSCollector:
             res.nameservers = [resolver_ip]
             res.timeout = timeout
             res.lifetime = timeout
+            if checking_disabled:
+                res.set_flags(dns.flags.RD | dns.flags.CD)
 
             # Perform query
             try:
-                answers = res.resolve(domain, rdtype)
-                response.status = 'NOERROR'
+                try:
+                    message = res.resolve(
+                        domain, rdtype, raise_on_no_answer=False
+                    ).response
+                except dns.resolver.NXDOMAIN as e:
+                    message = e.response(e.qnames()[0])
+                except dns.resolver.NoNameservers as e:
+                    messages = [error[4] for error in e.kwargs.get('errors', [])
+                                if error[4] is not None]
+                    if not messages:
+                        raise
+                    message = messages[-1]
+                    response.error = 'No nameservers available'
+                response.status = dns.rcode.to_text(message.rcode())
 
                 # Extract flags from response
-                if hasattr(answers.response, 'flags'):
+                if hasattr(message, 'flags'):
                     response.flags = {
-                        'qr': bool(answers.response.flags & dns.flags.QR),
-                        'aa': bool(answers.response.flags & dns.flags.AA),
-                        'tc': bool(answers.response.flags & dns.flags.TC),
-                        'rd': bool(answers.response.flags & dns.flags.RD),
-                        'ra': bool(answers.response.flags & dns.flags.RA),
-                        'ad': bool(answers.response.flags & dns.flags.AD),
-                        'cd': bool(answers.response.flags & dns.flags.CD),
+                        'qr': bool(message.flags & dns.flags.QR),
+                        'aa': bool(message.flags & dns.flags.AA),
+                        'tc': bool(message.flags & dns.flags.TC),
+                        'rd': bool(message.flags & dns.flags.RD),
+                        'ra': bool(message.flags & dns.flags.RA),
+                        'ad': bool(message.flags & dns.flags.AD),
+                        'cd': bool(message.flags & dns.flags.CD),
                     }
 
                 # Extract question section
-                for q in answers.response.question:
+                for q in message.question:
                     response.question.append({
                         'name': str(q.name),
                         'type': dns.rdatatype.to_text(q.rdtype),
@@ -194,7 +171,7 @@ class RawDNSCollector:
                     })
 
                 # Extract answer section
-                for rrset in answers.response.answer:
+                for rrset in message.answer:
                     for rdata in rrset:
                         response.answer.append({
                             'name': str(rrset.name),
@@ -205,7 +182,7 @@ class RawDNSCollector:
                         })
 
                 # Extract authority section
-                for rrset in answers.response.authority:
+                for rrset in message.authority:
                     for rdata in rrset:
                         response.authority.append({
                             'name': str(rrset.name),
@@ -215,7 +192,7 @@ class RawDNSCollector:
                         })
 
                 # Extract additional section
-                for rrset in answers.response.additional:
+                for rrset in message.additional:
                     for rdata in rrset:
                         response.additional.append({
                             'name': str(rrset.name),
@@ -225,13 +202,9 @@ class RawDNSCollector:
                         })
 
                 # Store raw wire format (base64 encoded)
-                if hasattr(answers.response, 'to_wire'):
-                    response.raw_wire = base64.b64encode(answers.response.to_wire()).decode('ascii')
-
-            except dns.resolver.NXDOMAIN:
-                response.status = 'NXDOMAIN'
-            except dns.resolver.NoAnswer:
-                response.status = 'NOERROR'  # Query succeeded but no records
+                if hasattr(message, 'to_wire'):
+                    wire = getattr(message, 'wire', None) or message.to_wire()
+                    response.raw_wire = base64.b64encode(wire).decode('ascii')
             except dns.resolver.NoNameservers:
                 response.status = 'SERVFAIL'
                 response.error = 'No nameservers available'
@@ -246,19 +219,158 @@ class RawDNSCollector:
         response.response_time_ms = (time.time() - start_time) * 1000
         return response
 
-    def query_record(self, domain: str, rdtype: str, resolver: str = None) -> RawDNSResponse:
+    def query_record(self, domain: str, rdtype: str, resolver: str = None,
+                     log: list[RawDNSResponse] = None, query_limit: int = None) -> RawDNSResponse:
         """Perform a DNS query with retries on transient failures"""
         resolver_ip = resolver or self._next_resolver()
         timeouts = self.RETRY_TIMEOUTS[:self.retries] if self.retries else [self.timeout]
 
         for attempt, timeout in enumerate(timeouts):
+            if log is not None and query_limit is not None and len(log) >= query_limit:
+                raise ValueError('NS authority query limit exceeded')
             response = self._do_query(domain, rdtype, resolver_ip, timeout)
+            if log is not None:
+                log.append(response)
             if response.status not in ('TIMEOUT', 'SERVFAIL', 'ERROR'):
                 return response
             # Don't retry NXDOMAIN — that's definitive
             if attempt < len(timeouts) - 1:
                 logger.debug(f"Retry {attempt+1} for {domain}/{rdtype} (was {response.status}, next timeout {timeouts[attempt+1]}s)")
         return response
+
+    def collect_ns_authority(self, domain: str) -> dict:
+        """Collect SOA-proven zones and apex NS sets along the CNAME path."""
+        result = {'method': 'recursive_soa_v1', 'resolver': self.resolvers[0],
+                  'status': 'unknown', 'path': [], 'addresses': {},
+                  'address_errors': {}, 'queries': [], 'error': None,
+                  'address_status': 'not_attempted', 'unchecked_data_used': False,
+                  'dnssec_warnings': []}
+        log, cache = [], {}
+
+        def ask(name, rdtype):
+            key = (name, rdtype, False)
+            if key not in cache:
+                reply = self.query_record(name.to_text(omit_final_dot=True), rdtype,
+                                          resolver=result['resolver'], log=log,
+                                          query_limit=self.MAX_NS_QUERIES)
+                cache[key] = reply, len(log) - 1
+            reply, index = cache[key]
+            if reply.status != 'SERVFAIL':
+                return cache[key]
+            cd_key = (name, rdtype, True)
+            if cd_key not in cache:
+                if len(log) >= self.MAX_NS_QUERIES:
+                    raise ValueError('NS authority query limit exceeded')
+                unchecked = self._do_query(name.to_text(omit_final_dot=True), rdtype,
+                                           result['resolver'], self.timeout,
+                                           checking_disabled=True)
+                log.append(unchecked)
+                cache[cd_key] = unchecked, len(log) - 1
+                if unchecked.status == 'NOERROR':
+                    result['unchecked_data_used'] = True
+                    result['dnssec_warnings'].append({
+                        'normal_query': index, 'cd_query': len(log) - 1,
+                        'finding': 'validation_failure_suspected'})
+            return cache[cd_key] if cache[cd_key][0].status == 'NOERROR' else cache[key]
+
+        def records(reply, name, rdtype):
+            return [r['data'] for r in reply.answer if r['type'] == rdtype
+                    and dns.name.from_text(r['name']) == name]
+
+        def zone_for(name):
+            candidate = name
+            while True:
+                reply, index = ask(candidate, 'SOA')
+                if reply.status not in ('NOERROR', 'NXDOMAIN'):
+                    raise ValueError(f'SOA {candidate}: {reply.status}')
+                aliases = records(reply, candidate, 'CNAME')
+                if aliases:
+                    if len(aliases) != 1 or records(reply, candidate, 'SOA'):
+                        raise ValueError(f'Ambiguous SOA/CNAME for {candidate}')
+                    # A CNAME owner cannot be a zone apex; its parent stays in its zone.
+                    candidate = candidate.parent()
+                    continue
+                if reply.status != 'NOERROR':
+                    raise ValueError(f'SOA {candidate}: {reply.status}')
+                if any(r['type'] in ('CNAME', 'DNAME') for r in reply.answer):
+                    raise ValueError(f'Unresolved SOA alias for {candidate}')
+                if records(reply, candidate, 'SOA'):
+                    return candidate, index
+                zones = {dns.name.from_text(r['name']).canonicalize()
+                         for r in reply.authority if r['type'] == 'SOA'
+                         and candidate.is_subdomain(dns.name.from_text(r['name']))
+                         and candidate != dns.name.from_text(r['name'])}
+                if len(zones) == 1:
+                    return zones.pop(), index
+                raise ValueError(f'No unambiguous SOA evidence for {name}')
+
+        try:
+            name = dns.name.from_text(domain).canonicalize()
+            seen = set()
+            for _ in range(self.MAX_NS_ALIASES):
+                if name in seen:
+                    raise ValueError('CNAME cycle')
+                seen.add(name)
+                reply, _ = ask(name, 'NS')
+                aliases = records(reply, name, 'CNAME')
+                if reply.status not in ('NOERROR', 'NXDOMAIN') or (
+                        reply.status == 'NXDOMAIN' and not aliases):
+                    raise ValueError(f'NS {name}: {reply.status}')
+                if len(aliases) > 1 or (aliases and records(reply, name, 'NS')):
+                    raise ValueError(f'Ambiguous CNAME for {name}')
+                if not aliases and any(r['type'] == 'DNAME' for r in reply.answer):
+                    raise ValueError(f'DNAME without synthesized CNAME for {name}')
+                zone, soa_index = zone_for(name)
+                if aliases and zone == name:
+                    raise ValueError(f'CNAME owner is also a zone apex: {name}')
+                apex, ns_index = ask(zone, 'NS')
+                ns = sorted({dns.name.from_text(host).canonicalize().to_text(omit_final_dot=True)
+                             for host in records(apex, zone, 'NS')})
+                if apex.status != 'NOERROR' or not ns:
+                    raise ValueError(f'No apex NS answer for {zone}: {apex.status}')
+                target = dns.name.from_text(aliases[0]).canonicalize() if aliases else None
+                result['path'].append({
+                    'name': name.to_text(omit_final_dot=True),
+                    'zone': zone.to_text(omit_final_dot=True), 'ns': ns,
+                    'cname': target.to_text(omit_final_dot=True) if target else None,
+                    'soa_query': soa_index, 'ns_query': ns_index})
+                if target is None:
+                    break
+                name = target
+            else:
+                raise ValueError('CNAME limit exceeded')
+            result['status'] = 'complete'
+        except (dns.exception.DNSException, ValueError) as e:
+            result['status'] = 'partial' if result['path'] else 'unknown'
+            result['error'] = f'{type(e).__name__}: {e}'
+
+        if result['status'] == 'complete':
+            for host in sorted({host for hop in result['path'] for host in hop['ns']}):
+                addresses, errors = [], []
+                for rdtype in ('A', 'AAAA'):
+                    try:
+                        reply, _ = ask(dns.name.from_text(host), rdtype)
+                    except (dns.exception.DNSException, ValueError) as e:
+                        errors.append(f'{rdtype}: {type(e).__name__}: {e}')
+                        continue
+                    if reply.status != 'NOERROR':
+                        errors.append(f'{rdtype}: {reply.status}: {reply.error or ""}')
+                        continue
+                    try:
+                        message = dns.message.from_wire(base64.b64decode(reply.raw_wire))
+                        answer = message.resolve_chaining().answer
+                        if answer is not None and answer.rdtype == dns.rdatatype.from_text(rdtype):
+                            addresses.extend(str(r) for r in answer)
+                    except (dns.exception.DNSException, ValueError, TypeError) as e:
+                        errors.append(f'{rdtype}: {type(e).__name__}: {e}')
+                result['addresses'][host] = list(dict.fromkeys(addresses))
+                if not addresses and not errors:
+                    errors.append('No A/AAAA addresses returned')
+                if errors:
+                    result['address_errors'][host] = errors
+            result['address_status'] = 'partial' if result['address_errors'] else 'complete'
+        result['queries'] = [asdict(reply) for reply in log]
+        return result
 
     def collect_all(self, domain: str) -> list[RawDNSResponse]:
         """Collect all DNS record types for a domain"""
@@ -385,327 +497,17 @@ class RawDNSCollector:
         return response
 
 
-class RawHTTPCollector:
-    """Collects raw HTTP responses in HAR-like format"""
-
-    def __init__(self, timeout: float = 30.0, max_body_size: int = 10 * 1024 * 1024):
-        self.timeout = timeout
-        self.max_body_size = max_body_size  # 10MB default
-        self.user_agent = 'Mozilla/5.0 (compatible; EU Government Infrastructure Survey - Research)'
-
-        # Session with retry capability
-        self.session = requests.Session()
-        retry_strategy = Retry(
-            total=0,  # No automatic retries - we want raw responses
-            backoff_factor=0
-        )
-        adapter = HTTPAdapter(max_retries=retry_strategy)
-        self.session.mount('http://', adapter)
-        self.session.mount('https://', adapter)
-
-    def _get_ssl_certificate(self, hostname: str, port: int = 443) -> Optional[dict]:
-        """Fetch SSL certificate data for a host"""
-        try:
-            context = ssl.create_default_context()
-            with socket.create_connection((hostname, port), timeout=self.timeout) as sock:
-                with context.wrap_socket(sock, server_hostname=hostname) as ssock:
-                    # Get certificate in DER format
-                    cert_der = ssock.getpeercert(binary_form=True)
-                    cert_dict = ssock.getpeercert()
-
-                    # Get protocol and cipher
-                    protocol = ssock.version()
-                    cipher = ssock.cipher()
-
-                    # Convert DER to PEM
-                    import base64
-                    cert_pem = (
-                        "-----BEGIN CERTIFICATE-----\n" +
-                        base64.encodebytes(cert_der).decode('ascii') +
-                        "-----END CERTIFICATE-----"
-                    )
-
-                    # Calculate fingerprint
-                    import hashlib
-                    fingerprint = hashlib.sha256(cert_der).hexdigest()
-
-                    # Parse subject and issuer
-                    def parse_dn(dn_tuple):
-                        result = {}
-                        for rdn in dn_tuple:
-                            for attr, value in rdn:
-                                result[attr] = value
-                        return result
-
-                    # Extract SANs
-                    sans = []
-                    if 'subjectAltName' in cert_dict:
-                        for san_type, san_value in cert_dict['subjectAltName']:
-                            sans.append({'type': san_type, 'value': san_value})
-
-                    # Get certificate chain if available
-                    chain = []
-                    try:
-                        # Try to get full chain (Python 3.10+)
-                        if hasattr(ssock, 'get_verified_chain'):
-                            for cert in ssock.get_verified_chain()[1:]:  # Skip leaf cert
-                                chain_der = cert.public_bytes(ssl._ssl.ENCODING_DER)
-                                chain_pem = (
-                                    "-----BEGIN CERTIFICATE-----\n" +
-                                    base64.encodebytes(chain_der).decode('ascii') +
-                                    "-----END CERTIFICATE-----"
-                                )
-                                chain.append(chain_pem)
-                    except:
-                        pass  # Chain not available
-
-                    return {
-                        'subject': parse_dn(cert_dict.get('subject', ())),
-                        'issuer': parse_dn(cert_dict.get('issuer', ())),
-                        'version': cert_dict.get('version', 0),
-                        'serial_number': cert_dict.get('serialNumber', ''),
-                        'not_before': cert_dict.get('notBefore', ''),
-                        'not_after': cert_dict.get('notAfter', ''),
-                        'subject_alt_names': sans,
-                        'signature_algorithm': cert_dict.get('signatureAlgorithm', ''),
-                        'public_key_algorithm': '',  # Not easily available from getpeercert
-                        'public_key_bits': 0,
-                        'fingerprint_sha256': fingerprint,
-                        'pem': cert_pem,
-                        'chain': chain,
-                        'protocol': protocol,
-                        'cipher': cipher[0] if cipher else None,
-                        'cipher_bits': cipher[2] if cipher else None,
-                    }
-
-        except ssl.SSLError as e:
-            return {'error': f'SSL Error: {str(e)}'}
-        except socket.timeout:
-            return {'error': 'Connection timeout'}
-        except socket.gaierror as e:
-            return {'error': f'DNS Error: {str(e)}'}
-        except Exception as e:
-            return {'error': f'Error: {str(e)}'}
-
-    def collect(self, domain: str, urls: list[str] = None, max_redirects: int = 10) -> list[RawHTTPTransaction]:
-        """Collect HTTP transactions for a domain, following redirects"""
-        transactions = []
-
-        # Default URLs to try
-        if urls is None:
-            urls = [
-                f'https://{domain}/',
-                f'https://www.{domain}/',
-                f'http://{domain}/',
-            ]
-
-        for start_url in urls:
-            # Follow redirect chain
-            current_url = start_url
-            redirect_count = 0
-
-            while current_url and redirect_count < max_redirects:
-                txn = self._fetch_url(current_url)
-                transactions.append(txn)
-
-                # Check for redirect
-                status = txn.response.get('status', 0)
-                redirect_url = txn.response.get('redirectURL', '')
-
-                if status in (301, 302, 303, 307, 308) and redirect_url:
-                    # Handle relative redirects
-                    if redirect_url.startswith('/'):
-                        from urllib.parse import urlparse
-                        parsed = urlparse(current_url)
-                        redirect_url = f'{parsed.scheme}://{parsed.netloc}{redirect_url}'
-                    current_url = redirect_url
-                    redirect_count += 1
-                else:
-                    break
-
-            # If HTTPS succeeded with final response, don't try HTTP
-            if start_url.startswith('https://') and transactions and transactions[-1].response.get('status', 0) >= 200:
-                break
-
-        return transactions
-
-    def _fetch_url(self, url: str) -> RawHTTPTransaction:
-        """Fetch a single URL and return HAR-formatted transaction"""
-        start_time = datetime.now(timezone.utc)
-        timings = {
-            'blocked': -1,
-            'dns': -1,
-            'connect': -1,
-            'ssl': -1,
-            'send': -1,
-            'wait': -1,
-            'receive': -1
-        }
-
-        request_data = {
-            'method': 'GET',
-            'url': url,
-            'httpVersion': 'HTTP/1.1',
-            'headers': [
-                {'name': 'User-Agent', 'value': self.user_agent},
-                {'name': 'Accept', 'value': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
-                {'name': 'Accept-Language', 'value': 'en-US,en;q=0.5'},
-                {'name': 'Accept-Encoding', 'value': 'gzip, deflate'},
-                {'name': 'Connection', 'value': 'keep-alive'},
-            ],
-            'queryString': [],
-            'cookies': [],
-            'headersSize': -1,
-            'bodySize': 0
-        }
-
-        response_data = {
-            'status': 0,
-            'statusText': '',
-            'httpVersion': '',
-            'headers': [],
-            'cookies': [],
-            'content': {
-                'size': 0,
-                'mimeType': '',
-                'text': '',
-                'encoding': ''
-            },
-            'redirectURL': '',
-            'headersSize': -1,
-            'bodySize': 0
-        }
-
-        txn = RawHTTPTransaction(
-            started_datetime=start_time.isoformat(),
-            time_ms=0,
-            request=request_data,
-            response=response_data,
-            timings=timings
-        )
-
-        try:
-            # DNS timing
-            dns_start = time.time()
-            parsed = urlparse(url)
-            try:
-                server_ip = socket.gethostbyname(parsed.hostname)
-                txn.server_ip = server_ip
-            except socket.gaierror as e:
-                txn.error = f'DNS resolution failed: {e}'
-                return txn
-            timings['dns'] = (time.time() - dns_start) * 1000
-
-            # Get SSL certificate for HTTPS URLs
-            if parsed.scheme == 'https':
-                ssl_start = time.time()
-                ssl_data = self._get_ssl_certificate(parsed.hostname, parsed.port or 443)
-                timings['ssl'] = (time.time() - ssl_start) * 1000
-                if ssl_data:
-                    if 'error' not in ssl_data:
-                        txn.ssl_certificate = ssl_data
-                        txn.ssl_protocol = ssl_data.get('protocol')
-                        txn.ssl_cipher = ssl_data.get('cipher')
-                    else:
-                        txn.error = ssl_data.get('error')
-
-            # Make request
-            connect_start = time.time()
-            response = self.session.get(
-                url,
-                timeout=self.timeout,
-                allow_redirects=False,  # Capture redirects as separate entries
-                headers={
-                    'User-Agent': self.user_agent,
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-                    'Accept-Language': 'en-US,en;q=0.5',
-                    'Accept-Encoding': 'gzip, deflate',
-                },
-                stream=True  # Stream to handle large responses
-            )
-
-            timings['connect'] = (time.time() - connect_start) * 1000
-
-            # Response status
-            response_data['status'] = response.status_code
-            response_data['statusText'] = response.reason or ''
-            response_data['httpVersion'] = f'HTTP/{response.raw.version / 10:.1f}' if response.raw.version else 'HTTP/1.1'
-
-            # Response headers
-            for name, value in response.headers.items():
-                response_data['headers'].append({'name': name, 'value': value})
-
-            # Redirect URL
-            if 'Location' in response.headers:
-                response_data['redirectURL'] = response.headers['Location']
-
-            # Response body
-            receive_start = time.time()
-            content_length = int(response.headers.get('Content-Length', 0))
-
-            if content_length > self.max_body_size:
-                # Too large - just note the size
-                response_data['content']['size'] = content_length
-                response_data['content']['mimeType'] = response.headers.get('Content-Type', '')
-                response_data['content']['text'] = f'[Body too large: {content_length} bytes, max {self.max_body_size}]'
-                response.close()
-            else:
-                # Read body
-                body_bytes = response.content
-                response_data['content']['size'] = len(body_bytes)
-                response_data['content']['mimeType'] = response.headers.get('Content-Type', '')
-                response_data['bodySize'] = len(body_bytes)
-
-                # Try to decode as text
-                try:
-                    encoding = response.encoding or 'utf-8'
-                    response_data['content']['text'] = body_bytes.decode(encoding, errors='replace')
-                except:
-                    # Store as base64 if not decodable
-                    response_data['content']['text'] = base64.b64encode(body_bytes).decode('ascii')
-                    response_data['content']['encoding'] = 'base64'
-
-            timings['receive'] = (time.time() - receive_start) * 1000
-
-            # Connection info
-            if hasattr(response.raw, '_connection') and response.raw._connection:
-                conn = response.raw._connection
-                if hasattr(conn, 'sock') and conn.sock:
-                    txn.connection = str(conn.sock.getpeername()) if hasattr(conn.sock, 'getpeername') else None
-
-        except requests.exceptions.SSLError as e:
-            txn.error = f'SSL Error: {str(e)}'
-        except requests.exceptions.ConnectionError as e:
-            txn.error = f'Connection Error: {str(e)}'
-        except requests.exceptions.Timeout as e:
-            txn.error = f'Timeout: {str(e)}'
-        except requests.exceptions.RequestException as e:
-            txn.error = f'Request Error: {str(e)}'
-        except Exception as e:
-            txn.error = f'Error: {str(e)}'
-
-        txn.time_ms = (datetime.now(timezone.utc) - start_time).total_seconds() * 1000
-        return txn
-
-    def close(self):
-        self.session.close()
-
-
 class RawDataCollector:
     """Main collector orchestrating DNS and HTTP collection"""
 
     def __init__(self,
                  dns_timeout: float = 5.0,
-                 http_timeout: float = 30.0,
-                 skip_http: bool = False,
                  rate_limit: float = 1.0,
                  tld_rate_limit: float = 0.5,
                  resolvers: list[str] = None,
                  workers: int = 1,
                  retries: int = 3):
         self.dns_collector = RawDNSCollector(resolvers=resolvers, timeout=dns_timeout, retries=retries)
-        self.http_collector = RawHTTPCollector(timeout=http_timeout) if not skip_http else None
-        self.skip_http = skip_http
         self.rate_limit = rate_limit
         self.tld_rate_limit = tld_rate_limit
         self.workers = workers
@@ -772,19 +574,13 @@ class RawDataCollector:
         try:
             dns_responses = self.dns_collector.collect_all(domain)
             data.dns_queries = [asdict(r) for r in dns_responses]
+            data.ns_authority = self.dns_collector.collect_ns_authority(domain)
         except Exception as e:
             data.errors.append(f"DNS collection failed: {str(e)}")
+            data.ns_authority = {'status': 'unknown', 'path': [], 'error': str(e)}
 
         # Rate limit between DNS and HTTP
         time.sleep(self.rate_limit)
-
-        # Collect HTTP
-        if not self.skip_http and self.http_collector:
-            try:
-                http_txns = self.http_collector.collect(domain)
-                data.http_transactions = [asdict(t) for t in http_txns]
-            except Exception as e:
-                data.errors.append(f"HTTP collection failed: {str(e)}")
 
         return data
 
@@ -850,7 +646,7 @@ class RawDataCollector:
         manifest = {
             'collection_timestamp': datetime.now(timezone.utc).isoformat(),
             'total_domains': total,
-            'collection_version': '1.0',
+            'collection_version': '2.0',
             'collector': 'raw_collector.py',
             'dns_record_types': DNS_RECORD_TYPES,
             'dkim_selectors': DKIM_SELECTORS,
@@ -864,16 +660,6 @@ class RawDataCollector:
     def _sanitize_filename(self, domain: str) -> str:
         """Convert domain to safe filename"""
         return domain.replace('/', '_').replace(':', '_')
-
-    def close(self):
-        if self.http_collector:
-            self.http_collector.close()
-
-    def __enter__(self):
-        return self
-
-    def __exit__(self, *args):
-        self.close()
 
 
 def load_domains(path: str) -> list[dict]:
@@ -919,7 +705,7 @@ Output structure:
 
 Examples:
   # Collect DNS only
-  python raw_collector.py domains.txt -o raw_data/ --skip-http
+  python raw_collector.py domains.txt -o raw_data/
 
   # Full collection with rate limiting
   python raw_collector.py domains.json -o raw_data/ --rate-limit 2.0
@@ -930,11 +716,9 @@ Examples:
     )
     parser.add_argument('input', help='Input file (JSON or text with domains)')
     parser.add_argument('-o', '--output', default='raw_data', help='Output directory')
-    parser.add_argument('--skip-http', action='store_true', help='Skip HTTP collection (DNS only)')
     parser.add_argument('--limit', type=int, help='Limit number of domains')
     parser.add_argument('--offset', type=int, default=0, help='Skip first N domains')
     parser.add_argument('--dns-timeout', type=float, default=5.0, help='DNS timeout in seconds')
-    parser.add_argument('--http-timeout', type=float, default=30.0, help='HTTP timeout in seconds')
     parser.add_argument('--rate-limit', type=float, default=1.0, help='Seconds between requests')
     parser.add_argument('--no-per-domain', action='store_true', help='Skip saving per-domain files')
     parser.add_argument('--resolver', type=str, help='Use a single DNS resolver (e.g. 1.1.1.1)')
@@ -955,20 +739,18 @@ Examples:
 
     # Collect
     resolvers = [args.resolver] if args.resolver else None
-    with RawDataCollector(
+    collector = RawDataCollector(
         dns_timeout=args.dns_timeout,
-        http_timeout=args.http_timeout,
-        skip_http=args.skip_http,
         rate_limit=args.rate_limit,
         resolvers=resolvers,
         workers=args.workers,
         retries=args.retries,
-    ) as collector:
-        collector.collect_domains(
-            domains,
-            Path(args.output),
-            save_per_domain=not args.no_per_domain
-        )
+    )
+    collector.collect_domains(
+        domains,
+        Path(args.output),
+        save_per_domain=not args.no_per_domain
+    )
 
     logger.info("Raw data collection complete!")
 
