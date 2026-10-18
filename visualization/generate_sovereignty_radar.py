@@ -49,11 +49,19 @@ os.makedirs(FIGURES_DIR, exist_ok=True)
 # Compute index components from raw data
 # ---------------------------------------------------------------------------
 
+def _known_pct(values):
+    """Percentage positive among classified values; None means unknown."""
+    known = [value for value in values if value is not None]
+    if not known:
+        return None
+    return round(100 * sum(value is True for value in known) / len(known), 1)
+
+
 def _ns_majority_eu(e):
     """True if a strict majority of classified NS providers are EU-hosted."""
     provs = [p for p in (e.get("ns_providers") or []) if p.get("is_eu") is not None]
     if not provs:
-        return False
+        return None
     return sum(1 for p in provs if p.get("is_eu")) > len(provs) / 2
 
 
@@ -65,18 +73,15 @@ def compute_scores(records, ssl_lookup=None, web_eu_pct=None):
     n = len(records)
 
     # 1. Hosting sovereignty — heatmap definition: post-processed hosting_is_eu flag.
-    eu_hosted = sum(1 for r in records if r.get("hosting_is_eu") is True)
-    hosting = 100 * eu_hosted / max(n, 1)
+    hosting = _known_pct(r.get("hosting_is_eu") for r in records)
 
     # 2. Email sovereignty — strict, to match the "EU email" band in fig.~2:
     # only domains whose email is positively classified as EU-hosted.
-    eu_email = sum(1 for r in records if r.get("email_is_eu") is True)
-    email = 100 * eu_email / max(n, 1)
+    email = _known_pct(r.get("email_is_eu") for r in records)
 
     # 4. Nameserver sovereignty — heatmap definition: strict per-domain
     # majority of classified ns_providers (post-processed via ip_mapper.py).
-    ns_eu_domains = sum(1 for r in records if _ns_majority_eu(r))
-    ns_sov = 100 * ns_eu_domains / max(n, 1)
+    ns_sov = _known_pct(_ns_majority_eu(r) for r in records)
 
     # 5. SaaS sovereignty — heatmap definition: per-domain "no non-EU detected".
     eu_saas = sum(1 for r in records
@@ -93,13 +98,13 @@ def compute_scores(records, ssl_lookup=None, web_eu_pct=None):
                 has_ca += 1
                 if sr["ssl_issuer_country"] in EU_COUNTRIES:
                     eu_ca += 1
-    ca_sov = 100 * eu_ca / max(n, 1)
+    ca_sov = round(100 * eu_ca / has_ca, 1) if has_ca else None
 
     scores = {
-        "Web\nHosting": round(hosting, 1),
-        "Email": round(email, 1),
-        "Name-\nservers": round(ns_sov, 1),
-        "TLS CA": round(ca_sov, 1),
+        "Web\nHosting": hosting,
+        "Email": email,
+        "Name-\nservers": ns_sov,
+        "TLS CA": ca_sov,
         "SaaS": round(saas, 1),
     }
     if web_eu_pct is not None:
@@ -188,7 +193,8 @@ def make_radar(sector_scores):
 
     # Plot each sector
     for sector, scores in sector_scores.items():
-        values = [scores[c] for c in categories]
+        values = [scores[c] if scores[c] is not None else np.nan
+                  for c in categories]
         values += values[:1]
         color = SECTOR_COLORS[sector]
         fill = SECTOR_FILL[sector]
@@ -209,7 +215,8 @@ def make_radar(sector_scores):
 
         pts = sorted(
             [(sector_scores[s][categories[axis_i]], si)
-             for si, s in enumerate(sector_list)],
+             for si, s in enumerate(sector_list)
+             if sector_scores[s][categories[axis_i]] is not None],
             key=lambda x: x[0],
         )
         offsets_r = []

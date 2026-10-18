@@ -52,21 +52,29 @@ SECTORS = [
     ("Newspapers", "newspapers"),
 ]
 
+def _known_pct(values):
+    """Percentage positive among classified values; None means unknown."""
+    known = [value for value in values if value is not None]
+    if not known:
+        return None
+    return round(100 * sum(value is True for value in known) / len(known), 1)
+
+
 def _ns_majority_eu(e):
     """Strict majority of classified NS providers are EU-hosted."""
     provs = [p for p in (e.get("ns_providers") or []) if p.get("is_eu") is not None]
     if not provs:
-        return False
+        return None
     return sum(1 for p in provs if p.get("is_eu")) > len(provs) / 2
 
 
 # Dimensions match heatmap canonical definitions and ordering.
 DIMENSIONS = [
     ("Nameservers\n(EU majority)", _ns_majority_eu),
-    ("Hosting\n(EU-hosted)", lambda e: e.get("hosting_is_eu") is True),
+    ("Hosting\n(EU-hosted)", lambda e: e.get("hosting_is_eu")),
     ("Email\n(EU-routed)", lambda e:
-        e.get("email_is_eu") is True or not e.get("mx_records")),
-    ("TLS Certificate\n(EU CA)", lambda e: e.get("ssl_issuer_is_eu") is True),
+        True if not e.get("mx_records") else e.get("email_is_eu")),
+    ("TLS Certificate\n(EU CA)", lambda e: e.get("ssl_issuer_is_eu")),
     ("SaaS\n(no non-EU)", lambda e: not any(
         svc.get("is_eu") is False for svc in e.get("detected_services", [])
     )),
@@ -174,9 +182,10 @@ def compute_country_scores(entries, web_lookup=None, sector_label="All Sectors")
         row = {"n": n}
         dim_vals = []
         for dim_name, dim_func in DIMENSIONS:
-            val = round(sum(1 for e in ents if dim_func(e)) / n * 100, 1)
+            val = _known_pct(dim_func(e) for e in ents)
             row[dim_name] = val
-            dim_vals.append(val)
+            if val is not None:
+                dim_vals.append(val)
         web_val = (web_lookup or {}).get((cc, sector_label))
         if web_val is not None:
             web_val = round(web_val, 1)
@@ -184,7 +193,7 @@ def compute_country_scores(entries, web_lookup=None, sector_label="All Sectors")
             dim_vals.append(web_val)
         else:
             row[WEB_DIM_NAME] = None
-        row["Average"] = round(sum(dim_vals) / len(dim_vals), 1)
+        row["Average"] = round(sum(dim_vals) / len(dim_vals), 1) if dim_vals else None
         scores[cc] = row
     return scores
 

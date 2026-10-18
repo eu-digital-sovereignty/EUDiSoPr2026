@@ -53,26 +53,33 @@ CC_FLAGS = {
 # ---------------------------------------------------------------------------
 # Sovereignty dimensions
 # ---------------------------------------------------------------------------
+def _known_pct(values):
+    """Percentage positive among classified values; None means unknown."""
+    known = [value for value in values if value is not None]
+    if not known:
+        return None
+    return round(100 * sum(value is True for value in known) / len(known), 1)
+
+
 def _ns_majority_eu(e):
     """True if a strict majority of classified NS providers are EU-hosted."""
     provs = [p for p in (e.get("ns_providers") or []) if p.get("is_eu") is not None]
     if not provs:
-        return False
+        return None
     return sum(1 for p in provs if p.get("is_eu")) > len(provs) / 2
 
 
 # Order matches section-4 grid layout (NS, Hosting, Email, TLS CA, SaaS, Web).
 DIMENSIONS = [
     ("Nameservers\n(EU majority)", _ns_majority_eu),
-    # Hosting: must be provably EU (None = non-participation at infrastructure
-    # layer should not count as sovereign).
-    ("Hosting\n(EU-hosted)", lambda e: e.get("hosting_is_eu") is True),
+    # Hosting: preserve unknown jurisdiction as None; exclude it from the score.
+    ("Hosting\n(EU-hosted)", lambda e: e.get("hosting_is_eu")),
     # Email: EU-routed OR no email infrastructure (no MX records).
     # A domain with no MX has no email leak risk — vacuously sovereign.
     ("Email\n(EU-routed)",   lambda e: (
-        e.get("email_is_eu") is True or not e.get("mx_records")
+        True if not e.get("mx_records") else e.get("email_is_eu")
     )),
-    ("TLS Certificate\n(EU CA)", lambda e: e.get("ssl_issuer_is_eu") is True),
+    ("TLS Certificate\n(EU CA)", lambda e: e.get("ssl_issuer_is_eu")),
     # SaaS: no detected non-EU service. No detected services is also
     # vacuously sovereign.
     ("SaaS\n(no non-EU)",    lambda e: not any(
@@ -109,13 +116,9 @@ def y_label(cc):
 
 def compute_row(entries, cc, web_pct=None):
     """Compute one row: [dim1%, ..., dimN%, web%, avg%] for a country."""
-    n = len(entries)
     row = []
     for dim_func in DIM_FUNCS:
-        if n == 0:
-            row.append(None)
-        else:
-            row.append(round(sum(1 for e in entries if dim_func(e)) / n * 100, 1))
+        row.append(_known_pct(dim_func(e) for e in entries))
     row.append(round(web_pct, 1) if web_pct is not None else None)
     valid = [v for v in row if v is not None]
     avg = round(sum(valid) / len(valid), 1) if valid else None
