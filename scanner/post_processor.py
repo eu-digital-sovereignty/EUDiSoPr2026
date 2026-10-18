@@ -639,7 +639,8 @@ def save_results(results: list[AnalyzedDomain], output_dir: Path):
                 r.email_provider, r.email_provider_hq, r.email_is_eu,
                 r.office_suite, r.cdn_detected, r.dmarc_policy,
                 r.has_https, r.has_hsts,
-                len(r.trackers), len(r.third_party_domains),
+                len(r.trackers) if r.trackers is not None else None,
+                len(r.third_party_domains) if r.third_party_domains is not None else None,
                 r.http_status, len(r.collection_errors) + len(r.analysis_errors)
             ])
     logger.info(f"Saved summary to {csv_path}")
