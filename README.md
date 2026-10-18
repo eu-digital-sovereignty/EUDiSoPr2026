@@ -54,4 +54,5 @@ available from the authors on request.
 
 ### Errata
 
-- sha : Markus „fin“ Hametner, while working with the data correctly pointed out that in calculating our score, the underlying set is not always the number of domains, but the number of domains without errors. He also helped us improve the total unkowns in the dimension of NS. Later will be corrected in the Oct collection and released here.
+- Scoring unknowns (`474fc4f`): Markus „fin“ Hametner, while working with the data correctly pointed out that in calculating our score, the underlying set is not always the number of domains, but the number of domains without errors. He also helped us improve the total unkowns in the dimension of NS. Later will be corrected in the Oct collection and released here.
+![Scoring correction: before (left), after (middle), and highlighted differences (right).](.github/fix_scoring_unkown.png)
