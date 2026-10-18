@@ -12,6 +12,7 @@ remaining candidate whose removal causes the largest aggregate drop
 across all layers, given what has already fallen.
 """
 
+import argparse
 import json
 from pathlib import Path
 
@@ -27,8 +28,8 @@ FIGURES_DIR = Path(__file__).resolve().parent / "figures"
 FIGURES_DIR.mkdir(exist_ok=True)
 
 
-def _latest(sector):
-    d = ROOT / "results" / sector
+def _latest(sector, results_dir):
+    d = results_dir / sector
     files = sorted(
         f for f in d.iterdir()
         if f.name.startswith("analyzed_results") and f.suffix == ".json"
@@ -67,12 +68,12 @@ def _norm(p):
     return None
 
 
-def load_domain_vendor_map():
+def load_domain_vendor_map(results_dir):
     all_entries = []
     for sector in ["government", "banks", "newspapers", "universities"]:
-        with open(_latest(sector)) as f:
+        with open(_latest(sector, results_dir)) as f:
             all_entries.extend(json.load(f))
-    with open(ROOT / "results" / "ssl_collection.json") as f:
+    with open(results_dir / "ssl_collection.json") as f:
         ssl_lookup = {
             r["domain"]: r for r in json.load(f)["results"] if not r.get("error")
         }
@@ -170,8 +171,16 @@ def greedy_worst_first(dlv_map, candidates, layers):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--collection", default="20260408_1.1.1.1",
+                        help="Results collection (default: %(default)s)")
+    args = parser.parse_args()
+    results_dir = ROOT / "results" / args.collection
+    if not results_dir.is_dir():
+        parser.error(f"Results collection does not exist: {args.collection}")
+
     apply_style()
-    dlv_map, total = load_domain_vendor_map()
+    dlv_map, total = load_domain_vendor_map(results_dir)
     layers = ["ns", "hosting", "email", "ca", "saas"]
     layer_labels = {
         "ns":      "Nameservers",

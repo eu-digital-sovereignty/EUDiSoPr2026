@@ -16,8 +16,8 @@ This separation allows:
 3. Different analysis approaches on the same raw data
 
 Usage:
-    python post_processor.py raw_data/ -o results/
-    python post_processor.py raw_data/all_raw_data.json.gz -o results/
+    python post_processor.py raw_data/20260408_1.1.1.1/government/all_raw_data.json.gz -o results/20260408_1.1.1.1/government/
+    python post_processor.py raw_data/20260408_1.1.1.1/banks/all_raw_data.json.gz -o results/20260408_1.1.1.1/banks/
 """
 
 import json
@@ -710,17 +710,20 @@ This processor reads raw data and performs analysis:
 - Tracker classification
 
 Examples:
-  # Process all raw data
-  python post_processor.py raw_data/ -o results/
+  # Process April government data
+  python post_processor.py raw_data/20260408_1.1.1.1/government/all_raw_data.json.gz -o results/20260408_1.1.1.1/government/
 
-  # Process single combined file
-  python post_processor.py raw_data/all_raw_data.json.gz -o results/
+  # Process April bank data
+  python post_processor.py raw_data/20260408_1.1.1.1/banks/all_raw_data.json.gz -o results/20260408_1.1.1.1/banks/
         """
     )
     parser.add_argument('input', help='Raw data directory or file')
-    parser.add_argument('-o', '--output', default='results', help='Output directory')
+    parser.add_argument('--collection', default='20260408_1.1.1.1',
+                        help='Results collection when --output is omitted (default: %(default)s)')
+    parser.add_argument('-o', '--output', help='Output directory (default: results/<collection>)')
 
     args = parser.parse_args()
+    output_dir = Path(args.output) if args.output else Path(__file__).resolve().parent.parent / 'results' / args.collection
 
     # Load raw data
     logger.info(f"Loading raw data from {args.input}")
@@ -741,7 +744,7 @@ Examples:
             logger.error(f"Failed to process {raw.get('domain', 'unknown')}: {e}")
 
     # Save results
-    save_results(results, Path(args.output))
+    save_results(results, output_dir)
 
     # Write error log for failed Cymru lookups
     if processor.ip_mapper.failed_lookups:
@@ -751,7 +754,7 @@ Examples:
             'failed_lookups': len(processor.ip_mapper.failed_lookups),
             'failures': processor.ip_mapper.failed_lookups,
         }
-        err_path = Path(args.output) / f'cymru_errors_{datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")}.json'
+        err_path = output_dir / f'cymru_errors_{datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")}.json'
         with open(err_path, 'w') as f:
             json.dump(error_log, f, indent=2)
         logger.warning(

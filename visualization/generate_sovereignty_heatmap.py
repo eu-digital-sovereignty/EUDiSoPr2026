@@ -9,6 +9,7 @@ Usage:
     uv run python3 visualization/generate_sovereignty_heatmap.py
 """
 
+import argparse
 import glob
 import json
 from collections import defaultdict
@@ -23,9 +24,7 @@ from chart_style import COLORSCALE_PLOTLY
 # Paths
 # ---------------------------------------------------------------------------
 BASE = Path(__file__).parent.parent
-RESULTS_DIR = BASE / "results"
 OUT_DIR = Path(__file__).parent / "figures"
-SSL_COLLECTION = RESULTS_DIR / "ssl_collection.json"
 
 EU_COUNTRIES = frozenset({
     'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR',
@@ -99,8 +98,8 @@ COLORSCALE = COLORSCALE_PLOTLY
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-def load_sector(sector_dir):
-    pattern = str(RESULTS_DIR / sector_dir / "analyzed_results*.json")
+def load_sector(sector_dir, results_dir):
+    pattern = str(results_dir / sector_dir / "analyzed_results*.json")
     files = sorted(glob.glob(pattern))
     if not files:
         return None
@@ -145,12 +144,12 @@ def compute_sector(data, country_order, sector_name, web_lookup):
     return rows, {cc: len(by_cc.get(cc, [])) for cc in country_order}, len(eu27_entries)
 
 
-def load_web_lookup():
+def load_web_lookup(results_dir):
     """{(cc, sector_display_name): mean_eu_pct} from in_eu_request_summary.json.
 
     Also populates ('EU27', sector) as a domain-count-weighted mean across EU members.
     """
-    path = BASE / "results" / "in_eu_request_summary.json"
+    path = results_dir / "in_eu_request_summary.json"
     if not path.exists():
         return {}
     with open(path) as f:
@@ -430,6 +429,15 @@ def render_per_sector(sector_data, display_order):
 # Main
 # ---------------------------------------------------------------------------
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--collection", default="20260408_1.1.1.1",
+                        help="Results collection (default: %(default)s)")
+    args = parser.parse_args()
+    results_dir = BASE / "results" / args.collection
+    if not results_dir.is_dir():
+        parser.error(f"Results collection does not exist: {args.collection}")
+    ssl_collection = results_dir / "ssl_collection.json"
+
     # Load SSL collection with CA parent-company overrides
     import csv as _csv
     _ca_overrides = []
@@ -440,8 +448,8 @@ def main():
                 if len(row) >= 3 and not row[0].startswith("#"):
                     _ca_overrides.append((row[0].lower(), row[2]))
     ssl_lookup = {}
-    if SSL_COLLECTION.exists():
-        with open(SSL_COLLECTION) as f:
+    if ssl_collection.exists():
+        with open(ssl_collection) as f:
             for r in json.load(f)["results"]:
                 if not r.get("error") and r.get("ssl_issuer_country"):
                     country = r["ssl_issuer_country"]
@@ -457,7 +465,7 @@ def main():
     raw_data = {}
     all_countries = set()
     for sector_name, sector_dir in SECTORS:
-        data = load_sector(sector_dir)
+        data = load_sector(sector_dir, results_dir)
         if data is None:
             continue
         for entry in data:
@@ -468,7 +476,7 @@ def main():
         raw_data[sector_name] = data
         all_countries.update(e["country_code"] for e in data)
 
-    web_lookup = load_web_lookup()
+    web_lookup = load_web_lookup(results_dir)
     if web_lookup:
         print(f"Web layer: {len(web_lookup)} (country, sector) entries")
 

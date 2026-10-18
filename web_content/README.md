@@ -53,7 +53,8 @@ needed by the paper are retained in the packaged SQLite databases.
 
 ## Country sovereignty scores
 
-`in_eu_request_summary.json` includes the section's all-event Web Layer results
+The [April in-EU request summary](../results/20260408_1.1.1.1/in_eu_request_summary.json)
+includes the section's all-event Web Layer results
 by country-sector and is 
 the web-content input available to combined sovereignty visualizations. The
 country-ranking PDF currently included later in the paper.

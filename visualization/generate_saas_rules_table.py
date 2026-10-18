@@ -10,6 +10,7 @@ the vendor's patterns is marked critical=yes in lookup_tables, blank otherwise.
 Counts are deduped per domain.
 """
 
+import argparse
 import csv
 import glob
 import json
@@ -46,18 +47,18 @@ def load_rules():
     return out
 
 
-def load_latest(sector):
-    paths = sorted(f for f in glob.glob(str(ROOT / "results" / sector / "analyzed_results*.json"))
+def load_latest(sector, results_dir):
+    paths = sorted(f for f in glob.glob(str(results_dir / sector / "analyzed_results*.json"))
                    if "BEFORE" not in f)
     with open(paths[-1]) as f:
         return json.load(f)
 
 
-def count_per_sector(vendors):
+def count_per_sector(vendors, results_dir):
     counts = {v: {s: 0 for s in SECTORS} for v in vendors}
     totals = {}
     for s in SECTORS:
-        entries = load_latest(s)
+        entries = load_latest(s, results_dir)
         totals[s] = len(entries)
         for e in entries:
             seen = set()
@@ -108,8 +109,16 @@ def write_tex(rows, path):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--collection", default="20260408_1.1.1.1",
+                        help="Results collection (default: %(default)s)")
+    args = parser.parse_args()
+    results_dir = ROOT / "results" / args.collection
+    if not results_dir.is_dir():
+        parser.error(f"Results collection does not exist: {args.collection}")
+
     rules = load_rules()
-    pct, totals = count_per_sector(set(rules))
+    pct, totals = count_per_sector(set(rules), results_dir)
 
     rows = [(v, rules[v]["hq"], rules[v]["critical"], rules[v]["rules"], pct[v])
             for v in rules if sum(pct[v].values()) > 0]

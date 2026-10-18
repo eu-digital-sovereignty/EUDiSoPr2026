@@ -5,9 +5,10 @@ Connects to each domain on port 443, grabs the TLS certificate,
 and writes results to a JSON file. No DNS re-collection needed.
 
 Usage:
-    python collect_ssl.py results/government/analyzed_results_*.json \
-                          results/banks/analyzed_results_*.json ...
-    python collect_ssl.py --all   # auto-find latest results per sector
+    python collect_ssl.py results/20260408_1.1.1.1/government/analyzed_results*.json \
+                          results/20260408_1.1.1.1/banks/analyzed_results*.json ...
+    python collect_ssl.py --all --collection 20260408_1.1.1.1
+    python collect_ssl.py --all --collection 20261018_1.1.1.1
 """
 
 import argparse
@@ -29,8 +30,7 @@ from cryptography.x509.oid import NameOID, ExtensionOID
 
 sys.stdout.reconfigure(line_buffering=True)
 
-RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
-OUTPUT_FILE = RESULTS_DIR / "ssl_collection.json"
+RESULTS_ROOT = Path(__file__).resolve().parent.parent / "results"
 TIMEOUT = 8
 WORKERS = 20
 DNS_RESOLVER = "1.1.1.1"
@@ -131,8 +131,8 @@ def grab_cert(domain, resolver):
     return {"domain": domain, "tried_www": False, **res}
 
 
-def find_latest(sector):
-    pattern = str(RESULTS_DIR / sector / "analyzed_results_*.json")
+def find_latest(sector, results_dir):
+    pattern = str(results_dir / sector / "analyzed_results*.json")
     files = sorted(glob.glob(pattern))
     return files[-1] if files else None
 
@@ -152,15 +152,21 @@ def load_domains(paths):
 def main():
     parser = argparse.ArgumentParser(description="Lightweight SSL certificate collector")
     parser.add_argument("files", nargs="*", help="Analyzed result JSON files")
-    parser.add_argument("--all", action="store_true", help="Auto-find latest results")
+    parser.add_argument("--all", action="store_true", help="Auto-find results in the selected collection")
+    parser.add_argument("--collection", default="20260408_1.1.1.1",
+                        help="Results collection (default: %(default)s)")
     parser.add_argument("--workers", type=int, default=WORKERS)
-    parser.add_argument("-o", "--output", default=str(OUTPUT_FILE))
+    parser.add_argument("-o", "--output", help="Output JSON (default: results/<collection>/ssl_collection.json)")
     args = parser.parse_args()
+    results_dir = RESULTS_ROOT / args.collection
+    output_file = Path(args.output) if args.output else results_dir / "ssl_collection.json"
 
     if args.all:
+        if not results_dir.is_dir():
+            parser.error(f"Results collection does not exist: {args.collection}")
         paths = []
         for sector in ["government", "banks", "newspapers", "universities"]:
-            p = find_latest(sector)
+            p = find_latest(sector, results_dir)
             if p:
                 paths.append(p)
                 print(f"  {sector}: {p}")
@@ -221,9 +227,10 @@ def main():
         "errors": errors,
         "results": results,
     }
-    with open(args.output, "w") as f:
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_file, "w") as f:
         json.dump(output, f, indent=2)
-    print(f"Wrote {args.output}")
+    print(f"Wrote {output_file}")
 
 
 if __name__ == "__main__":
